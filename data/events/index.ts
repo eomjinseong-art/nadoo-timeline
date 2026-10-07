@@ -1,7 +1,9 @@
-import type { HistEvent, LaneId } from "@/data/types";
-import { laneIndex } from "@/data/lanes";
+import { laneIds, type HistEvent, type LaneId } from "@/data/types";
+import { laneIndex, lanes } from "@/data/lanes";
+import { periods } from "@/data/periods";
 import { egyptEvents } from "@/data/events/egypt";
 import { greeceEvents } from "@/data/events/greece";
+import { israelEvents } from "@/data/events/israel";
 import { koreaEvents } from "@/data/events/korea";
 import { persiaEvents } from "@/data/events/persia";
 import { romeEvents } from "@/data/events/rome";
@@ -15,6 +17,7 @@ const ALLOWED_ORIGINS = new Set([
   "https://korea-stories.vercel.app",
   "https://nadoo-myth.vercel.app",
   "https://philosophy-stories.vercel.app",
+  "https://the-chosen-korean.vercel.app",
 ]);
 
 export const events: HistEvent[] = [
@@ -22,6 +25,7 @@ export const events: HistEvent[] = [
   ...greeceEvents,
   ...romeEvents,
   ...egyptEvents,
+  ...israelEvents,
   ...persiaEvents,
 ];
 
@@ -33,9 +37,26 @@ function assertEvents(list: HistEvent[]) {
     if (event.year === 0 || event.year < RANGE_START || event.year > RANGE_END) {
       throw new Error(`연도 범위 밖: ${event.slug} ${event.year}`);
     }
+    const lane = lanes.find((item) => item.id === event.lane);
+    if (!lane) throw new Error(`없는 갈래: ${event.slug}`);
+    if (event.row < 0 || event.row >= lane.rows) throw new Error(`사건 줄이 갈래 밖입니다: ${event.slug}`);
     if (event.tradition && !event.traditionNote) throw new Error(`전승 설명이 없습니다: ${event.slug}`);
     const origin = new URL(event.sister.href).origin;
     if (!ALLOWED_ORIGINS.has(origin)) throw new Error(`확인되지 않은 자매 사이트: ${event.sister.href}`);
+  }
+  for (const event of list) {
+    const seen = new Set<string>();
+    for (const slug of event.related ?? []) {
+      if (slug === event.slug) throw new Error(`자기 자신을 관련 사건으로 가리킵니다: ${event.slug}`);
+      if (seen.has(slug)) throw new Error(`관련 사건 중복: ${event.slug} ${slug}`);
+      seen.add(slug);
+      if (!slugs.has(slug)) throw new Error(`관련 사건이 없습니다: ${event.slug} → ${slug}`);
+    }
+  }
+  for (const period of periods) {
+    const lane = lanes.find((item) => item.id === period.lane);
+    if (!lane) throw new Error(`없는 갈래의 시대: ${period.id}`);
+    if (period.row < 0 || period.row >= lane.rows) throw new Error(`시대 줄이 갈래 밖입니다: ${period.id}`);
   }
 }
 
@@ -71,8 +92,15 @@ export function sameEra(event: HistEvent, limit = 6) {
     .slice(0, limit);
 }
 
+export function linkedEvents(event: HistEvent) {
+  return (event.related ?? []).flatMap((slug) => {
+    const other = eventBySlug(slug);
+    return other ? [other] : [];
+  });
+}
+
 export function countByLane() {
-  const counts = { korea: 0, greece: 0, rome: 0, egypt: 0, persia: 0 };
+  const counts = Object.fromEntries(laneIds.map((id) => [id, 0])) as Record<LaneId, number>;
   for (const event of events) counts[event.lane] += 1;
   return counts;
 }

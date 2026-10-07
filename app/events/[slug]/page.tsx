@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EventArticle } from "@/components/EventArticle";
+import { EventLinks } from "@/components/EventLinks";
+import { TrackBadge } from "@/components/IsraelLegend";
 import { JsonLd } from "@/components/JsonLd";
-import { lanes } from "@/data/lanes";
+import { lanes, trackFor } from "@/data/lanes";
 import { chronological, eventBySlug, neighbors, sameEra } from "@/data/events";
 import { articleLd, breadcrumbLd, jsonLd, pageMetadata } from "@/lib/seo";
 import { formatYear } from "@/lib/years";
@@ -30,8 +32,10 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
   const event = eventBySlug(slug);
   if (!event) notFound();
   const lane = lanes.find((item) => item.id === event.lane)!;
+  const track = trackFor(event.lane, event.row);
   const { prev, next } = neighbors(event.slug);
-  const nearby = sameEra(event);
+  const linked = new Set(event.related ?? []);
+  const nearby = sameEra(event).filter((other) => !linked.has(other.slug));
   const description = `${formatYear(event.year, event.circa)}. ${event.summary}`;
 
   return (
@@ -47,7 +51,7 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
             headline: event.title,
             description,
             path: `/events/${event.slug}`,
-            about: [lane.label, event.titleEn],
+            about: [lane.label, track?.label, event.titleEn].filter((name): name is string => Boolean(name)),
           }),
         ])}
       />
@@ -67,6 +71,7 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
       <h1 className="mt-1 font-serif text-4xl text-ink">{event.title}</h1>
       <p className="mt-2 text-sm text-muted">{formatYear(event.year, event.circa)}</p>
       <div className="mt-3 flex flex-wrap gap-2">
+        <TrackBadge laneId={event.lane} row={event.row} />
         {event.tradition ? <span className="rounded-full bg-terra/10 px-2 py-0.5 text-xs font-semibold text-terra">전승</span> : null}
         {event.circa ? <span className="rounded-full bg-stone px-2 py-0.5 text-xs text-muted">연대는 대략</span> : null}
       </div>
@@ -75,11 +80,7 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
         <EventArticle event={event} />
       </div>
       <p className="mt-6 text-xs leading-5 text-muted">{event.source}</p>
-      <p className="mt-4 text-sm">
-        <a href={event.sister.href} className="text-laurel underline decoration-line underline-offset-4" rel="noopener noreferrer">
-          {event.sister.label} →
-        </a>
-      </p>
+      <EventLinks event={event} />
 
       <section className="mt-10" aria-labelledby="same-era-heading">
         <h2 id="same-era-heading" className="font-serif text-2xl text-ink">

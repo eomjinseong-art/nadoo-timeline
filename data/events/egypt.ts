@@ -106,6 +106,7 @@ export const egyptEvents: HistEvent[] = [
       "고조선으로 보는 청동기·초기 철기 사회입니다. 건국 전승의 2333년과는 천 년 넘게 떨어져, 유물로 말하는 시대입니다.",
     source: "근거: 카데시 비문, 이집트-히타이트 조약. 해는 통설입니다.",
     sister: { href: `${egypt}/wars/kadesh`, label: "이집트이야기의 카데시" },
+    related: ["exodus-tradition"],
   },
   {
     slug: "sea-peoples",
@@ -163,6 +164,7 @@ export const egyptEvents: HistEvent[] = [
       "위만조선 이전의 고조선입니다. 철기가 퍼지던 때이고, 나라는 아직 한 무제의 공격을 받기 전입니다.",
     source: "근거: 아리아노스 『알렉산드로스 원정기』.",
     sister: { href: `${egypt}/wars/alexander`, label: "이집트이야기의 알렉산드로스" },
+    related: ["septuagint"],
   },
   {
     slug: "memphis-decree",

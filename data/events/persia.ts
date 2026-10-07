@@ -16,6 +16,7 @@ export const persiaEvents: HistEvent[] = [
       "고조선 후기입니다. 청동기에서 철기로 넘어가던 사회이고, 한의 군현은 아직 먼 뒤입니다.",
     source: "근거: 나보니두스 연대기, 키루스 원통.",
     sister: { href: `${persia}/rulers/cyrus`, label: "페르시아이야기의 키루스" },
+    related: ["babylonian-exile", "cyrus-decree"],
   },
   {
     slug: "behistun",

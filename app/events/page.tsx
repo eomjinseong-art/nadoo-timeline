@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { IsraelLegend, TrackBadge } from "@/components/IsraelLegend";
 import { JsonLd } from "@/components/JsonLd";
 import { lanes } from "@/data/lanes";
 import { chronological, eventsByLane } from "@/data/events";
@@ -7,7 +8,7 @@ import { formatYear } from "@/lib/years";
 
 export const metadata = pageMetadata({
   title: "사건",
-  description: "기원전 3150년경부터 1453년까지, 한반도·그리스·로마·이집트·페르시아의 사건을 갈래별로 모았습니다.",
+  description: "기원전 3150년경부터 1453년까지, 한반도·그리스·로마·이집트·이스라엘·페르시아의 사건을 갈래별로 모았습니다.",
   path: "/events",
 });
 
@@ -35,6 +36,11 @@ export default function EventsPage() {
               {lane.label}
               <span className="ml-2 text-sm font-normal text-muted">{eventsByLane(lane.id).length}</span>
             </h2>
+            {lane.id === "israel" ? (
+              <div className="mt-2">
+                <IsraelLegend />
+              </div>
+            ) : null}
             <ul className="mt-3 divide-y divide-line rounded-lg border border-line bg-card">
               {eventsByLane(lane.id).map((event) => (
                 <li key={event.slug}>
@@ -42,6 +48,11 @@ export default function EventsPage() {
                     <span className="w-40 shrink-0 text-xs text-muted tabular-nums">{formatYear(event.year, event.circa)}</span>
                     <span className="min-w-0">
                       <span className="text-sm text-ink">{event.title}</span>
+                      {lane.tracks ? (
+                        <span className="ml-2">
+                          <TrackBadge laneId={event.lane} row={event.row} />
+                        </span>
+                      ) : null}
                       {event.tradition ? <span className="ml-2 rounded-full bg-terra/10 px-2 py-0.5 text-[11px] font-semibold text-terra">전승</span> : null}
                       <span className="ml-2 text-[11px] tracking-wide text-muted">{event.titleEn}</span>
                     </span>

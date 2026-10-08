@@ -61,6 +61,15 @@ export const lanes: Lane[] = [
     rows: 1,
     emphasis: false,
   },
+  {
+    id: "medieval",
+    label: "중세 유럽",
+    short: "중세",
+    en: "Medieval Europe",
+    color: "#6e5428",
+    rows: 1,
+    emphasis: false,
+  },
 ];
 
 export const eras: EraZoom[] = [

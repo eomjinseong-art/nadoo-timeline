@@ -2,7 +2,7 @@ export const SITE_NAME = "나두연표";
 export const SITE_NAME_EN = "Nadoo Timeline";
 export const SITE_TAGLINE = "세계에서 무슨 일이 날 때, 한반도는 어땠을까";
 export const SITE_SUB =
-  "그리스·로마·이집트·이스라엘·페르시아와 한반도를 같은 해에 나란히 봅니다. 전승은 전승이라고 적고, 모르는 해는 경이라고 적습니다.";
+  "그리스·로마·이집트·이스라엘·페르시아·중세 유럽과 한반도를 같은 해에 나란히 봅니다. 전승은 전승이라고 적고, 모르는 해는 경이라고 적습니다.";
 export const BRAND_LINE = "나두 — 나의 모든 일상을 AI와 함께";
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://nadoo-timeline.vercel.app";
@@ -40,6 +40,7 @@ export const SISTER_FILMS_EN = "Films on sister sites";
 
 export const SISTER_FILM_LINKS = [
   { href: "https://nadoo-myth.vercel.app/in-media", label: "나두신화" },
+  { href: "https://iliad-stories.vercel.app/movies", label: "일리아스이야기" },
   { href: "https://greece-stories.vercel.app/movies", label: "그리스이야기" },
   { href: "https://rome-stories.vercel.app/movies", label: "로마이야기" },
   { href: "https://egypt-stories.vercel.app/movies", label: "이집트이야기" },
@@ -60,9 +61,14 @@ export const COUPANG_LINE = "기원전부터 오던 택배는 없습니다. 로�
 
 export const NAV = [
   { href: "/", label: "연표" },
+  { href: "/movies", label: "영화" },
   { href: "/events", label: "사건" },
   { href: "/sources", label: "읽는 법" },
 ] as const;
+
+/** 영화 체크리스트. 이 사이트의 영화 id와 맞추는 목록이 그쪽에 붙습니다. */
+export const MOVIE_CHECKLIST_URL = "https://movie-checklist-sigma.vercel.app";
+export const MOVIE_CHECKLIST_LABEL = "영화체크리스트";
 
 export const RANGE_START = -3150;
 export const RANGE_END = 1453;

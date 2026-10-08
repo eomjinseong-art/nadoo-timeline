@@ -95,6 +95,20 @@ export const romeEvents: HistEvent[] = [
     sister: { href: `${rome}/wars/third-punic-war`, label: "로마이야기의 제3차 포에니 전쟁" },
   },
   {
+    slug: "spartacus-revolt",
+    lane: "rome",
+    row: 0,
+    title: "스파르타쿠스 전쟁",
+    titleEn: "Spartacus",
+    year: -73,
+    summary:
+      "트라키아 출신 검투사 스파르타쿠스가 카푸아에서 동료들과 달아납니다. 노예와 빈민이 붙어 이탈리아를 누비고, 기원전 71년 크라수스가 진압합니다. 포로들이 아피아 가도에서 처형되었다는 기록이 있습니다. 스파르타쿠스의 정치 강령과 최후의 말은 전해지지 않습니다.",
+    peninsula:
+      "낙랑이 한반도 서북을 다스리던 때입니다. 남쪽은 삼한의 읍락입니다.",
+    source: "근거: 플루타르코스 『크라수스』, 아피아노스. 전쟁은 기원전 73–71년입니다.",
+    sister: { href: `${rome}/wars`, label: "로마이야기의 전쟁" },
+  },
+  {
     slug: "crossing-the-rubicon",
     lane: "rome",
     row: 0,
@@ -170,6 +184,63 @@ export const romeEvents: HistEvent[] = [
     related: ["paul-journeys", "second-temple-destroyed", "fall-of-masada"],
   },
   {
+    slug: "vesuvius-eruption",
+    lane: "rome",
+    row: 0,
+    title: "베수비오 화산",
+    titleEn: "Vesuvius",
+    year: 79,
+    summary:
+      "베수비오가 터져 폼페이와 헤르쿨라네움을 덮습니다. 소 플리니우스가 목격담을 편지에 남겼습니다. 폭발이 8월인지 가을인지는 연구가 다시 따집니다. 화산재 아래의 도시는 수도 로마가 아니라 캄파니아의 도시입니다.",
+    peninsula:
+      "낙랑과 삼한이 공존합니다. 고구려는 북방에서 나라의 틀을 키우던 때입니다.",
+    source: "근거: 소 플리니우스의 편지. 79년 베수비오가 통설입니다.",
+    sister: { href: `${rome}/daily`, label: "로마이야기의 일상" },
+  },
+  {
+    slug: "death-of-marcus-aurelius",
+    lane: "rome",
+    row: 0,
+    title: "마르쿠스 아우렐리우스의 죽음",
+    titleEn: "Death of Marcus Aurelius",
+    year: 180,
+    summary:
+      "마르쿠스 아우렐리우스가 도나우 전선 근처 빈도보나에서 병으로 죽습니다. 아들 코모두스가 황제가 됩니다. 코모두스가 검투를 좋아했다는 기록은 있으나, 아버지가 아들에게 살해당했다는 줄거리는 후대 극이 만든 그림입니다. 그는 192년에 암살됩니다.",
+    peninsula:
+      "낙랑과 삼한이 있는 2세기입니다. 고구려는 북쪽에서 커지고 있습니다.",
+    source: "근거: 카시우스 디오, 헤로디아누스. 180년 병사가 통설입니다.",
+    sister: { href: `${rome}/rulers/marcus-aurelius`, label: "로마이야기의 마르쿠스 아우렐리우스" },
+    more: [{ href: "https://philosophy-stories.vercel.app/people/marcus-aurelius", label: "철학이야기의 마르쿠스 아우렐리우스" }],
+  },
+  {
+    slug: "caracalla-and-geta",
+    lane: "rome",
+    row: 0,
+    title: "카라칼라와 게타",
+    titleEn: "Caracalla and Geta",
+    year: 211,
+    summary:
+      "셉티미우스 세베루스가 죽고 아들 카라칼라와 게타가 함께 황제가 됩니다. 그해 카라칼라가 게타를 죽입니다. 함께 다스린 기간은 짧습니다. 경기장에 바다를 재현했다는 구경거리의 기록과, 후대 영화의 줄거리는 다른 층입니다.",
+    peninsula:
+      "3세기로 넘어가는 한반도입니다. 서북은 낙랑, 남쪽 읍락은 삼한으로 불립니다.",
+    source: "근거: 카시우스 디오. 211년 게타의 죽음이 통설입니다.",
+    sister: { href: rome, label: "로마이야기" },
+  },
+  {
+    slug: "caligula",
+    lane: "rome",
+    row: 0,
+    title: "칼리굴라",
+    titleEn: "Caligula",
+    year: 37,
+    summary:
+      "가이우스, 흔히 칼리굴라라 불리는 인물이 티베리우스의 뒤를 이어 황제가 됩니다. 재위는 41년 암살로 짧습니다. 수에토니우스가 전하는 궁정 스캔들의 상당수는 적대적인 전기입니다. 그를 미친 황제의 표본으로만 외우면 기록이 한쪽으로 기웁니다.",
+    peninsula:
+      "낙랑과 삼한이 공존합니다. 고구려는 북방에서 커지고 있습니다.",
+    source: "근거: 수에토니우스 『칼리굴라』, 카시우스 디오. 즉위는 37년, 죽음은 41년입니다.",
+    sister: { href: rome, label: "로마이야기" },
+  },
+  {
     slug: "diocletian",
     lane: "rome",
     row: 0,
@@ -225,6 +296,7 @@ export const romeEvents: HistEvent[] = [
       "고구려·백제·신라가 맞선 삼국 시대입니다. 신라는 아직 한강 유역을 독차지하기 전입니다.",
     source: "근거: 마르켈리누스 코메스의 연대기 등. 476년은 서로마 조정의 끝으로 쓰는 통설입니다.",
     sister: { href: `${rome}/origins`, label: "로마이야기의 탄생·시대" },
+    related: ["arthur-tradition"],
   },
   {
     slug: "hagia-sophia",
@@ -267,6 +339,7 @@ export const romeEvents: HistEvent[] = [
       "고려 숙종 무렵입니다. 거란과의 전쟁은 이미 귀주에서 끝났고, 개경은 북방과 사신을 주고받습니다.",
     source: "근거: 안나 콤네네 『알렉시아스』, 서유럽 십자군 연대기.",
     sister: { href: `${rome}/origins`, label: "로마이야기의 탄생·시대" },
+    related: ["hattin", "third-crusade"],
   },
   {
     slug: "fourth-crusade",

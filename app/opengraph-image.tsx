@@ -20,7 +20,7 @@ async function loadFont(text: string) {
 export default async function OpenGraphImage() {
   const title = "나두연표";
   const sub = "세계에서 무슨 일이 날 때, 한반도는 어땠을까";
-  const font = await loadFont(`${title}${sub}NADOO TIMELINE 한반도 그리스 로마 이집트 이스라엘 페르시아`);
+  const font = await loadFont(`${title}${sub}NADOO TIMELINE 한반도 그리스 로마 이집트 이스라엘 페르시아 중세`);
   return new ImageResponse(
     (
       <div
@@ -48,6 +48,7 @@ export default async function OpenGraphImage() {
           <span style={{ color: "#0f5e5c" }}>이집트</span>
           <span style={{ color: "#3e4a78" }}>이스라엘</span>
           <span style={{ color: "#6b3a5d" }}>페르시아</span>
+          <span style={{ color: "#6e5428" }}>중세</span>
         </div>
       </div>
     ),

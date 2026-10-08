@@ -5,8 +5,10 @@ import { egyptEvents } from "@/data/events/egypt";
 import { greeceEvents } from "@/data/events/greece";
 import { israelEvents } from "@/data/events/israel";
 import { koreaEvents } from "@/data/events/korea";
+import { medievalEvents } from "@/data/events/medieval";
 import { persiaEvents } from "@/data/events/persia";
 import { romeEvents } from "@/data/events/rome";
+import { films, filmTypes } from "@/data/films";
 import { RANGE_END, RANGE_START } from "@/lib/site";
 
 /** Origin allow-list only. Do not fetch these at build time: iliad-stories may still 404, and philosophy /people/homer is landing in parallel. */
@@ -29,6 +31,7 @@ export const events: HistEvent[] = [
   ...egyptEvents,
   ...israelEvents,
   ...persiaEvents,
+  ...medievalEvents,
 ];
 
 function assertEvents(list: HistEvent[]) {
@@ -79,6 +82,45 @@ function assertSisterLink(link: { href: string }, slug: string) {
 }
 
 assertEvents(events);
+assertFilms(events);
+
+function assertFilms(list: HistEvent[]) {
+  const slugs = new Set(list.map((event) => event.slug));
+  const ids = new Set<string>();
+  for (const film of films) {
+    if (ids.has(film.id)) throw new Error(`영화 아이디 중복: ${film.id}`);
+    ids.add(film.id);
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(film.id)) throw new Error(`영화 아이디 형식: ${film.id}`);
+    if (!film.koTitle.trim() || !film.originalTitle.trim() || !film.synopsis.trim() || !film.historyNote.trim()) {
+      throw new Error(`영화 문장이 비었습니다: ${film.id}`);
+    }
+    if (!(filmTypes as readonly string[]).includes(film.type)) throw new Error(`영화 종류: ${film.id}`);
+    if (film.periodStart > film.periodEnd || film.periodStart === 0 || film.periodEnd === 0) {
+      throw new Error(`영화 시대 순서: ${film.id}`);
+    }
+    if (film.periodStart < RANGE_START || film.periodEnd > RANGE_END) throw new Error(`영화 시대 범위: ${film.id}`);
+    if (film.lanes.length === 0) throw new Error(`영화 갈래 없음: ${film.id}`);
+    for (const lane of film.lanes) {
+      if (!laneIds.includes(lane)) throw new Error(`영화 갈래: ${film.id} ${lane}`);
+    }
+    if (film.eventIds.length === 0) throw new Error(`영화 사건 없음: ${film.id}`);
+    const seenEvents = new Set<string>();
+    for (const slug of film.eventIds) {
+      if (seenEvents.has(slug)) throw new Error(`영화 사건 중복: ${film.id} ${slug}`);
+      seenEvents.add(slug);
+      if (!slugs.has(slug)) throw new Error(`영화가 가리키는 사건 없음: ${film.id} → ${slug}`);
+    }
+    if (film.netflixKr && film.checkedAt !== "2026-10-08") throw new Error(`넷플릭스 확인일: ${film.id}`);
+    if (!film.netflixKr && film.checkedAt) throw new Error(`확인일만 있습니다: ${film.id}`);
+    const seenLinks = new Set<string>();
+    for (const link of film.sisters ?? []) {
+      if (!link.label.trim()) throw new Error(`영화 링크 이름 없음: ${film.id}`);
+      assertSisterLink(link, film.id);
+      if (seenLinks.has(link.href)) throw new Error(`영화 링크 중복: ${film.id} ${link.href}`);
+      seenLinks.add(link.href);
+    }
+  }
+}
 
 export const chronological: HistEvent[] = [...events].sort((a, b) => {
   if (a.year !== b.year) return a.year - b.year;

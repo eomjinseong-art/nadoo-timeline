@@ -1,5 +1,14 @@
-export const laneIds = ["korea", "greece", "rome", "egypt", "persia"] as const;
+export const laneIds = ["korea", "greece", "rome", "egypt", "israel", "persia"] as const;
 export type LaneId = (typeof laneIds)[number];
+
+/** A colored track inside one lane. Israel splits 구약 and 신약. */
+export type LaneTrack = {
+  id: string;
+  row: number;
+  label: string;
+  en: string;
+  color: string;
+};
 
 export type Lane = {
   id: LaneId;
@@ -10,6 +19,7 @@ export type Lane = {
   /** Stacked tracks inside the lane. Korea is taller on purpose. */
   rows: number;
   emphasis: boolean;
+  tracks?: LaneTrack[];
 };
 
 export type Period = {
@@ -50,6 +60,8 @@ export type HistEvent = {
   peninsula: string;
   source: string;
   sister: SisterLink;
+  /** Other events in the same story, including other lanes. */
+  related?: string[];
 };
 
 export type EraZoom = {

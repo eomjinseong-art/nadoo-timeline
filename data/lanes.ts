@@ -40,6 +40,19 @@ export const lanes: Lane[] = [
     emphasis: false,
   },
   {
+    id: "israel",
+    label: "이스라엘·성경",
+    short: "이스라엘",
+    en: "Israel & Bible",
+    color: "#3e4a78",
+    rows: 2,
+    emphasis: false,
+    tracks: [
+      { id: "ot", row: 0, label: "구약", en: "Old Testament", color: "#6e4b16" },
+      { id: "nt", row: 1, label: "신약", en: "New Testament", color: "#314e8a" },
+    ],
+  },
+  {
     id: "persia",
     label: "페르시아",
     short: "페르시아",
@@ -65,4 +78,13 @@ export function laneById(id: string) {
 
 export function laneIndex(id: string) {
   return lanes.findIndex((lane) => lane.id === id);
+}
+
+export function trackFor(laneId: string, row: number) {
+  return laneById(laneId)?.tracks?.find((track) => track.row === row);
+}
+
+export function markColor(laneId: string, row: number) {
+  const lane = laneById(laneId);
+  return trackFor(laneId, row)?.color ?? lane?.color ?? "#241c16";
 }

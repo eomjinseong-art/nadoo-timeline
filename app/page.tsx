@@ -24,8 +24,8 @@ export default function Home() {
         <p className="mt-3 text-lg text-muted">{SITE_TAGLINE}</p>
         <p className="mx-auto mt-2 max-w-2xl text-sm leading-7 text-muted">{SITE_SUB}</p>
         <p className="mt-2 text-xs text-terra">{BRAND_LINE}</p>
-        <p className="mx-auto mt-3 max-w-xl text-xs leading-6 text-muted">
-          한반도 {counts.korea} · 그리스 {counts.greece} · 로마 {counts.rome} · 이집트 {counts.egypt} · 페르시아 {counts.persia}
+        <p className="mx-auto mt-3 max-w-2xl text-xs leading-6 text-muted">
+          한반도 {counts.korea} · 그리스 {counts.greece} · 로마 {counts.rome} · 이집트 {counts.egypt} · 이스라엘·성경 {counts.israel} · 페르시아 {counts.persia}
         </p>
       </section>
       <TimelineExplorer />
@@ -38,6 +38,7 @@ export default function Home() {
             <li>
               <span className="rounded-full bg-terra/10 px-2 py-0.5 text-xs font-semibold text-terra">전승</span> 은 옛 기록이 전하는 연대입니다. 그 해에 나라가 생겼다는 뜻이 아닙니다.
             </li>
+            <li>이스라엘·성경 갈래는 두 색입니다. 구약은 예수 이전, 신약은 예수 이후입니다.</li>
             <li>이 사이트는 대한민국에서 한반도의 과거를 보는 연표입니다. 현대의 분단은 다루지 않습니다.</li>
           </ul>
           <p className="mt-4 text-sm">

@@ -104,6 +104,7 @@ export const romeEvents: HistEvent[] = [
       "낙랑과 삼한, 그리고 전승상의 삼국이 겹치는 세기입니다. 고구려·백제·신라의 건국 연대는 이야기이고, 서북의 실체는 낙랑입니다.",
     source: "근거: 카이사르 『내란기』, 플루타르코스 『카이사르』.",
     sister: { href: `${rome}/wars/caesar-civil-war`, label: "로마이야기의 카이사르 내전" },
+    related: ["pompey-jerusalem"],
   },
   {
     slug: "assassination-of-caesar",
@@ -132,6 +133,7 @@ export const romeEvents: HistEvent[] = [
       "전승으로는 신라가 생긴 직후, 고구려 건국 전승 직전입니다. 기록으로 분명한 것은 낙랑과 남쪽의 읍락입니다.",
     source: "근거: 플루타르코스 『안토니우스』, 카시우스 디오.",
     sister: { href: `${rome}/wars/actium`, label: "로마이야기의 악티움" },
+    related: ["herod-the-great"],
   },
   {
     slug: "augustus-principate",
@@ -146,6 +148,7 @@ export const romeEvents: HistEvent[] = [
       "한반도 서북은 낙랑, 남쪽은 삼한입니다. 삼국의 건국 전승이 이 세기 안에 놓이지만, 그 해들은 후대 연대기입니다.",
     source: "근거: 아우구스투스 『신과 아우구스투스의 업적』, 카시우스 디오.",
     sister: { href: `${rome}/rulers/augustus`, label: "로마이야기의 아우구스투스" },
+    related: ["birth-of-jesus"],
   },
   {
     slug: "great-fire-of-rome",
@@ -160,6 +163,7 @@ export const romeEvents: HistEvent[] = [
       "낙랑과 삼한이 공존합니다. 고구려는 북방에서 나라의 틀을 키우고, 남쪽 삼국의 윤곽은 아직 3세기 기록에서 더 선명합니다.",
     source: "근거: 타키투스 『연대기』 15권, 수에토니우스 『네로』.",
     sister: { href: `${rome}/rulers/nero`, label: "로마이야기의 네로" },
+    related: ["paul-journeys", "second-temple-destroyed", "fall-of-masada"],
   },
   {
     slug: "diocletian",
@@ -188,6 +192,7 @@ export const romeEvents: HistEvent[] = [
       "고구려가 낙랑을 차지한 지 얼마 되지 않은 때입니다. 백제와 신라가 남한의 주도권을 두고 커집니다.",
     source: "근거: 후대 로마 연대기와 콘스탄티누스 연구의 통설. 봉헌일은 5월 11일로 전합니다.",
     sister: { href: `${rome}/rulers/constantine`, label: "로마이야기의 콘스탄티누스" },
+    related: ["edict-of-milan", "council-of-nicaea"],
   },
   {
     slug: "sack-of-rome-410",

@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { EventArticle } from "@/components/EventArticle";
-import { eras, lanes } from "@/data/lanes";
+import { EventLinks } from "@/components/EventLinks";
+import { IsraelLegend, TrackBadge } from "@/components/IsraelLegend";
+import { eras, lanes, markColor, trackFor } from "@/data/lanes";
 import { periods } from "@/data/periods";
 import type { HistEvent, LaneId } from "@/data/types";
 import { chronological } from "@/data/events";
@@ -125,10 +127,13 @@ export function TimelineExplorer() {
             나란히 보는 연표
           </h2>
           <p className="mt-1 max-w-2xl text-sm leading-6 text-muted">
-            세로선이 가리키는 해에, 다섯 갈래가 각자 어디쯤이었는지 같이 보입니다. 흐린 끝은 경계가 불확실하다는 뜻이고, 점은 사건입니다.
+            세로선이 가리키는 해에, 여섯 갈래가 각자 어디쯤이었는지 같이 보입니다. 흐린 끝은 경계가 불확실하다는 뜻이고, 점은 사건입니다.
           </p>
         </div>
         <p className="text-xs text-muted">사건 {chronological.length}개 · 기원전 3150년경–1453년</p>
+      </div>
+      <div className="mt-3">
+        <IsraelLegend />
       </div>
 
       <div className="mt-4 flex gap-2 overflow-x-auto pb-1" role="group" aria-label="시대 확대" data-testid="era-zoom">
@@ -179,7 +184,7 @@ export function TimelineExplorer() {
         <p className="text-xs tracking-[0.14em] text-terra">연도 커서</p>
         <p className="mt-1 font-serif text-xl text-ink">{formatYear(cursor)}</p>
         <p className="mt-1 text-sm leading-6 text-ink">{cursorLine(cursor)}</p>
-        <dl className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-5">
+        <dl className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
           {lanes.map((lane) => (
             <div key={lane.id} className={`rounded-md border px-2 py-2 ${lane.emphasis ? "border-korea/40 bg-korea/5" : "border-line"}`}>
               <dt className="text-[11px] font-semibold" style={{ color: lane.color }}>
@@ -207,6 +212,16 @@ export function TimelineExplorer() {
                     {lane.label}
                   </span>
                   <span className="mt-0.5 block text-[10px] font-normal tracking-[0.14em] text-muted">{lane.en}</span>
+                  {lane.tracks ? (
+                    <span className="mt-1 flex flex-wrap gap-x-2 gap-y-0.5">
+                      {lane.tracks.map((track) => (
+                        <span key={track.id} className="inline-flex items-center gap-1 text-[10px] font-normal text-muted">
+                          <span aria-hidden className="h-2 w-2 rounded-full" style={{ background: track.color }} />
+                          {track.label}
+                        </span>
+                      ))}
+                    </span>
+                  ) : null}
                 </span>
               </div>
             ))}
@@ -249,7 +264,7 @@ export function TimelineExplorer() {
                               width: barWidth,
                               top: LANE_PAD + period.row * ROW_H + 4,
                               height: ROW_H - 8,
-                              background: lane.color,
+                              background: markColor(lane.id, period.row),
                               opacity: lane.emphasis ? 0.95 : 0.82,
                               WebkitMaskImage: edgeMask(period.softStart, period.softEnd),
                               maskImage: edgeMask(period.softStart, period.softEnd),
@@ -275,8 +290,8 @@ export function TimelineExplorer() {
                             style={{
                               left,
                               top: LANE_PAD + Math.min(event.row, lane.rows - 1) * ROW_H + ROW_H / 2,
-                              background: lane.color,
-                              outlineColor: lane.color,
+                              background: markColor(event.lane, event.row),
+                              outlineColor: markColor(event.lane, event.row),
                             }}
                           />
                         );
@@ -321,7 +336,7 @@ export function TimelineExplorer() {
       </div>
 
       <div className="mt-4 lg:hidden" data-testid="timeline-mobile">
-        <p className="text-sm leading-6 text-muted">해 제목을 누르면 그 해의 다섯 갈래가 위의 커서에 나타납니다. 사건을 누르면 카드가 열립니다.</p>
+        <p className="text-sm leading-6 text-muted">해 제목을 누르면 그 해의 여섯 갈래가 위의 커서에 나타납니다. 사건을 누르면 카드가 열립니다.</p>
         <ol className="mt-3 space-y-5">
           {groups.map((group) => (
             <li key={group.year} id={`m-year-${group.year}`} className="scroll-mt-36">
@@ -337,6 +352,8 @@ export function TimelineExplorer() {
               <ul className="mt-2 space-y-2">
                 {group.events.map((event) => {
                   const lane = lanes.find((item) => item.id === event.lane)!;
+                  const color = markColor(event.lane, event.row);
+                  const track = trackFor(event.lane, event.row);
                   return (
                     <li key={event.slug}>
                       <button
@@ -347,15 +364,16 @@ export function TimelineExplorer() {
                           setSelected(event);
                         }}
                         className="flex min-h-11 w-full items-start gap-2 rounded-md border border-line bg-card px-3 py-3 text-left"
-                        style={{ borderLeftWidth: 4, borderLeftColor: lane.color }}
+                        style={{ borderLeftWidth: 4, borderLeftColor: color }}
                       >
-                        <span className="mt-0.5 shrink-0 rounded-full px-2 py-0.5 text-[11px] text-white" style={{ background: lane.color }}>
+                        <span className="mt-0.5 shrink-0 rounded-full px-2 py-0.5 text-[11px] text-white" style={{ background: color }}>
                           {lane.short}
                         </span>
                         <span className="min-w-0">
                           <span className="block text-sm font-medium text-ink">{event.title}</span>
                           <span className="mt-0.5 block text-xs text-muted">
                             {formatYear(event.year, event.circa)}
+                            {track ? ` · ${track.label}` : ""}
                             {event.tradition ? " · 전승" : ""}
                             <span className="ml-1 tracking-wide">{event.titleEn}</span>
                           </span>
@@ -390,6 +408,7 @@ export function TimelineExplorer() {
                 </h3>
                 <p className="mt-1 text-sm text-muted">{formatYear(selected.year, selected.circa)}</p>
                 <div className="mt-2 flex flex-wrap gap-2">
+                  <TrackBadge laneId={selected.lane} row={selected.row} />
                   {selected.tradition ? <span className="rounded-full bg-terra/10 px-2 py-0.5 text-xs font-semibold text-terra">전승</span> : null}
                   {selected.circa ? <span className="rounded-full bg-stone px-2 py-0.5 text-xs text-muted">연대는 대략</span> : null}
                 </div>
@@ -403,14 +422,12 @@ export function TimelineExplorer() {
               <EventArticle event={selected} />
             </div>
             <p className="mt-4 text-xs leading-5 text-muted">{selected.source}</p>
-            <div className="mt-4 flex flex-col gap-2 text-sm">
-              <a href={selected.sister.href} className="text-laurel underline decoration-line underline-offset-4" rel="noopener noreferrer">
-                {selected.sister.label} →
-              </a>
+            <EventLinks event={selected} onNavigate={() => dialogRef.current?.close()} />
+            <p className="mt-3 text-sm">
               <Link href={`/events/${selected.slug}`} className="text-terra underline decoration-line underline-offset-4" onClick={() => dialogRef.current?.close()}>
                 이 사건 페이지
               </Link>
-            </div>
+            </p>
           </article>
         ) : null}
       </dialog>

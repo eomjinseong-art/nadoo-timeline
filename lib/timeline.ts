@@ -26,6 +26,9 @@ function fallback(lane: LaneId, year: number) {
   if (lane === "greece" && year < -2000) return "궁전 국가 이전의 에게 해.";
   if (lane === "rome" && year < -753) return "로마 시 이전의 이탈리아.";
   if (lane === "persia" && year < -670) return "이란 고원의 여러 세력. 왕조 막대 이전입니다.";
+  if (lane === "israel" && year < -2000) return "성경의 족장 이야기 이전입니다. 이 지역은 청동기 가나안의 여러 성읍입니다.";
+  if (lane === "israel" && year < -1500) return "족장 전승과 출애굽 전승 사이입니다. 이 해를 확정할 기록은 없습니다.";
+  if (lane === "israel" && year > 135 && year < 313) return "바르 코크바 이후, 밀라노 합의 이전입니다. 이 지역은 로마의 속주입니다.";
   return "이 무렵은 시대 막대 사이입니다.";
 }
 

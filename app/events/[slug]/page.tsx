@@ -2,10 +2,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EventArticle } from "@/components/EventArticle";
 import { EventLinks } from "@/components/EventLinks";
+import { FilmStack } from "@/components/FilmCard";
 import { TrackBadge } from "@/components/IsraelLegend";
 import { JsonLd } from "@/components/JsonLd";
 import { lanes, trackFor } from "@/data/lanes";
 import { chronological, eventBySlug, neighbors, sameEra } from "@/data/events";
+import { filmsForEvent } from "@/data/films";
 import { articleLd, breadcrumbLd, jsonLd, pageMetadata } from "@/lib/seo";
 import { formatYear } from "@/lib/years";
 
@@ -80,6 +82,7 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
         <EventArticle event={event} />
       </div>
       <p className="mt-6 text-xs leading-5 text-muted">{event.source}</p>
+      <FilmStack films={filmsForEvent(event.slug)} />
       <EventLinks event={event} />
 
       <section className="mt-10" aria-labelledby="same-era-heading">

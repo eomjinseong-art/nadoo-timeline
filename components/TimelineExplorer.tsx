@@ -4,11 +4,13 @@ import Link from "next/link";
 import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { EventArticle } from "@/components/EventArticle";
 import { EventLinks } from "@/components/EventLinks";
+import { FilmStack } from "@/components/FilmCard";
 import { IsraelLegend, TrackBadge } from "@/components/IsraelLegend";
 import { eras, lanes, markColor, trackFor } from "@/data/lanes";
 import { periods } from "@/data/periods";
 import type { HistEvent, LaneId } from "@/data/types";
 import { chronological } from "@/data/events";
+import { filmsForEvent } from "@/data/films";
 import { cursorDetail, cursorLabel, cursorLine, eraForYear, nearestEventYear, pxPerYear, tickStep } from "@/lib/timeline";
 import { formatSpan, formatYear, parseError, parseYear } from "@/lib/years";
 
@@ -40,9 +42,11 @@ export function TimelineExplorer() {
   const [jumpText, setJumpText] = useState("");
   const [jumpError, setJumpError] = useState("");
   const [selected, setSelected] = useState<HistEvent | null>(null);
+  const [filmSlug, setFilmSlug] = useState<string | null>(null);
   const [scrollToken, setScrollToken] = useState(0);
   const scrollerRef = useRef<HTMLDivElement>(null);
   const dialogRef = useRef<HTMLDialogElement>(null);
+  const filmDialogRef = useRef<HTMLDialogElement>(null);
   const jumpId = useId();
   const errorId = useId();
 
@@ -62,11 +66,21 @@ export function TimelineExplorer() {
   }, [scrollToken]);
 
   useEffect(() => {
-    const dialog = dialogRef.current;
-    if (!dialog) return;
-    if (selected && !dialog.open) dialog.showModal();
-    if (!selected && dialog.open) dialog.close();
-  }, [selected]);
+    const eventDialog = dialogRef.current;
+    const filmDialog = filmDialogRef.current;
+    if (!eventDialog || !filmDialog) return;
+    if (selected) {
+      if (filmDialog.open) filmDialog.close();
+      if (!eventDialog.open) eventDialog.showModal();
+      return;
+    }
+    if (eventDialog.open) eventDialog.close();
+    if (filmSlug) {
+      if (!filmDialog.open) filmDialog.showModal();
+      return;
+    }
+    if (filmDialog.open) filmDialog.close();
+  }, [selected, filmSlug]);
 
   function moveCursor(clientX: number, track: HTMLElement) {
     const rect = track.getBoundingClientRect();
@@ -127,7 +141,7 @@ export function TimelineExplorer() {
             나란히 보는 연표
           </h2>
           <p className="mt-1 max-w-2xl text-sm leading-6 text-muted">
-            세로선이 가리키는 해에, 여섯 갈래가 각자 어디쯤이었는지 같이 보입니다. 흐린 끝은 경계가 불확실하다는 뜻이고, 점은 사건입니다.
+            세로선이 가리키는 해에, 일곱 갈래가 각자 어디쯤이었는지 같이 보입니다. 흐린 끝은 경계가 불확실하다는 뜻이고, 점은 사건입니다. 🎬은 그 사건을 다룬 영화입니다.
           </p>
         </div>
         <p className="text-xs text-muted">사건 {chronological.length}개 · 기원전 3150년경–1453년</p>
@@ -184,7 +198,7 @@ export function TimelineExplorer() {
         <p className="text-xs tracking-[0.14em] text-terra">연도 커서</p>
         <p className="mt-1 font-serif text-xl text-ink">{formatYear(cursor)}</p>
         <p className="mt-1 text-sm leading-6 text-ink">{cursorLine(cursor)}</p>
-        <dl className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+        <dl className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
           {lanes.map((lane) => (
             <div key={lane.id} className={`rounded-md border px-2 py-2 ${lane.emphasis ? "border-korea/40 bg-korea/5" : "border-line"}`}>
               <dt className="text-[11px] font-semibold" style={{ color: lane.color }}>
@@ -278,22 +292,44 @@ export function TimelineExplorer() {
                       .filter((event) => event.lane === lane.id)
                       .map((event) => {
                         const left = (event.year - era.start) * px + (event.seq ?? 0) * 14;
+                        const top = LANE_PAD + Math.min(event.row, lane.rows - 1) * ROW_H + ROW_H / 2;
+                        const linkedFilms = filmsForEvent(event.slug);
                         return (
-                          <button
-                            key={event.slug}
-                            type="button"
-                            data-event-slug={event.slug}
-                            title={event.title}
-                            aria-label={`${formatYear(event.year, event.circa)} ${event.title}`}
-                            onClick={() => setSelected(event)}
-                            className={`absolute z-10 h-3.5 w-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white shadow ${event.tradition ? "outline outline-2 outline-dashed outline-offset-1" : ""}`}
-                            style={{
-                              left,
-                              top: LANE_PAD + Math.min(event.row, lane.rows - 1) * ROW_H + ROW_H / 2,
-                              background: markColor(event.lane, event.row),
-                              outlineColor: markColor(event.lane, event.row),
-                            }}
-                          />
+                          <span key={event.slug}>
+                            <button
+                              type="button"
+                              data-event-slug={event.slug}
+                              title={event.title}
+                              aria-label={`${formatYear(event.year, event.circa)} ${event.title}`}
+                              onClick={() => {
+                                setFilmSlug(null);
+                                setSelected(event);
+                              }}
+                              className={`absolute z-10 h-3.5 w-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white shadow ${event.tradition ? "outline outline-2 outline-dashed outline-offset-1" : ""}`}
+                              style={{
+                                left,
+                                top,
+                                background: markColor(event.lane, event.row),
+                                outlineColor: markColor(event.lane, event.row),
+                              }}
+                            />
+                            {linkedFilms.length > 0 ? (
+                              <button
+                                type="button"
+                                data-film-slug={event.slug}
+                                title="영화"
+                                aria-label={`${event.title}, 영화 ${linkedFilms.length}편`}
+                                onClick={() => {
+                                  setSelected(null);
+                                  setFilmSlug(event.slug);
+                                }}
+                                className="absolute z-20 flex h-5 min-w-5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-line bg-card px-0.5 text-[11px] leading-none shadow"
+                                style={{ left: left + 14, top: top - 12 }}
+                              >
+                                <span aria-hidden>🎬</span>
+                              </button>
+                            ) : null}
+                          </span>
                         );
                       })}
                   </div>
@@ -336,7 +372,7 @@ export function TimelineExplorer() {
       </div>
 
       <div className="mt-4 lg:hidden" data-testid="timeline-mobile">
-        <p className="text-sm leading-6 text-muted">해 제목을 누르면 그 해의 여섯 갈래가 위의 커서에 나타납니다. 사건을 누르면 카드가 열립니다.</p>
+        <p className="text-sm leading-6 text-muted">해 제목을 누르면 그 해의 일곱 갈래가 위의 커서에 나타납니다. 사건을 누르면 카드가 열리고, 🎬은 그 사건을 다룬 영화입니다.</p>
         <ol className="mt-3 space-y-5">
           {groups.map((group) => (
             <li key={group.year} id={`m-year-${group.year}`} className="scroll-mt-36">
@@ -355,15 +391,16 @@ export function TimelineExplorer() {
                   const color = markColor(event.lane, event.row);
                   const track = trackFor(event.lane, event.row);
                   return (
-                    <li key={event.slug}>
+                    <li key={event.slug} className="flex items-stretch gap-2">
                       <button
                         type="button"
                         data-event-slug={event.slug}
                         onClick={() => {
                           setCursor(event.year);
+                          setFilmSlug(null);
                           setSelected(event);
                         }}
-                        className="flex min-h-11 w-full items-start gap-2 rounded-md border border-line bg-card px-3 py-3 text-left"
+                        className="flex min-h-11 min-w-0 flex-1 items-start gap-2 rounded-md border border-line bg-card px-3 py-3 text-left"
                         style={{ borderLeftWidth: 4, borderLeftColor: color }}
                       >
                         <span className="mt-0.5 shrink-0 rounded-full px-2 py-0.5 text-[11px] text-white" style={{ background: color }}>
@@ -379,6 +416,21 @@ export function TimelineExplorer() {
                           </span>
                         </span>
                       </button>
+                      {filmsForEvent(event.slug).length > 0 ? (
+                        <button
+                          type="button"
+                          data-film-slug={event.slug}
+                          aria-label={`${event.title} 영화`}
+                          onClick={() => {
+                            setCursor(event.year);
+                            setSelected(null);
+                            setFilmSlug(event.slug);
+                          }}
+                          className="flex min-h-11 w-11 shrink-0 items-center justify-center rounded-md border border-line bg-card text-base"
+                        >
+                          <span aria-hidden>🎬</span>
+                        </button>
+                      ) : null}
                     </li>
                   );
                 })}
@@ -422,6 +474,7 @@ export function TimelineExplorer() {
               <EventArticle event={selected} />
             </div>
             <p className="mt-4 text-xs leading-5 text-muted">{selected.source}</p>
+            <FilmStack films={filmsForEvent(selected.slug)} />
             <EventLinks event={selected} onNavigate={() => dialogRef.current?.close()} />
             <p className="mt-3 text-sm">
               <Link href={`/events/${selected.slug}`} className="text-terra underline decoration-line underline-offset-4" onClick={() => dialogRef.current?.close()}>
@@ -429,6 +482,32 @@ export function TimelineExplorer() {
               </Link>
             </p>
           </article>
+        ) : null}
+      </dialog>
+
+      <dialog
+        ref={filmDialogRef}
+        data-testid="film-dialog"
+        aria-labelledby="film-dialog-title"
+        className="w-[min(36rem,calc(100%-1.5rem))] rounded-lg border border-line bg-card p-0 text-ink shadow-xl backdrop:bg-ink/45"
+        onClose={() => setFilmSlug(null)}
+      >
+        {filmSlug ? (
+          <div className="max-h-[85vh] overflow-y-auto p-5">
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <p className="text-[11px] font-semibold tracking-wide text-terra">영화</p>
+                <h3 id="film-dialog-title" className="mt-1 font-serif text-2xl">
+                  {chronological.find((event) => event.slug === filmSlug)?.title}
+                </h3>
+                <p className="mt-1 text-sm text-muted">{filmsForEvent(filmSlug).length}편</p>
+              </div>
+              <button type="button" className="min-h-11 shrink-0 rounded-md px-3 text-sm text-muted hover:text-ink" onClick={() => filmDialogRef.current?.close()}>
+                닫기
+              </button>
+            </div>
+            <FilmStack films={filmsForEvent(filmSlug)} />
+          </div>
         ) : null}
       </dialog>
     </section>

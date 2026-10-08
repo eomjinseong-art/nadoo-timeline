@@ -1,4 +1,4 @@
-export const laneIds = ["korea", "greece", "rome", "egypt", "israel", "persia"] as const;
+export const laneIds = ["korea", "greece", "rome", "egypt", "israel", "persia", "medieval"] as const;
 export type LaneId = (typeof laneIds)[number];
 
 /** A colored track inside one lane. Israel splits 구약 and 신약. */

@@ -3,12 +3,13 @@ import { IsraelLegend, TrackBadge } from "@/components/IsraelLegend";
 import { JsonLd } from "@/components/JsonLd";
 import { lanes } from "@/data/lanes";
 import { chronological, eventsByLane } from "@/data/events";
+import { filmsForEvent } from "@/data/films";
 import { itemListLd, jsonLd, pageMetadata } from "@/lib/seo";
 import { formatYear } from "@/lib/years";
 
 export const metadata = pageMetadata({
   title: "사건",
-  description: "기원전 3150년경부터 1453년까지, 한반도·그리스·로마·이집트·이스라엘·페르시아의 사건을 갈래별로 모았습니다.",
+  description: "기원전 3150년경부터 1453년까지, 한반도·그리스·로마·이집트·이스라엘·페르시아·중세 유럽의 사건을 갈래별로 모았습니다.",
   path: "/events",
 });
 
@@ -27,7 +28,7 @@ export default function EventsPage() {
       <p className="text-xs tracking-[0.2em] text-terra">EVENTS</p>
       <h1 className="mt-2 font-serif text-4xl text-ink">사건</h1>
       <p className="mt-3 max-w-2xl text-sm leading-7 text-muted">
-        모두 {chronological.length}개입니다. 전승 연대에는 배지를 붙였습니다. 각 글은 그 해의 한반도를 따로 적습니다.
+        모두 {chronological.length}개입니다. 전승 연대에는 배지를 붙였고, 🎬은 그 해를 다룬 영화가 있다는 뜻입니다. 각 글은 그 해의 한반도를 따로 적습니다.
       </p>
       <div className="mt-8 space-y-10">
         {lanes.map((lane) => (
@@ -54,6 +55,7 @@ export default function EventsPage() {
                         </span>
                       ) : null}
                       {event.tradition ? <span className="ml-2 rounded-full bg-terra/10 px-2 py-0.5 text-[11px] font-semibold text-terra">전승</span> : null}
+                      {filmsForEvent(event.slug).length > 0 ? <span className="ml-2 text-[11px]">🎬</span> : null}
                       <span className="ml-2 text-[11px] tracking-wide text-muted">{event.titleEn}</span>
                     </span>
                   </Link>

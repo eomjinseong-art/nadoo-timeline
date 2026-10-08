@@ -52,6 +52,21 @@ export const egyptEvents: HistEvent[] = [
     sister: { href: `${egypt}/rulers/khufu`, label: "이집트이야기의 쿠푸" },
   },
   {
+    slug: "saqqara-old-kingdom-tombs",
+    lane: "egypt",
+    row: 0,
+    title: "사카라의 고왕국 무덤",
+    titleEn: "Saqqara tombs",
+    year: -2400,
+    circa: true,
+    summary:
+      "사카라에는 조세르의 계단식 피라미드보다 뒤인 고왕국 무덤이 이어집니다. 제5왕조 관리와 사제의 매장이 그 예입니다. 이 점은 그 시대를 대략 가리킬 뿐, 어느 하루의 사건이 아닙니다. 기자 피라미드와도 장소가 다릅니다.",
+    peninsula:
+      "한반도는 신석기 마을입니다. 빗살무늬 토기 사회이고, 나라 이름은 전하지 않습니다.",
+    source: "근거: 사카라 발굴. 제5왕조는 기원전 25–24세기 안팎으로 두는 연대가 많습니다.",
+    sister: { href: `${egypt}/monuments`, label: "이집트이야기의 기념물" },
+  },
+  {
     slug: "hyksos",
     lane: "egypt",
     row: 0,
@@ -201,6 +216,20 @@ export const egyptEvents: HistEvent[] = [
     more: [{ href: `${rome}/cleopatra`, label: "로마이야기의 클레오파트라" }],
   },
   {
+    slug: "hypatia",
+    lane: "egypt",
+    row: 0,
+    title: "히파티아의 죽음",
+    titleEn: "Death of Hypatia",
+    year: 415,
+    summary:
+      "알렉산드리아의 철학자 히파티아가 415년 도시에서 죽임을 당합니다. 교회사 작가 소크라테스 스콜라스티코스가 이 일을 전합니다. 배경은 로마 치하의 이집트이고, 고전기 아테네가 아닙니다. 도서관이 한날에 무너졌다는 그림은 여러 세기의 손실을 한 장면으로 접은 것입니다.",
+    peninsula:
+      "광개토왕 사후, 장수왕 초기입니다. 남쪽은 백제와 신라입니다.",
+    source: "근거: 소크라테스 스콜라스티코스의 교회사. 415년 알렉산드리아가 통설입니다.",
+    sister: { href: "https://philosophy-stories.vercel.app/people/hypatia", label: "철학이야기의 히파티아" },
+  },
+  {
     slug: "arab-conquest-of-egypt",
     lane: "egypt",
     row: 0,
@@ -241,6 +270,7 @@ export const egyptEvents: HistEvent[] = [
       "고려 명종 때, 무신들이 왕을 쥐고 있던 시대입니다. 몽골이 쳐들어오기 약 육십 년 전입니다.",
     source: "근거: 이븐 알 아시르 등 동시대 아랍 연대기.",
     sister: { href: egypt, label: "이집트이야기" },
+    related: ["hattin", "third-crusade", "first-crusade"],
   },
   {
     slug: "ain-jalut",

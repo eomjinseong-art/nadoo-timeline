@@ -25,7 +25,7 @@ export default function Home() {
         <p className="mx-auto mt-2 max-w-2xl text-sm leading-7 text-muted">{SITE_SUB}</p>
         <p className="mt-2 text-xs text-terra">{BRAND_LINE}</p>
         <p className="mx-auto mt-3 max-w-2xl text-xs leading-6 text-muted">
-          한반도 {counts.korea} · 그리스 {counts.greece} · 로마 {counts.rome} · 이집트 {counts.egypt} · 이스라엘·성경 {counts.israel} · 페르시아 {counts.persia}
+          한반도 {counts.korea} · 그리스 {counts.greece} · 로마 {counts.rome} · 이집트 {counts.egypt} · 이스라엘·성경 {counts.israel} · 페르시아 {counts.persia} · 중세 유럽 {counts.medieval}
         </p>
       </section>
       <TimelineExplorer />
@@ -35,6 +35,13 @@ export default function Home() {
           <ul className="mt-4 space-y-2 text-sm leading-7 text-muted">
             <li>막대는 시대입니다. 끝이 흐리면 시작이나 경계가 불확실합니다.</li>
             <li>점은 사건입니다. 누르면 무슨 일이었는지, 그리고 그때 한반도는 어땠는지를 봅니다.</li>
+            <li>
+              🎬이 붙은 사건은 그 해를 다룬 영화가 있습니다.{" "}
+              <Link href="/movies" className="text-laurel underline decoration-line underline-offset-4 hover:text-terra">
+                영화로 보는 연표
+              </Link>
+              에서 시대 순으로 봅니다.
+            </li>
             <li>
               <span className="rounded-full bg-terra/10 px-2 py-0.5 text-xs font-semibold text-terra">전승</span> 은 옛 기록이 전하는 연대입니다. 그 해에 나라가 생겼다는 뜻이 아닙니다.
             </li>

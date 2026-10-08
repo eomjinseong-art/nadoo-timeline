@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: { default: `${SITE_NAME} · 그때 한반도는?`, template: `%s · ${SITE_NAME}` },
   description,
   applicationName: SITE_NAME,
-  keywords: ["나두연표", "한국사", "세계사", "고조선", "삼국", "로마", "그리스", "이집트", "이스라엘", "성경", "구약", "신약", "페르시아", "Nadoo Timeline"],
+  keywords: ["나두연표", "한국사", "세계사", "고조선", "삼국", "로마", "그리스", "이집트", "이스라엘", "성경", "구약", "신약", "페르시아", "중세", "영화", "Nadoo Timeline"],
   alternates: { canonical: SITE_URL },
   openGraph: {
     type: "website",

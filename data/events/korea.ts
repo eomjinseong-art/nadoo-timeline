@@ -2,6 +2,14 @@ import type { HistEvent } from "@/data/types";
 
 const korea = "https://korea-stories.vercel.app";
 
+function era(hash: "three-kingdoms" | "unified-silla" | "goryeo" | "joseon", name: string) {
+  return { href: `${korea}/eras#${hash}`, label: `대한민국이야기의 ${name}` };
+}
+
+function tree(query: string, name: string) {
+  return { href: `${korea}/family-tree?${query}`, label: `대한민국이야기의 ${name}` };
+}
+
 export const koreaEvents: HistEvent[] = [
   {
     slug: "neolithic-villages",
@@ -32,7 +40,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "이 무렵 한반도는 신석기에서 청동기로 넘어가는 길 위입니다. 건국 전승은 나중에 나라의 시작을 설명하려고 만든 이야기입니다.",
     source: "근거: 『삼국유사』 기이·고조선. 2333년 환산은 후대 연표의 관습입니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: tree("dynasty=gojoseon&focus=gj-dangun", "단군"),
   },
   {
     slug: "bronze-age-korea",
@@ -76,7 +84,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "고조선의 왕은 바뀌었지만 나라는 이어집니다. 준왕이 남쪽으로 달아났다는 이야기는 『위략』 계열 기록에 있고, 그 뒤를 삼한과 곧장 잇는 것은 단순합니다.",
     source: "근거: 『사기』 조선열전. 준왕의 남천은 『위략』(『삼국지』 배송지 주).",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: tree("dynasty=gojoseon&focus=gj-wiman", "위만"),
   },
   {
     slug: "fall-of-gojoseon",
@@ -105,7 +113,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "서북의 낙랑, 북쪽의 고구려, 남쪽의 삼한이 함께 있는 그림입니다. 백제와 신라는 이 읍락들 사이에서 커집니다.",
     source: "근거: 『삼국지』 위서 동이전. 편찬은 3세기 말이고, 사회 자체는 더 이릅니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("three-kingdoms", "삼국"),
   },
   {
     slug: "founding-silla",
@@ -121,7 +129,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "북쪽에는 아직 고조선의 기억이 가깝고, 기원전 108년 이후로는 낙랑이 있습니다. 남쪽은 삼한의 읍락들입니다.",
     source: "근거: 『삼국사기』 신라본기. 건국 연도는 전승입니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: tree("dynasty=silla&focus=sl-hyeokgeose", "혁거세"),
   },
   {
     slug: "founding-goguryeo",
@@ -137,7 +145,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "서북에는 낙랑이 있고, 남쪽은 삼한입니다. 고구려는 압록강 중류에서 시작해 나중에 남쪽으로 내려옵니다.",
     source: "근거: 『삼국사기』 고구려본기, 『삼국유사』. 건국 연도는 전승입니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: tree("dynasty=goguryeo&focus=gg-jumong", "주몽"),
   },
   {
     slug: "founding-baekje",
@@ -153,7 +161,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "마한의 여러 소국 사이에 한강 유역 세력이 커지던 때입니다. 낙랑은 아직 북쪽에 있습니다.",
     source: "근거: 『삼국사기』 백제본기. 건국 연도는 전승입니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: tree("dynasty=baekje&focus=bj-onjo", "온조"),
   },
   {
     slug: "goguryeo-takes-lelang",
@@ -167,7 +175,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "한반도 서북의 중심이 군현에서 고구려로 옮겨 갑니다. 백제와 신라는 남쪽에서 나라의 틀을 키우고 있습니다.",
     source: "근거: 『삼국사기』 고구려본기 미천왕.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("three-kingdoms", "삼국"),
   },
   {
     slug: "geunchogo-expansion",
@@ -195,7 +203,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "고구려가 삼국 가운데 가장 큰 나라입니다. 백제와 신라는 남에서 버팁니다. 왜의 개입은 비문 해석에 따라 그림이 달라지니 한 줄로 단정하지 않습니다.",
     source: "근거: 광개토대왕릉비, 『삼국사기』 고구려본기. 비문의 쟁점 구절은 해석이 갈립니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: tree("dynasty=goguryeo&focus=gg-gwanggaeto", "광개토왕"),
   },
   {
     slug: "silla-buddhism",
@@ -209,7 +217,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "삼국이 모두 불교 왕국이 되어 갑니다. 율령과 왕호를 정비하던 6세기 신라의 한 장면입니다.",
     source: "근거: 『삼국사기』 신라본기 법흥왕. 이차돈의 기적은 후대 전승이 섞입니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: tree("dynasty=silla&focus=sl-beopheung", "법흥왕"),
   },
   {
     slug: "silla-han-river",
@@ -237,7 +245,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "고구려가 대륙의 통일 제국을 막아 섭니다. 남쪽의 백제는 고구려와 신라 사이에서 줄타기를 합니다.",
     source: "근거: 『삼국사기』 고구려본기 영양왕, 『수서』.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("three-kingdoms", "삼국"),
   },
   {
     slug: "ansi-fortress",
@@ -251,7 +259,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "고구려는 아직 버티지만 소모가 큽니다. 신라는 당과 가까워지고, 백제는 고립 쪽으로 갑니다.",
     source: "근거: 『삼국사기』, 『구당서』, 『자치통감』. 양만춘이라는 이름은 후대입니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("three-kingdoms", "삼국"),
   },
   {
     slug: "fall-of-baekje",
@@ -265,7 +273,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "한반도 서남부가 신라와 당의 손이 됩니다. 고구려는 북쪽과 요동에서 아직 남아 있습니다.",
     source: "근거: 『삼국사기』 백제본기 의자왕, 신라본기 태종무열왕.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: { href: `${korea}/rulers/uija`, label: "대한민국이야기의 의자왕" },
   },
   {
     slug: "fall-of-goguryeo",
@@ -279,7 +287,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "당은 평양에 안동도호부를 두고 옛 고구려 땅을 맡기려 합니다. 신라는 그 구도를 받아들이지 않습니다.",
     source: "근거: 『삼국사기』 고구려본기 보장왕, 『구당서』.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("three-kingdoms", "삼국"),
   },
   {
     slug: "silla-unification",
@@ -307,7 +315,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "남쪽의 통일신라와 북쪽의 발해가 나란히 있습니다. 두 나라는 때로 사신을 주고받습니다.",
     source: "근거: 『구당서』 발해말갈전, 『삼국사기』.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("unified-silla", "통일신라"),
   },
   {
     slug: "later-three-kingdoms",
@@ -322,7 +330,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "통일신라는 이름만 남고, 후백제와 후고구려가 땅을 나눕니다. 발해는 926년 거란에 무너지기 직전입니다.",
     source: "근거: 『삼국사기』 신라본기 진성왕, 『삼국유사』. 후백제 선포는 900년입니다.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("unified-silla", "통일신라"),
   },
   {
     slug: "founding-goryeo",
@@ -364,7 +372,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "고려는 개경과 서경을 지킨 나라로 북방 제국과 맞섭니다. 남쪽 바다는 아직 큰 전장의 중심이 아닙니다.",
     source: "근거: 『고려사』 현종 세가, 강감찬 열전.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("goryeo", "고려"),
   },
   {
     slug: "mongol-invasions",
@@ -378,7 +386,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "왕은 섬에 있고 백성은 육지에 있습니다. 부처의 힘으로 막으려 만든 팔만대장경 재간도 이 전쟁의 산물입니다.",
     source: "근거: 『고려사』 고종 세가.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("goryeo", "고려"),
   },
   {
     slug: "sambyeolcho",
@@ -392,7 +400,7 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "강화도 정부의 시대가 끝나고, 고려는 몽골 제국의 부마 나라가 되어 갑니다. 공녀와 전쟁 동원이 뒤따릅니다.",
     source: "근거: 『고려사』 원종 세가.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("goryeo", "고려"),
   },
   {
     slug: "founding-joseon",
@@ -448,6 +456,6 @@ export const koreaEvents: HistEvent[] = [
     peninsula:
       "조선은 건국 60년째의 왕실 권력 다툼 한가운데입니다. 훈민정음은 이미 반포되어 있습니다.",
     source: "근거: 『조선왕조실록』 단종 원년.",
-    sister: { href: `${korea}/eras`, label: "대한민국이야기의 시대" },
+    sister: era("joseon", "조선"),
   },
 ];

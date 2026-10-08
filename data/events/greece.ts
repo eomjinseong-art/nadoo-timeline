@@ -3,6 +3,20 @@ import type { HistEvent } from "@/data/types";
 const greece = "https://greece-stories.vercel.app";
 const myth = "https://nadoo-myth.vercel.app";
 const philosophy = "https://philosophy-stories.vercel.app";
+const persia = "https://persia-stories.vercel.app";
+const egypt = "https://egypt-stories.vercel.app";
+const iliad = "https://iliad-stories.vercel.app";
+
+const persianWarMore = [
+  { href: `${persia}/wars/marathon`, label: "페르시아이야기의 마라톤" },
+  { href: `${persia}/wars/xerxes-invasion`, label: "페르시아이야기의 크세르크세스 원정" },
+];
+
+const alexanderMore = [
+  { href: `${persia}/wars/alexander`, label: "페르시아이야기의 알렉산드로스" },
+  { href: `${egypt}/wars/alexander`, label: "이집트이야기의 알렉산드로스" },
+  { href: `${philosophy}/people/aristotle`, label: "철학이야기의 아리스토텔레스" },
+];
 
 export const greeceEvents: HistEvent[] = [
   {
@@ -51,6 +65,10 @@ export const greeceEvents: HistEvent[] = [
       "같은 무렵 한반도는 청동기 사회로 들어가는 초입입니다. 그리스 서사와 대응되는 한반도 기록은 없습니다.",
     source: "근거: 호메로스 『일리아스』는 서사. 1184년경은 에라토스테네스 계열의 전승 연대. 유적은 트로이 발굴.",
     sister: { href: `${myth}/stories/trojan-war`, label: "나두신화의 트로이 전쟁" },
+    more: [
+      { href: `${greece}/family-tree?tree=trojan&focus=achilles`, label: "그리스이야기의 아킬레우스" },
+      { href: iliad, label: "일리아스이야기" },
+    ],
   },
   {
     slug: "homeric-epics",
@@ -65,7 +83,11 @@ export const greeceEvents: HistEvent[] = [
     peninsula:
       "한반도는 청동기 말에서 철기로 넘어가는 고조선의 앞자락입니다. 나라의 경계는 아직 흐립니다.",
     source: "근거: 그리스 서사시의 언어와 문자 도입 연구. 한 해로 못 박지 않습니다.",
-    sister: { href: `${greece}/origins`, label: "그리스이야기의 탄생·시대" },
+    sister: { href: `${greece}/people/homer`, label: "그리스이야기의 호메로스" },
+    more: [
+      { href: iliad, label: "일리아스이야기" },
+      { href: `${philosophy}/people/homer`, label: "철학이야기의 호메로스" },
+    ],
   },
   {
     slug: "first-olympics",
@@ -125,6 +147,7 @@ export const greeceEvents: HistEvent[] = [
       "고조선 후기입니다. 위만이 들어오기까지 약 삼백 년이 남았고, 철기 문화가 퍼지던 때입니다.",
     source: "근거: 헤로도토스 『역사』 6권.",
     sister: { href: `${greece}/wars/persian-wars`, label: "그리스이야기의 페르시아 전쟁" },
+    more: persianWarMore,
   },
   {
     slug: "thermopylae",
@@ -140,6 +163,7 @@ export const greeceEvents: HistEvent[] = [
       "고조선 후기입니다. 위만이 왕위를 빼앗기까지 약 삼백 년이 남았고, 남쪽 경계는 여전히 흐립니다.",
     source: "근거: 헤로도토스 『역사』 7권.",
     sister: { href: `${greece}/people/leonidas`, label: "그리스이야기의 레오니다스" },
+    more: persianWarMore,
   },
   {
     slug: "salamis",
@@ -155,6 +179,7 @@ export const greeceEvents: HistEvent[] = [
       "같은 기원전 480년, 한반도는 고조선의 영역으로 보는 청동기·철기 사회입니다. 해전을 전하는 기록은 없습니다.",
     source: "근거: 헤로도토스 『역사』 8권.",
     sister: { href: `${greece}/people/themistocles`, label: "그리스이야기의 테미스토클레스" },
+    more: persianWarMore,
   },
   {
     slug: "peloponnesian-war",
@@ -183,6 +208,7 @@ export const greeceEvents: HistEvent[] = [
       "고조선 후기입니다. 한나라는 아직 없고, 위만이 고조선으로 들어오는 것은 이백 년쯤 뒤입니다.",
     source: "근거: 플라톤 『소크라테스의 변론』, 크세노폰. 법정 말의 그대로는 아닙니다.",
     sister: { href: `${greece}/people/socrates`, label: "그리스이야기의 소크라테스" },
+    more: [{ href: `${philosophy}/people/socrates`, label: "철학이야기의 소크라테스" }],
   },
   {
     slug: "plato-academy",
@@ -198,6 +224,7 @@ export const greeceEvents: HistEvent[] = [
       "여전히 고조선입니다. 철기 문화가 퍼지고, 중국 전국시대의 혼란이 요동을 거쳐 전해지던 세기입니다.",
     source: "근거: 디오게네스 라에르티오스 등 후대 철학사. 해는 경입니다.",
     sister: { href: `${philosophy}/people/plato`, label: "철학이야기의 플라톤" },
+    more: [{ href: `${greece}/people/plato`, label: "그리스이야기의 플라톤" }],
   },
   {
     slug: "chaeronea",
@@ -226,6 +253,7 @@ export const greeceEvents: HistEvent[] = [
       "고조선은 아직 한에 무너지기 전입니다. 진이 중국을 통일한 기원전 221년보다 앞선 원정입니다.",
     source: "근거: 아리아노스 『알렉산드로스 원정기』.",
     sister: { href: `${greece}/wars/alexander-campaigns`, label: "그리스이야기의 알렉산드로스 원정" },
+    more: alexanderMore,
   },
   {
     slug: "death-of-alexander",
@@ -240,6 +268,7 @@ export const greeceEvents: HistEvent[] = [
       "고조선 말입니다. 중국은 진 말 초한의 전쟁으로 들어가고, 그 여파가 요동까지 내려오기 직전입니다.",
     source: "근거: 아리아노스 『알렉산드로스 원정기』, 플루타르코스.",
     sister: { href: `${greece}/people/alexander`, label: "그리스이야기의 알렉산드로스" },
+    more: alexanderMore,
   },
   {
     slug: "corinth-destroyed",

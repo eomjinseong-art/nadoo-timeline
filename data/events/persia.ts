@@ -1,6 +1,9 @@
 import type { HistEvent } from "@/data/types";
 
 const persia = "https://persia-stories.vercel.app";
+const greece = "https://greece-stories.vercel.app";
+const rome = "https://rome-stories.vercel.app";
+const chosen = "https://the-chosen-korean.vercel.app/bible-books";
 
 export const persiaEvents: HistEvent[] = [
   {
@@ -16,6 +19,10 @@ export const persiaEvents: HistEvent[] = [
       "고조선 후기입니다. 청동기에서 철기로 넘어가던 사회이고, 한의 군현은 아직 먼 뒤입니다.",
     source: "근거: 나보니두스 연대기, 키루스 원통.",
     sister: { href: `${persia}/rulers/cyrus`, label: "페르시아이야기의 키루스" },
+    more: [
+      { href: `${chosen}/ezra`, label: "더 초즌의 에스라" },
+      { href: `${chosen}/isaiah`, label: "더 초즌의 이사야" },
+    ],
     related: ["babylonian-exile", "cyrus-decree"],
   },
   {
@@ -75,6 +82,7 @@ export const persiaEvents: HistEvent[] = [
       "고조선의 철기 시대입니다. 지중해 전쟁과 맞먹는 한반도 기록은 이 해에 없습니다.",
     source: "근거: 헤로도토스 『역사』 7–9권.",
     sister: { href: `${persia}/wars/xerxes-invasion`, label: "페르시아이야기의 크세르크세스 원정" },
+    more: [{ href: `${greece}/people/leonidas`, label: "그리스이야기의 레오니다스" }],
   },
   {
     slug: "fall-of-persepolis",
@@ -118,6 +126,7 @@ export const persiaEvents: HistEvent[] = [
       "신라 건국 전승과 같은 기원전 1세기 중엽입니다. 그 연대는 전승이고, 서북의 실체는 낙랑입니다.",
     source: "근거: 플루타르코스 『크라수스』.",
     sister: { href: `${persia}/wars/carrhae`, label: "페르시아이야기의 카르헤" },
+    more: [{ href: `${rome}/wars/caesar-civil-war`, label: "로마이야기의 카이사르 내전" }],
   },
   {
     slug: "founding-of-sasanian",

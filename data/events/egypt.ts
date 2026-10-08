@@ -1,6 +1,9 @@
 import type { HistEvent } from "@/data/types";
 
 const egypt = "https://egypt-stories.vercel.app";
+const persia = "https://persia-stories.vercel.app";
+const greece = "https://greece-stories.vercel.app";
+const rome = "https://rome-stories.vercel.app";
 
 export const egyptEvents: HistEvent[] = [
   {
@@ -136,6 +139,7 @@ export const egyptEvents: HistEvent[] = [
       "고조선 후기입니다. 솔론의 아테네와 같은 세기이고, 위만은 아직 오지 않았습니다.",
     source: "근거: 헤로도토스 『역사』 3권, 이집트 말기 연표.",
     sister: { href: `${egypt}/wars/persia`, label: "이집트이야기의 페르시아" },
+    more: [{ href: `${persia}/rulers/cambyses-ii`, label: "페르시아이야기의 캄비세스 2세" }],
   },
   {
     slug: "alexander-in-egypt",
@@ -150,6 +154,7 @@ export const egyptEvents: HistEvent[] = [
       "고조선 말입니다. 남쪽 진국에 대한 기록이 희미하고, 한의 군현은 아직 이백 년 뒤입니다.",
     source: "근거: 아리아노스 『알렉산드로스 원정기』.",
     sister: { href: `${egypt}/wars/alexander`, label: "이집트이야기의 알렉산드로스" },
+    more: [{ href: `${greece}/people/alexander`, label: "그리스이야기의 알렉산드로스" }],
   },
   {
     slug: "founding-of-alexandria",
@@ -193,6 +198,7 @@ export const egyptEvents: HistEvent[] = [
       "신라 건국 전승(기원전 57년)과 고구려 건국 전승(기원전 37년) 사이입니다. 두 연대는 전승이고, 당시 분명한 세력은 낙랑과 삼한에 가깝습니다.",
     source: "근거: 플루타르코스 『안토니우스』, 카시우스 디오.",
     sister: { href: `${egypt}/cleopatra`, label: "이집트이야기의 클레오파트라" },
+    more: [{ href: `${rome}/cleopatra`, label: "로마이야기의 클레오파트라" }],
   },
   {
     slug: "arab-conquest-of-egypt",

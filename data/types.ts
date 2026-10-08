@@ -60,6 +60,8 @@ export type HistEvent = {
   peninsula: string;
   source: string;
   sister: SisterLink;
+  /** Extra sister pages. External, opened in a new tab. */
+  more?: SisterLink[];
   /** Other events in the same story, including other lanes. */
   related?: string[];
 };

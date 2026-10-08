@@ -21,7 +21,7 @@ export function IsraelLegend() {
         ))}
       </ul>
       <p className="text-xs leading-5 text-muted">구약 색은 예수 이전(족장 전승부터 헤롯까지), 신약 색은 예수 이후입니다.</p>
-      <a href={CHOSEN_BIBLE_BOOKS.href} className="text-xs text-laurel underline decoration-line underline-offset-4 hover:text-terra" rel={external}>
+      <a href={CHOSEN_BIBLE_BOOKS.href} target="_blank" className="text-xs text-laurel underline decoration-line underline-offset-4 hover:text-terra" rel={external}>
         {CHOSEN_BIBLE_BOOKS.label} →
       </a>
     </div>

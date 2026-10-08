@@ -2,6 +2,10 @@ import type { HistEvent, SisterLink } from "@/data/types";
 import { CHOSEN_BIBLE_BOOKS } from "@/lib/site";
 
 const books = CHOSEN_BIBLE_BOOKS.href;
+const rome = "https://rome-stories.vercel.app";
+const egypt = "https://egypt-stories.vercel.app";
+const persia = "https://persia-stories.vercel.app";
+const chosen = "https://the-chosen-korean.vercel.app";
 
 function book(slug: string, name: string): SisterLink {
   return { href: `${books}/${slug}`, label: `더 초즌의 ${name}` };
@@ -44,6 +48,10 @@ export const israelEvents: HistEvent[] = [
       "청동기 시대입니다. 고조선의 경계는 아직 흐리고, 건국 전승의 2333년과는 별개의 이야기입니다.",
     source: "근거: 출애굽기, 열왕기상 6장 1절의 계산. 1250년 안팎은 후대 학설입니다. 이집트 쪽 대응 기록은 없습니다.",
     sister: book("exodus", "출애굽기"),
+    more: [
+      { href: `${egypt}/rulers/ramesses-ii`, label: "이집트이야기의 람세스 2세" },
+      { href: `${egypt}/movies#prince-of-egypt`, label: "이집트이야기의 『이집트의 왕자』" },
+    ],
     related: ["battle-of-kadesh"],
   },
   {
@@ -190,6 +198,7 @@ export const israelEvents: HistEvent[] = [
       "고조선 시대입니다. 철기가 자리 잡아가고, 남쪽의 이름은 아직 흐립니다.",
     source: "근거: 바빌론 연대기(기원전 597년), 열왕기하 24장. 586년의 추가 이주는 열왕기와 예레미야입니다.",
     sister: book("ezekiel", "에스겔"),
+    more: [{ href: `${persia}/wars/babylon`, label: "페르시아이야기의 바빌론 원정" }],
     related: ["babylon-destroys-jerusalem", "cyrus-takes-babylon"],
   },
   {
@@ -205,6 +214,7 @@ export const israelEvents: HistEvent[] = [
       "고조선 후기입니다. 철기 문화가 자리 잡고, 남쪽의 이름은 아직 흐립니다.",
     source: "근거: 에스라 1장(538년 통용). 키루스 원통은 539년의 일반 선언입니다.",
     sister: book("ezra", "에스라"),
+    more: [{ href: `${persia}/rulers/cyrus`, label: "페르시아이야기의 키루스" }],
     related: ["cyrus-takes-babylon", "babylonian-exile"],
   },
   {
@@ -221,6 +231,7 @@ export const israelEvents: HistEvent[] = [
       "고조선 후기입니다. 전국시대의 변화가 요동 쪽에 닿기 시작하는 세기입니다.",
     source: "근거: 에스라 6장 15절, 학개·스가랴. 완공은 515년 또는 516년입니다.",
     sister: book("haggai", "학개"),
+    more: [{ href: `${persia}/rulers/darius-i`, label: "페르시아이야기의 다리우스 1세" }],
   },
   {
     slug: "ezra-nehemiah",
@@ -236,6 +247,7 @@ export const israelEvents: HistEvent[] = [
       "고조선 말입니다. 연나라가 요동으로 손을 뻗던 때와 겹치고, 남쪽 진국은 기록이 옅습니다.",
     source: "근거: 느헤미야 2장(445년, 아르타크세르크스 1세 설). 에스라는 458년 또는 398년 설이 있습니다.",
     sister: book("nehemiah", "느헤미야"),
+    more: [{ href: `${persia}/rulers/artaxerxes-i`, label: "페르시아이야기의 아르타크세르크세스 1세" }],
   },
   {
     slug: "septuagint",
@@ -295,6 +307,7 @@ export const israelEvents: HistEvent[] = [
       "고구려 건국 전승과 같은 해입니다. 『삼국사기』의 기원전 37년은 전승이고, 서북의 실체는 낙랑입니다.",
     source: "근거: 요세푸스. 예루살렘 점령은 37년, 죽음은 대개 4년(소수 설은 1년)입니다.",
     sister: overview,
+    more: [{ href: `${chosen}/characters/herod-antipas`, label: "더 초즌의 헤롯 안티파스" }],
     related: ["battle-of-actium", "birth-of-jesus"],
   },
   {
@@ -311,6 +324,7 @@ export const israelEvents: HistEvent[] = [
       "삼국 건국 전승이 적힌 기원전 1세기 말입니다. 그 연대는 전승이고, 낙랑은 서북에 남아 있습니다.",
     source: "근거: 마태복음 2장, 누가복음 2장, 요세푸스의 헤롯·퀴리니우스 연대. 6–4년은 추정입니다.",
     sister: book("luke", "누가복음"),
+    more: [{ href: `${rome}/rulers/augustus`, label: "로마이야기의 아우구스투스" }],
     related: ["herod-the-great", "augustus-principate"],
   },
   {
@@ -327,6 +341,10 @@ export const israelEvents: HistEvent[] = [
       "1세기입니다. 서북은 낙랑, 북쪽은 고구려가 커지고, 남쪽 삼한의 경계는 흐립니다. 백제·신라의 건국 연도는 전승입니다.",
     source: "근거: 복음서의 빌라도 기사, 빌라도 재임 26–36년. 30년과 33년 설이 있습니다.",
     sister: book("mark", "마가복음"),
+    more: [
+      { href: `${rome}/rulers/tiberius`, label: "로마이야기의 티베리우스" },
+      { href: `${chosen}/characters/pilate`, label: "더 초즌의 빌라도" },
+    ],
   },
   {
     slug: "paul-journeys",
@@ -342,6 +360,7 @@ export const israelEvents: HistEvent[] = [
       "낙랑과 삼한이 함께 있는 1세기 중엽입니다. 고구려는 북쪽에서 틀을 키우고 있습니다.",
     source: "근거: 바울 서신, 사도행전, 델포이 갈리오 비문(51–52년). 여행 전체는 46–58년경입니다.",
     sister: book("acts", "사도행전"),
+    more: [{ href: `${rome}/rulers/nero`, label: "로마이야기의 네로" }],
     related: ["great-fire-of-rome"],
   },
   {
@@ -357,6 +376,7 @@ export const israelEvents: HistEvent[] = [
       "1세기 후반입니다. 낙랑은 아직 서북에 있고, 남쪽은 삼한의 읍락 사회입니다.",
     source: "근거: 요세푸스 『유대 전쟁기』 6권. 70년 여름은 확실합니다.",
     sister: overview,
+    more: [{ href: `${rome}/rulers/vespasian`, label: "로마이야기의 베스파시아누스" }],
     related: ["great-fire-of-rome", "fall-of-masada"],
   },
   {
@@ -373,6 +393,7 @@ export const israelEvents: HistEvent[] = [
       "한반도는 낙랑과 삼한의 시대입니다. 예루살렘의 전쟁과 이어지는 기록은 없습니다.",
     source: "근거: 요세푸스 『유대 전쟁기』 7권, 마사다 포위 유적. 73년과 74년 설이 있습니다.",
     sister: overview,
+    more: [{ href: `${rome}/rulers/vespasian`, label: "로마이야기의 베스파시아누스" }],
     related: ["second-temple-destroyed", "great-fire-of-rome"],
   },
   {
@@ -388,6 +409,7 @@ export const israelEvents: HistEvent[] = [
       "고구려와 삼한의 시대입니다. 낙랑은 서북에 남아 있고, 백제와 신라는 남쪽에서 모습을 갖춰 갑니다. 건국 연도 자체는 전승입니다.",
     source: "근거: 카시우스 디오(시피리아누스 발췌), 반란 주화, 동굴 편지. 132–135년입니다.",
     sister: overview,
+    more: [{ href: `${rome}/rulers/hadrian`, label: "로마이야기의 하드리아누스" }],
   },
   {
     slug: "edict-of-milan",
@@ -402,6 +424,7 @@ export const israelEvents: HistEvent[] = [
       "고구려가 낙랑을 차지한 해와 같습니다. 두 사건은 원인으로 연결되어 있지 않습니다. 남쪽에는 백제와 신라가 있습니다.",
     source: "근거: 락탄티우스 『박해자의 최후』 48장, 에우세비오스 『교회사』 10권. 313년입니다.",
     sister: overview,
+    more: [{ href: `${rome}/rulers/constantine`, label: "로마이야기의 콘스탄티누스" }],
     related: ["constantinople-dedicated", "council-of-nicaea"],
   },
   {
@@ -417,6 +440,7 @@ export const israelEvents: HistEvent[] = [
       "낙랑을 고구려가 차지한 직후입니다. 백제와 신라가 남쪽에서 커지던 4세기 초입니다.",
     source: "근거: 니케아 회의 기록과 후대 교회사. 325년은 확실합니다. 정경 목록의 고정은 이 해가 아닙니다.",
     sister: overview,
+    more: [{ href: `${rome}/rulers/constantine`, label: "로마이야기의 콘스탄티누스" }],
     related: ["edict-of-milan", "constantinople-dedicated"],
   },
   {

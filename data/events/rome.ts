@@ -1,6 +1,8 @@
 import type { HistEvent } from "@/data/types";
 
 const rome = "https://rome-stories.vercel.app";
+const myth = "https://nadoo-myth.vercel.app";
+const egypt = "https://egypt-stories.vercel.app";
 
 export const romeEvents: HistEvent[] = [
   {
@@ -18,6 +20,7 @@ export const romeEvents: HistEvent[] = [
       "한반도는 청동기 시대입니다. 민무늬 토기와 고인돌의 사회이고, 고조선의 경계는 아직 흐립니다.",
     source: "근거: 리비우스 『로마 건국사』 1권, 바로의 연대. 건국 해는 전승입니다.",
     sister: { href: `${rome}/rulers/romulus`, label: "로마이야기의 로물루스" },
+    more: [{ href: `${myth}/stories/aeneid`, label: "나두신화의 아이네이스" }],
   },
   {
     slug: "roman-republic",
@@ -133,6 +136,7 @@ export const romeEvents: HistEvent[] = [
       "전승으로는 신라가 생긴 직후, 고구려 건국 전승 직전입니다. 기록으로 분명한 것은 낙랑과 남쪽의 읍락입니다.",
     source: "근거: 플루타르코스 『안토니우스』, 카시우스 디오.",
     sister: { href: `${rome}/wars/actium`, label: "로마이야기의 악티움" },
+    more: [{ href: `${egypt}/cleopatra`, label: "이집트이야기의 클레오파트라" }],
     related: ["herod-the-great"],
   },
   {

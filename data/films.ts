@@ -5,6 +5,9 @@ import type { LaneId, SisterLink } from "@/data/types";
  * 바꾸지 않습니다. 넷플릭스 한국 여부는 확인된 작품만 true입니다.
  */
 export const NETFLIX_CHECKED_AT = "2026-10-08";
+/** 바이킹이야기가 netflix.com/kr 작품 페이지를 연 날. 그쪽에서 확인한 작품만 이 날짜를 씁니다. */
+export const NETFLIX_CHECKED_AT_VIKING = "2026-10-11";
+export const NETFLIX_CHECK_DATES = [NETFLIX_CHECKED_AT, NETFLIX_CHECKED_AT_VIKING] as const;
 
 export const filmTypes = ["영화", "시리즈", "다큐"] as const;
 export type FilmType = (typeof filmTypes)[number];
@@ -25,7 +28,7 @@ export type Film = {
   historyNote: string;
   /** 넷플릭스 한국 제목 페이지에서 시청 가능이 확인된 경우만. */
   netflixKr?: true;
-  checkedAt?: typeof NETFLIX_CHECKED_AT;
+  checkedAt?: (typeof NETFLIX_CHECK_DATES)[number];
   sisters?: SisterLink[];
 };
 
@@ -38,6 +41,8 @@ const mythMedia = "https://nadoo-myth.vercel.app/in-media";
 const philosophyFilms = "https://philosophy-stories.vercel.app/films";
 const koreaFilms = "https://korea-stories.vercel.app/films";
 const chosen = "https://the-chosen-korean.vercel.app";
+const germanicFilms = "https://germanic-stories.vercel.app/films";
+const vikingFilms = "https://viking-stories.vercel.app/films";
 
 export const films: Film[] = [
   {
@@ -380,7 +385,10 @@ export const films: Film[] = [
     eventIds: ["augustus-principate", "caligula"],
     synopsis: "아우구스투스 집안이 황제 자리를 어떻게 넘겼는지 따라가는 BBC 시리즈.",
     historyNote: "독살과 음모의 상당수는 고대에도 소문이었고, 드라마는 그 소문을 사실처럼 이어 붙입니다.",
-    sisters: [{ href: `${romeMovies}#i-claudius`, label: "로마이야기의 나, 클라우디우스" }],
+    sisters: [
+      { href: `${romeMovies}#i-claudius`, label: "로마이야기의 나, 클라우디우스" },
+      { href: `${germanicFilms}#i-claudius-1976`, label: "게르만이야기의 나, 클라우디우스" },
+    ],
   },
   {
     id: "mary-2024",
@@ -480,6 +488,7 @@ export const films: Film[] = [
     sisters: [
       { href: `${romeMovies}#gladiator`, label: "로마이야기의 글래디에이터" },
       { href: `${philosophyFilms}#films-marcus-aurelius`, label: "철학이야기의 마르쿠스 아우렐리우스 영화" },
+      { href: `${germanicFilms}#gladiator-2000`, label: "게르만이야기의 글래디에이터 (마르코만니 전선)" },
     ],
   },
   {
@@ -494,7 +503,10 @@ export const films: Film[] = [
     eventIds: ["death-of-marcus-aurelius"],
     synopsis: "마르쿠스 아우렐리우스와 코모두스 시대를 다룬 큰 사극. 서로마의 끝은 다루지 않습니다.",
     historyNote: "제목과 달리 476년이 아니고, 황제의 죽음과 주인공의 역할은 극이며 제국이 하루아침에 망하지 않았습니다.",
-    sisters: [{ href: `${romeMovies}#fall-of-the-roman-empire`, label: "로마이야기의 로마제국의 멸망" }],
+    sisters: [
+      { href: `${romeMovies}#fall-of-the-roman-empire`, label: "로마이야기의 로마제국의 멸망" },
+      { href: `${germanicFilms}#fall-of-the-roman-empire-1964`, label: "게르만이야기의 로마제국의 멸망" },
+    ],
   },
   {
     id: "gladiator-ii-2024",
@@ -539,6 +551,9 @@ export const films: Film[] = [
     eventIds: ["arthur-tradition", "fall-of-western-rome"],
     synopsis: "로마 군단의 사르마티아 기병으로 아더를 두고, 색슨족과 하드리아누스 성벽을 그린 영화.",
     historyNote: "서로마의 끝 무렵이라는 배경만 대략 맞고, 아더를 한 로마 장교의 전기로 확정할 기록은 없습니다.",
+    sisters: [
+      { href: `${germanicFilms}#king-arthur-2004`, label: "게르만이야기의 킹 아더" },
+    ],
   },
   {
     id: "the-last-legion-2007",
@@ -552,7 +567,10 @@ export const films: Film[] = [
     eventIds: ["fall-of-western-rome", "arthur-tradition"],
     synopsis: "서로마의 마지막 소년 황제가 브리튼으로 가 아더 전설과 이어진다는 모험 영화.",
     historyNote: "476년 폐위는 사실이지만, 마지막 군단이 칼을 들고 영국에 새 나라를 세웠다는 줄거리는 사료가 아닙니다.",
-    sisters: [{ href: `${romeMovies}#last-legion`, label: "로마이야기의 라스트 리전" }],
+    sisters: [
+      { href: `${romeMovies}#last-legion`, label: "로마이야기의 라스트 리전" },
+      { href: `${germanicFilms}#the-last-legion-2007`, label: "게르만이야기의 라스트 리전" },
+    ],
   },
   {
     id: "excalibur-1981",
@@ -619,6 +637,9 @@ export const films: Film[] = [
     eventIds: ["lindisfarne", "alfred-edington"],
     synopsis: "라그나르와 그 아들들의 항해와 전쟁으로 바이킹 시대를 압축해 보여 주는 시리즈.",
     historyNote: "린디스판 습격은 793년의 일이지만, 인물의 나이와 왕들의 순서는 여러 세대를 한 세대로 접어 놓습니다.",
+    sisters: [
+      { href: `${vikingFilms}#vikings-2013`, label: "바이킹이야기의 바이킹스" },
+    ],
   },
   {
     id: "the-last-kingdom-2015",
@@ -634,6 +655,208 @@ export const films: Film[] = [
     historyNote: "앨프리드와 에딩턴의 큰 줄기는 남지만 우트레드는 소설의 인물이고, 개인의 편은 극본입니다.",
     netflixKr: true,
     checkedAt: NETFLIX_CHECKED_AT,
+    sisters: [
+      { href: `${vikingFilms}#the-last-kingdom-2015`, label: "바이킹이야기의 라스트 킹덤" },
+      { href: `${germanicFilms}#the-last-kingdom-2015`, label: "게르만이야기의 라스트 킹덤" },
+    ],
+  },
+  {
+    id: "barbarians-2020",
+    koTitle: "바바리안",
+    originalTitle: "Barbarians",
+    year: 2020,
+    type: "시리즈",
+    periodStart: 9,
+    periodEnd: 16,
+    lanes: ["rome"],
+    eventIds: ["teutoburg-forest"],
+    synopsis: "넷플릭스 독일 드라마. 시즌 1은 서기 9년 토이토부르크 숲으로, 시즌 2는 그 뒤 로마의 보복과 부족 사이의 갈등으로 갑니다.",
+    historyNote: "아르미니우스·투스넬다·바루스·게르마니쿠스는 실존 인물이지만 폴크윈은 창작이고, 바루스를 양아버지로 둔 설정과 결말 여럿은 사료와 다릅니다.",
+    sisters: [
+      { href: `${germanicFilms}#barbarians-2020`, label: "게르만이야기의 바바리안" },
+    ],
+  },
+  {
+    id: "attila-2001",
+    koTitle: "아틸라",
+    originalTitle: "Attila",
+    year: 2001,
+    type: "시리즈",
+    periodStart: 434,
+    periodEnd: 453,
+    lanes: ["rome"],
+    eventIds: ["catalaunian-plains"],
+    synopsis: "훈족의 왕 아틸라와 서로마 장군 아이티우스를 한 편의 영웅담으로 잇는 미국 텔레비전 미니시리즈.",
+    historyNote: "451년 카탈라우눔과 453년 죽음의 큰 연대는 맞지만, 아틸라는 게르만 왕이 아니라 훈족의 왕이고 연애와 대사는 극입니다.",
+    sisters: [
+      { href: `${germanicFilms}#attila-2001`, label: "게르만이야기의 아틸라" },
+    ],
+  },
+  {
+    id: "beowulf-2007",
+    koTitle: "베오울프",
+    originalTitle: "Beowulf",
+    year: 2007,
+    type: "영화",
+    periodStart: 500,
+    periodEnd: 550,
+    lanes: ["medieval"],
+    eventIds: ["arthur-tradition"],
+    synopsis: "용사 베오울프가 그렌델과 그 어머니, 뒤에 용을 상대하는 모션 캡처 영화.",
+    historyNote: "고대 영어 시의 영웅 시대를 빌린 전설이고, 793년 이후의 바이킹 연대기가 아닙니다. 연표에서는 같은 무렵의 전승인 아더 왕 옆에 둡니다.",
+    sisters: [
+      { href: `${vikingFilms}#beowulf-2007`, label: "바이킹이야기의 베오울프" },
+    ],
+  },
+  {
+    id: "norsemen-2016",
+    koTitle: "바이킹 따라잡기",
+    originalTitle: "Norsemen (Vikingane)",
+    year: 2016,
+    type: "시리즈",
+    periodStart: 790,
+    periodEnd: 800,
+    lanes: ["medieval"],
+    eventIds: ["lindisfarne"],
+    synopsis: "가공의 마을 노르헤임에서 족장 자리, 노예, 약탈을 시트콤으로 뒤집는 노르웨이 코미디.",
+    historyNote: "노예와 약탈, 족장 다툼은 그 시대에 있던 일이지만 인물과 농담은 모두 창작이고 연대는 느슨합니다.",
+    netflixKr: true,
+    checkedAt: NETFLIX_CHECKED_AT_VIKING,
+    sisters: [
+      { href: `${vikingFilms}#norsemen-2016`, label: "바이킹이야기의 바이킹 따라잡기" },
+    ],
+  },
+  {
+    id: "the-vikings-1958",
+    koTitle: "바이킹",
+    originalTitle: "The Vikings",
+    year: 1958,
+    type: "영화",
+    periodStart: 793,
+    periodEnd: 866,
+    lanes: ["medieval"],
+    eventIds: ["lindisfarne"],
+    synopsis: "노섬브리아 왕을 친 뒤 서로를 모르는 이복형제가 칼을 겨누는 리처드 플레이셔의 복수극.",
+    historyNote: "8–9세기 북해의 약탈을 배경으로 빌렸을 뿐, 라그나라는 이름은 라그나르의 전기가 아닙니다. 2013년 시리즈 『바이킹스』와 다른 작품입니다.",
+    sisters: [
+      { href: `${vikingFilms}#the-vikings-1958`, label: "바이킹이야기의 바이킹(1958)" },
+    ],
+  },
+  {
+    id: "the-northman-2022",
+    koTitle: "노스맨",
+    originalTitle: "The Northman",
+    year: 2022,
+    type: "영화",
+    periodStart: 895,
+    periodEnd: 914,
+    lanes: ["medieval"],
+    eventIds: ["ibn-fadlan-volga"],
+    synopsis: "아버지를 잃은 왕자 암레트가 노예로 위장해 아이슬란드에서 복수하는 로버트 에거스의 영화.",
+    historyNote: "줄기는 삭소가 적은 암레드 전승이고 역사의 왕이 아닙니다. 루스 땅의 습격과 10세기 아이슬란드 농장은 시대 배경으로 설득력이 있지만, 발키리와 결투는 영화의 신화입니다.",
+    sisters: [
+      { href: `${vikingFilms}#the-northman-2022`, label: "바이킹이야기의 노스맨" },
+    ],
+  },
+  {
+    id: "the-13th-warrior-1999",
+    koTitle: "13번째 전사",
+    originalTitle: "The 13th Warrior",
+    year: 1999,
+    type: "영화",
+    periodStart: 921,
+    periodEnd: 922,
+    lanes: ["medieval"],
+    eventIds: ["ibn-fadlan-volga"],
+    synopsis: "아랍 사절 이븐 파들란이 북쪽 전사 열두 명에 열세 번째로 끼어 괴물과 싸우는 영화.",
+    historyNote: "이븐 파들란이 922년 볼가에서 루스의 풍습을 적은 것은 사실이지만, 식인 괴물과 베오울프식 전투는 마이클 크라이턴 소설의 결합입니다.",
+    sisters: [
+      { href: `${vikingFilms}#the-13th-warrior-1999`, label: "바이킹이야기의 13번째 전사" },
+    ],
+  },
+  {
+    id: "the-last-kingdom-seven-kings-must-die-2023",
+    koTitle: "세븐 킹스 머스트 다이",
+    originalTitle: "The Last Kingdom: Seven Kings Must Die",
+    year: 2023,
+    type: "영화",
+    periodStart: 924,
+    periodEnd: 937,
+    lanes: ["medieval"],
+    eventIds: ["alfred-edington"],
+    synopsis: "『라스트 킹덤』의 극장판 결말. 에드워드가 죽은 뒤 우트레드와 에셀스탄이 브루난버 전투까지 갑니다.",
+    historyNote: "937년 브루난버의 승리는 역사지만 우트레드는 소설의 인물입니다. 앨프리드의 에딩턴에서 두 세대 뒤의 이야기입니다.",
+    netflixKr: true,
+    checkedAt: NETFLIX_CHECKED_AT_VIKING,
+    sisters: [
+      { href: `${vikingFilms}#the-last-kingdom-seven-kings-must-die-2023`, label: "바이킹이야기의 세븐 킹스 머스트 다이" },
+    ],
+  },
+  {
+    id: "pathfinder-2007",
+    koTitle: "패스파인더",
+    originalTitle: "Pathfinder",
+    year: 2007,
+    type: "영화",
+    periodStart: 1000,
+    periodEnd: 1010,
+    lanes: ["medieval"],
+    eventIds: ["vinland"],
+    synopsis: "바이킹에게 부모를 잃고 아메리카 원주민 사이에서 자란 고스트가 바이킹 군대와 싸우는 액션 영화.",
+    historyNote: "노르드인이 뉴펀들랜드에 잠시 머문 흔적은 확인되지만, 대규모 정복 전쟁은 그 유적과 다른 이야기입니다.",
+    sisters: [
+      { href: `${vikingFilms}#pathfinder-2007`, label: "바이킹이야기의 패스파인더" },
+    ],
+  },
+  {
+    id: "valhalla-rising-2009",
+    koTitle: "발할라 라이징",
+    originalTitle: "Valhalla Rising",
+    year: 2009,
+    type: "영화",
+    periodStart: 1000,
+    periodEnd: 1100,
+    lanes: ["medieval"],
+    eventIds: ["vinland"],
+    synopsis: "말없는 전사 원아이가 기독교 무리를 따라 안개 속의 땅으로 가는 니콜라스 윈딩 레픈의 영화.",
+    historyNote: "북유럽과 신앙의 충돌을 분위기만 빌린 상징극이고, 빈란드나 특정 왕의 원정을 그린 것이 아닙니다.",
+    sisters: [
+      { href: `${vikingFilms}#valhalla-rising-2009`, label: "바이킹이야기의 발할라 라이징" },
+    ],
+  },
+  {
+    id: "vinland-saga-2019",
+    koTitle: "빈란드 사가",
+    originalTitle: "Vinland Saga",
+    year: 2019,
+    type: "시리즈",
+    periodStart: 1002,
+    periodEnd: 1020,
+    lanes: ["medieval"],
+    eventIds: ["vinland"],
+    synopsis: "토르핀의 복수와 노예가 된 뒤의 삶을 따라가는 애니메이션. 11세기 초 덴마크·잉글랜드와 빈란드가 배경입니다.",
+    historyNote: "크누트, 토르켈, 런던 공성은 그 시대와 겹치지만 토르핀의 성장과 많은 전투는 만화의 창작입니다.",
+    sisters: [
+      { href: `${vikingFilms}#vinland-saga-2019`, label: "바이킹이야기의 빈란드 사가" },
+    ],
+  },
+  {
+    id: "vikings-valhalla-2022",
+    koTitle: "바이킹스: 발할라",
+    originalTitle: "Vikings: Valhalla",
+    year: 2022,
+    type: "시리즈",
+    periodStart: 1002,
+    periodEnd: 1066,
+    lanes: ["medieval"],
+    eventIds: ["vinland", "stamford-bridge-hastings-1066"],
+    synopsis: "『바이킹스』의 후속 시리즈. 레이프, 프레이디스, 하랄 시구르드손이 11세기 북해와 콘스탄티노폴리스를 오갑니다.",
+    historyNote: "크누트, 엠마, 하랄 하르드라다, 바랑기아 친위대는 11세기에 있지만, 세 주인공이 한 시절에 함께 움직이는 구조와 연대 압축은 극입니다.",
+    netflixKr: true,
+    checkedAt: NETFLIX_CHECKED_AT_VIKING,
+    sisters: [
+      { href: `${vikingFilms}#vikings-valhalla-2022`, label: "바이킹이야기의 바이킹스: 발할라" },
+    ],
   },
   {
     id: "kingdom-of-heaven-2005",
@@ -781,7 +1004,7 @@ export type PublicFilm = {
   periodEnd: number;
   lanes: LaneId[];
   netflixKr?: true;
-  checkedAt?: typeof NETFLIX_CHECKED_AT;
+  checkedAt?: (typeof NETFLIX_CHECK_DATES)[number];
 };
 
 export function toCatalog(list: Film[] = films): PublicFilm[] {

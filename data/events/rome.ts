@@ -166,7 +166,30 @@ export const romeEvents: HistEvent[] = [
       "한반도 서북은 낙랑, 남쪽은 삼한입니다. 삼국의 건국 전승이 이 세기 안에 놓이지만, 그 해들은 후대 연대기입니다.",
     source: "근거: 아우구스투스 『신과 아우구스투스의 업적』, 카시우스 디오.",
     sister: { href: `${rome}/rulers/augustus`, label: "로마이야기의 아우구스투스" },
-    related: ["birth-of-jesus"],
+    related: ["birth-of-jesus", "teutoburg-forest"],
+    more: [
+      { href: "https://germanic-stories.vercel.app/chronicle/augustus-germania", label: "게르만이야기의 아우구스투스와 게르마니아" },
+    ],
+  },
+  {
+    slug: "teutoburg-forest",
+    lane: "rome",
+    row: 0,
+    title: "토이토부르크 숲 전투",
+    titleEn: "Battle of the Teutoburg Forest",
+    year: 9,
+    summary:
+      "아르미니우스가 이끈 게르만 연합군이 토이토부르크 숲 일대에서 바루스의 로마 군단 셋을 무너뜨립니다. 아우구스투스는 라인 동쪽을 속주로 만들려던 계획에서 크게 물러납니다. 전장은 칼크리제 발굴로 유력하게 좁혀졌지만 단정되지는 않습니다.",
+    peninsula:
+      "삼국이 막 자리를 잡던 초기입니다. 고구려는 유리왕, 신라는 남해 차차웅 때로 전합니다.",
+    source: "근거: 벨레이우스 파테르쿨루스, 타키투스 『연대기』, 카시우스 디오. 칼크리제 발굴.",
+    sister: { href: "https://germanic-stories.vercel.app/chronicle/teutoburg", label: "게르만이야기의 토이토부르크" },
+    more: [
+      { href: "https://germanic-stories.vercel.app/people/arminius", label: "게르만이야기의 아르미니우스" },
+      { href: "https://germanic-stories.vercel.app/films#barbarians-2020", label: "게르만이야기의 드라마 바바리안" },
+      { href: "https://rome-stories.vercel.app/rulers/augustus", label: "로마이야기의 아우구스투스" },
+    ],
+    related: ["augustus-principate"],
   },
   {
     slug: "great-fire-of-rome",
@@ -210,7 +233,10 @@ export const romeEvents: HistEvent[] = [
       "낙랑과 삼한이 있는 2세기입니다. 고구려는 북쪽에서 커지고 있습니다.",
     source: "근거: 카시우스 디오, 헤로디아누스. 180년 병사가 통설입니다.",
     sister: { href: `${rome}/rulers/marcus-aurelius`, label: "로마이야기의 마르쿠스 아우렐리우스" },
-    more: [{ href: "https://philosophy-stories.vercel.app/people/marcus-aurelius", label: "철학이야기의 마르쿠스 아우렐리우스" }],
+    more: [
+      { href: "https://philosophy-stories.vercel.app/people/marcus-aurelius", label: "철학이야기의 마르쿠스 아우렐리우스" },
+      { href: "https://germanic-stories.vercel.app/chronicle/marcomannic-war", label: "게르만이야기의 마르코만니 전쟁" },
+    ],
   },
   {
     slug: "caracalla-and-geta",
@@ -268,6 +294,27 @@ export const romeEvents: HistEvent[] = [
     source: "근거: 후대 로마 연대기와 콘스탄티누스 연구의 통설. 봉헌일은 5월 11일로 전합니다.",
     sister: { href: `${rome}/rulers/constantine`, label: "로마이야기의 콘스탄티누스" },
     related: ["edict-of-milan", "council-of-nicaea"],
+    more: [
+      { href: "https://viking-stories.vercel.app/chronicle/varangian-guard", label: "바이킹이야기의 바랑기아 친위대" },
+    ],
+  },
+  {
+    slug: "battle-of-adrianople",
+    lane: "rome",
+    row: 0,
+    title: "아드리아노플 전투",
+    titleEn: "Battle of Adrianople",
+    year: 378,
+    summary:
+      "도나우를 건너온 고트족이 아드리아노플(오늘날 에디르네) 근처에서 동로마 황제 발렌스의 군대를 이깁니다. 황제가 전장에서 죽습니다. 고트족은 그 뒤 제국 안에 무리 지어 자리 잡습니다.",
+    peninsula:
+      "고구려 소수림왕 때입니다. 몇 해 전 불교를 받아들이고 율령을 반포했다고 전합니다.",
+    source: "근거: 암미아누스 마르켈리누스 『역사』 31권.",
+    sister: { href: "https://germanic-stories.vercel.app/chronicle/adrianople", label: "게르만이야기의 아드리아노플" },
+    more: [
+      { href: "https://germanic-stories.vercel.app/chronicle/hunnic-migrations", label: "게르만이야기의 훈족과 민족 이동" },
+    ],
+    related: ["sack-of-rome-410"],
   },
   {
     slug: "sack-of-rome-410",
@@ -282,6 +329,49 @@ export const romeEvents: HistEvent[] = [
       "광개토왕 재위 말입니다. 고구려가 남쪽과 요동에서 압박을 더하던 때입니다.",
     source: "근거: 오로시우스, 조르다네스, 아우구스티누스 『신국』의 집필 배경.",
     sister: { href: `${rome}/origins`, label: "로마이야기의 탄생·시대" },
+    more: [
+      { href: "https://germanic-stories.vercel.app/chronicle/sack-410", label: "게르만이야기의 410년 로마 약탈" },
+      { href: "https://germanic-stories.vercel.app/people/alaric", label: "게르만이야기의 알라리크" },
+    ],
+    related: ["battle-of-adrianople", "sack-of-rome-455"],
+  },
+  {
+    slug: "catalaunian-plains",
+    lane: "rome",
+    row: 0,
+    title: "카탈라우눔 전투",
+    titleEn: "Battle of the Catalaunian Plains",
+    year: 451,
+    summary:
+      "서로마 장군 아이티우스와 서고트 왕 테오도리크가 갈리아에서 훈족 왕 아틸라의 군대를 막아 냅니다. 테오도리크는 이 전투에서 죽습니다. 아틸라는 이듬해 이탈리아로 내려가고, 453년에 죽습니다.",
+    peninsula:
+      "고구려 장수왕 때입니다. 남쪽의 백제와 신라는 동맹을 맺어 고구려에 맞서기 시작했습니다.",
+    source: "근거: 요르다네스 『게티카』(프리스쿠스를 전함). 전장의 정확한 자리와 병력 수는 다툽니다.",
+    sister: { href: "https://germanic-stories.vercel.app/chronicle/catalaunian-plains", label: "게르만이야기의 카탈라우눔" },
+    more: [
+      { href: "https://germanic-stories.vercel.app/people/attila", label: "게르만이야기의 아틸라" },
+      { href: "https://germanic-stories.vercel.app/people/aetius", label: "게르만이야기의 아이티우스" },
+    ],
+    related: ["sack-of-rome-455"],
+  },
+  {
+    slug: "sack-of-rome-455",
+    lane: "rome",
+    row: 0,
+    title: "반달족, 로마를 치다",
+    titleEn: "Vandal sack of Rome",
+    year: 455,
+    summary:
+      "반달족 왕 가이세리크가 북아프리카에서 바다를 건너와 로마 시를 약 2주 동안 약탈합니다. 교황 레오 1세의 교섭으로 학살과 방화는 줄었다고 전합니다. ‘반달리즘’이라는 말은 훨씬 뒤 18세기에 생깁니다.",
+    peninsula:
+      "고구려 장수왕이 평양으로 도읍을 옮긴 뒤입니다. 백제에서는 이해 개로왕이 즉위한 것으로 전합니다.",
+    source: "근거: 아퀴타니아의 프로스페르 연대기, 프로코피우스 『반달 전쟁』.",
+    sister: { href: "https://germanic-stories.vercel.app/chronicle/sack-455", label: "게르만이야기의 455년 로마 약탈" },
+    more: [
+      { href: "https://germanic-stories.vercel.app/people/gaiseric", label: "게르만이야기의 가이세리크" },
+      { href: "https://germanic-stories.vercel.app/kingdoms/vandals", label: "게르만이야기의 반달 왕국" },
+    ],
+    related: ["sack-of-rome-410", "fall-of-western-rome"],
   },
   {
     slug: "fall-of-western-rome",
@@ -296,7 +386,11 @@ export const romeEvents: HistEvent[] = [
       "고구려·백제·신라가 맞선 삼국 시대입니다. 신라는 아직 한강 유역을 독차지하기 전입니다.",
     source: "근거: 마르켈리누스 코메스의 연대기 등. 476년은 서로마 조정의 끝으로 쓰는 통설입니다.",
     sister: { href: `${rome}/origins`, label: "로마이야기의 탄생·시대" },
-    related: ["arthur-tradition"],
+    related: ["arthur-tradition", "sack-of-rome-455"],
+    more: [
+      { href: "https://germanic-stories.vercel.app/chronicle/odoacer-476", label: "게르만이야기의 오도아케르와 476년" },
+      { href: "https://germanic-stories.vercel.app/kingdoms", label: "게르만이야기의 로마 이후 왕국" },
+    ],
   },
   {
     slug: "hagia-sophia",

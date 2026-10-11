@@ -8,7 +8,7 @@ import { koreaEvents } from "@/data/events/korea";
 import { medievalEvents } from "@/data/events/medieval";
 import { persiaEvents } from "@/data/events/persia";
 import { romeEvents } from "@/data/events/rome";
-import { films, filmTypes } from "@/data/films";
+import { films, filmTypes, NETFLIX_CHECK_DATES } from "@/data/films";
 import { RANGE_END, RANGE_START } from "@/lib/site";
 
 /** Origin allow-list only. Do not fetch these at build time: iliad-stories may still 404, and philosophy /people/homer is landing in parallel. */
@@ -17,6 +17,8 @@ const ALLOWED_ORIGINS = new Set([
   "https://iliad-stories.vercel.app",
   "https://greece-stories.vercel.app",
   "https://rome-stories.vercel.app",
+  "https://germanic-stories.vercel.app",
+  "https://viking-stories.vercel.app",
   "https://egypt-stories.vercel.app",
   "https://persia-stories.vercel.app",
   "https://the-chosen-korean.vercel.app",
@@ -110,7 +112,7 @@ function assertFilms(list: HistEvent[]) {
       seenEvents.add(slug);
       if (!slugs.has(slug)) throw new Error(`영화가 가리키는 사건 없음: ${film.id} → ${slug}`);
     }
-    if (film.netflixKr && film.checkedAt !== "2026-10-08") throw new Error(`넷플릭스 확인일: ${film.id}`);
+    if (film.netflixKr && !(NETFLIX_CHECK_DATES as readonly string[]).includes(film.checkedAt ?? "")) throw new Error(`넷플릭스 확인일: ${film.id}`);
     if (!film.netflixKr && film.checkedAt) throw new Error(`확인일만 있습니다: ${film.id}`);
     const seenLinks = new Set<string>();
     for (const link of film.sisters ?? []) {

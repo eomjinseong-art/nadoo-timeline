@@ -22,6 +22,28 @@ export const medievalEvents: HistEvent[] = [
     source: "근거: 초기 웨일스 시, 몬머스의 제프리 『브리타니아 열왕사』. 5–6세기를 한 왕의 연보로 확정할 수 없습니다.",
     sister: { href: `${rome}/origins`, label: "로마이야기의 탄생·시대" },
     related: ["fall-of-western-rome"],
+    more: [
+      { href: "https://germanic-stories.vercel.app/kingdoms/anglo-saxons", label: "게르만이야기의 앵글로색슨 왕국" },
+    ],
+  },
+  {
+    slug: "charlemagne-crowned",
+    lane: "medieval",
+    row: 0,
+    title: "카롤루스 대제의 대관",
+    titleEn: "Coronation of Charlemagne",
+    year: 800,
+    summary:
+      "800년 12월 25일, 교황 레오 3세가 로마의 성 베드로 대성당에서 프랑크 왕 카롤루스에게 황제 관을 씌웁니다. 서유럽에 다시 ‘황제’가 섭니다. 동로마는 이를 곧바로 인정하지 않았습니다.",
+    peninsula:
+      "통일신라에서 애장왕이 즉위한 해로 전합니다. 북쪽에는 발해가 있습니다.",
+    source: "근거: 『프랑크 왕국 연대기』, 아인하르드 『카롤루스 대제의 생애』.",
+    sister: { href: "https://germanic-stories.vercel.app/people/charlemagne", label: "게르만이야기의 카롤루스 대제" },
+    more: [
+      { href: "https://germanic-stories.vercel.app/kingdoms/franks", label: "게르만이야기의 프랑크 왕국" },
+      { href: "https://viking-stories.vercel.app/chronicle/frankish-raids", label: "바이킹이야기의 프랑크 왕국 습격" },
+    ],
+    related: ["lindisfarne"],
   },
   {
     slug: "lindisfarne",
@@ -35,8 +57,11 @@ export const medievalEvents: HistEvent[] = [
     peninsula:
       "통일신라와 발해가 나란히 있습니다. 신라는 전성기를 지나 귀족이 커지던 때입니다.",
     source: "근거: 앵글로색슨 연대기. 793년의 린디스판 습격이 통설입니다.",
-    sister: { href: rome, label: "로마이야기" },
-    related: ["alfred-edington"],
+    sister: { href: "https://viking-stories.vercel.app/chronicle/lindisfarne", label: "바이킹이야기의 린디스판" },
+    more: [
+      { href: "https://germanic-stories.vercel.app/kingdoms/anglo-saxons", label: "게르만이야기의 앵글로색슨 왕국" },
+    ],
+    related: ["alfred-edington", "charlemagne-crowned"],
   },
   {
     slug: "alfred-edington",
@@ -50,8 +75,88 @@ export const medievalEvents: HistEvent[] = [
     peninsula:
       "통일신라 후기입니다. 귀족과 호족이 커지고, 북쪽에는 발해가 있습니다.",
     source: "근거: 앵글로색슨 연대기 878년, 아세르의 앨프리드 전기.",
-    sister: { href: rome, label: "로마이야기" },
-    related: ["lindisfarne"],
+    sister: { href: "https://viking-stories.vercel.app/chronicle/alfred-edington", label: "바이킹이야기의 앨프리드와 에딩턴" },
+    more: [
+      { href: "https://viking-stories.vercel.app/people/alfred", label: "바이킹이야기의 앨프리드" },
+      { href: "https://viking-stories.vercel.app/people/guthrum", label: "바이킹이야기의 구스럼" },
+    ],
+    related: ["lindisfarne", "normandy-911"],
+  },
+  {
+    slug: "normandy-911",
+    lane: "medieval",
+    row: 0,
+    title: "노르망디의 시작",
+    titleEn: "Rollo and Normandy",
+    year: 911,
+    summary:
+      "서프랑크의 단순왕 샤를이 바이킹 지도자 롤로에게 루앙 일대를 맡깁니다. 생클레르쉬레프트에서 맺었다고 전하지만 조약문은 남아 있지 않습니다. 이 땅이 뒤에 노르망디가 됩니다.",
+    peninsula:
+      "후삼국 시대입니다. 궁예가 이해 나라 이름을 태봉으로 바꿨다고 전하고, 견훤의 후백제가 맞섭니다.",
+    source: "근거: 생캉탱의 두도 『노르망디 공들의 관습과 행적』. 911년은 통설이고, 조약문은 전하지 않습니다.",
+    sister: { href: "https://viking-stories.vercel.app/chronicle/normandy", label: "바이킹이야기의 노르망디" },
+    more: [
+      { href: "https://viking-stories.vercel.app/people/rollo", label: "바이킹이야기의 롤로" },
+    ],
+    related: ["alfred-edington", "stamford-bridge-hastings-1066"],
+  },
+  {
+    slug: "ibn-fadlan-volga",
+    lane: "medieval",
+    row: 0,
+    title: "이븐 파들란과 볼가의 루스",
+    titleEn: "Ibn Fadlan on the Volga",
+    year: 922,
+    summary:
+      "아바스 칼리프의 사절 이븐 파들란이 볼가 강가에서 루스라 불린 북쪽 상인들을 만나 그 차림과 배 장례를 적습니다. 바이킹 시대의 동쪽 강길을 바깥 사람이 본 드문 기록입니다.",
+    peninsula:
+      "고려 태조 왕건이 나라를 세운 지 몇 해 안 된 때입니다. 후백제와 신라가 아직 남아 있습니다.",
+    source: "근거: 이븐 파들란의 여행기(리살라). 루스가 누구였는지는 학계에서 다툽니다.",
+    sister: { href: "https://viking-stories.vercel.app/chronicle/rus-kyiv", label: "바이킹이야기의 루스와 키이우" },
+    more: [
+      { href: "https://viking-stories.vercel.app/chronicle/varangian-guard", label: "바이킹이야기의 바랑기아 친위대" },
+    ],
+    related: ["normandy-911"],
+  },
+  {
+    slug: "vinland",
+    lane: "medieval",
+    row: 0,
+    title: "빈란드, 북아메리카에 닿다",
+    titleEn: "Norse in Vinland",
+    year: 1000,
+    circa: true,
+    summary:
+      "그린란드의 레이프 에이릭손이 서쪽 해안에 닿았다고 아이슬란드 사가가 전합니다. 뉴펀들랜드의 랑스 오 메도즈 유적은 노르드인이 그곳에 잠시 머물렀음을 보여 줍니다. 오래 남은 정착지는 아니었습니다.",
+    peninsula:
+      "고려 목종 무렵입니다. 몇 해 전 서희가 거란과 담판해 강동 6주를 얻었습니다.",
+    source: "근거: 『그린란드 사람들의 사가』, 『붉은 에이리크의 사가』, 랑스 오 메도즈 발굴. 나무 연륜으로 1021년에 그곳에서 벌목한 흔적이 확인됩니다.",
+    sister: { href: "https://viking-stories.vercel.app/chronicle/vinland", label: "바이킹이야기의 빈란드" },
+    more: [
+      { href: "https://viking-stories.vercel.app/people/leif", label: "바이킹이야기의 레이프" },
+      { href: "https://viking-stories.vercel.app/chronicle/iceland-greenland", label: "바이킹이야기의 아이슬란드와 그린란드" },
+    ],
+    related: ["stamford-bridge-hastings-1066"],
+  },
+  {
+    slug: "stamford-bridge-hastings-1066",
+    lane: "medieval",
+    row: 0,
+    title: "스탬퍼드 브리지와 헤이스팅스",
+    titleEn: "Stamford Bridge and Hastings",
+    year: 1066,
+    summary:
+      "9월 스탬퍼드 브리지에서 잉글랜드 왕 해럴드 고드윈슨이 노르웨이 왕 하랄 하르드라다를 물리칩니다. 3주쯤 뒤 10월 14일, 헤이스팅스에서 노르망디 공 윌리엄에게 지고 전사합니다. 흔히 바이킹 시대의 끝으로 잡는 해입니다.",
+    peninsula:
+      "고려 문종 때입니다. 고려 전기의 제도가 자리 잡은 시기로 꼽힙니다.",
+    source: "근거: 『앵글로색슨 연대기』, 바이외 태피스트리, 스노리 『헤임스크링글라』.",
+    sister: { href: "https://viking-stories.vercel.app/chronicle/stamford-bridge", label: "바이킹이야기의 1066년" },
+    more: [
+      { href: "https://viking-stories.vercel.app/people/harald-hardrada", label: "바이킹이야기의 하랄 하르드라다" },
+      { href: "https://viking-stories.vercel.app/people/harold-godwinson", label: "바이킹이야기의 해럴드 고드윈슨" },
+      { href: "https://viking-stories.vercel.app/people/william", label: "바이킹이야기의 정복왕 윌리엄" },
+    ],
+    related: ["normandy-911"],
   },
   {
     slug: "hattin",

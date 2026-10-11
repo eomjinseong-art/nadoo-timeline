@@ -299,6 +299,18 @@
     ]
   },
   {
+    "id": "barbarians-2020",
+    "koTitle": "바바리안",
+    "originalTitle": "Barbarians",
+    "year": 2020,
+    "type": "시리즈",
+    "periodStart": 9,
+    "periodEnd": 16,
+    "lanes": [
+      "rome"
+    ]
+  },
+  {
     "id": "ben-hur-1959",
     "koTitle": "벤허",
     "originalTitle": "Ben-Hur",
@@ -398,6 +410,18 @@
     ]
   },
   {
+    "id": "attila-2001",
+    "koTitle": "아틸라",
+    "originalTitle": "Attila",
+    "year": 2001,
+    "type": "시리즈",
+    "periodStart": 434,
+    "periodEnd": 453,
+    "lanes": [
+      "rome"
+    ]
+  },
+  {
     "id": "king-arthur-2004",
     "koTitle": "킹 아더",
     "originalTitle": "King Arthur",
@@ -420,6 +444,18 @@
     "periodEnd": 500,
     "lanes": [
       "rome",
+      "medieval"
+    ]
+  },
+  {
+    "id": "beowulf-2007",
+    "koTitle": "베오울프",
+    "originalTitle": "Beowulf",
+    "year": 2007,
+    "type": "영화",
+    "periodStart": 500,
+    "periodEnd": 550,
+    "lanes": [
       "medieval"
     ]
   },
@@ -472,6 +508,32 @@
     ]
   },
   {
+    "id": "norsemen-2016",
+    "koTitle": "바이킹 따라잡기",
+    "originalTitle": "Norsemen (Vikingane)",
+    "year": 2016,
+    "type": "시리즈",
+    "periodStart": 790,
+    "periodEnd": 800,
+    "lanes": [
+      "medieval"
+    ],
+    "netflixKr": true,
+    "checkedAt": "2026-10-11"
+  },
+  {
+    "id": "the-vikings-1958",
+    "koTitle": "바이킹",
+    "originalTitle": "The Vikings",
+    "year": 1958,
+    "type": "영화",
+    "periodStart": 793,
+    "periodEnd": 866,
+    "lanes": [
+      "medieval"
+    ]
+  },
+  {
     "id": "vikings-2013",
     "koTitle": "바이킹스",
     "originalTitle": "Vikings",
@@ -496,6 +558,94 @@
     ],
     "netflixKr": true,
     "checkedAt": "2026-10-08"
+  },
+  {
+    "id": "the-northman-2022",
+    "koTitle": "노스맨",
+    "originalTitle": "The Northman",
+    "year": 2022,
+    "type": "영화",
+    "periodStart": 895,
+    "periodEnd": 914,
+    "lanes": [
+      "medieval"
+    ]
+  },
+  {
+    "id": "the-13th-warrior-1999",
+    "koTitle": "13번째 전사",
+    "originalTitle": "The 13th Warrior",
+    "year": 1999,
+    "type": "영화",
+    "periodStart": 921,
+    "periodEnd": 922,
+    "lanes": [
+      "medieval"
+    ]
+  },
+  {
+    "id": "the-last-kingdom-seven-kings-must-die-2023",
+    "koTitle": "세븐 킹스 머스트 다이",
+    "originalTitle": "The Last Kingdom: Seven Kings Must Die",
+    "year": 2023,
+    "type": "영화",
+    "periodStart": 924,
+    "periodEnd": 937,
+    "lanes": [
+      "medieval"
+    ],
+    "netflixKr": true,
+    "checkedAt": "2026-10-11"
+  },
+  {
+    "id": "pathfinder-2007",
+    "koTitle": "패스파인더",
+    "originalTitle": "Pathfinder",
+    "year": 2007,
+    "type": "영화",
+    "periodStart": 1000,
+    "periodEnd": 1010,
+    "lanes": [
+      "medieval"
+    ]
+  },
+  {
+    "id": "valhalla-rising-2009",
+    "koTitle": "발할라 라이징",
+    "originalTitle": "Valhalla Rising",
+    "year": 2009,
+    "type": "영화",
+    "periodStart": 1000,
+    "periodEnd": 1100,
+    "lanes": [
+      "medieval"
+    ]
+  },
+  {
+    "id": "vinland-saga-2019",
+    "koTitle": "빈란드 사가",
+    "originalTitle": "Vinland Saga",
+    "year": 2019,
+    "type": "시리즈",
+    "periodStart": 1002,
+    "periodEnd": 1020,
+    "lanes": [
+      "medieval"
+    ]
+  },
+  {
+    "id": "vikings-valhalla-2022",
+    "koTitle": "바이킹스: 발할라",
+    "originalTitle": "Vikings: Valhalla",
+    "year": 2022,
+    "type": "시리즈",
+    "periodStart": 1002,
+    "periodEnd": 1066,
+    "lanes": [
+      "medieval"
+    ],
+    "netflixKr": true,
+    "checkedAt": "2026-10-11"
   },
   {
     "id": "kingdom-of-heaven-2005",

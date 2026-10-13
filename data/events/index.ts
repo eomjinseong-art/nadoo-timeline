@@ -24,6 +24,7 @@ const ALLOWED_ORIGINS = new Set([
   "https://the-chosen-korean.vercel.app",
   "https://philosophy-stories.vercel.app",
   "https://korea-stories.vercel.app",
+  "https://nadoo-samguk.vercel.app",
 ]);
 
 export const events: HistEvent[] = [

@@ -1550,7 +1550,8 @@
 "end": 500,
 "regions": [
 "rome",
-"medieval"
+"medieval",
+"italy"
 ],
 "prots": [
 {
@@ -1595,7 +1596,8 @@
 "end": 476,
 "regions": [
 "medieval",
-"rome"
+"rome",
+"england"
 ],
 "prots": [
 {
@@ -1627,7 +1629,8 @@
 "start": null,
 "end": null,
 "regions": [
-"medieval"
+"medieval",
+"england"
 ],
 "prots": [
 {
@@ -1654,7 +1657,8 @@
 "start": null,
 "end": null,
 "regions": [
-"medieval"
+"medieval",
+"england"
 ],
 "prots": [
 {
@@ -1990,7 +1994,8 @@
 "end": 899,
 "regions": [
 "viking",
-"medieval"
+"medieval",
+"england"
 ],
 "prots": [
 {
@@ -2035,7 +2040,8 @@
 "end": 878,
 "regions": [
 "viking",
-"medieval"
+"medieval",
+"england"
 ],
 "prots": [
 {
@@ -2246,7 +2252,8 @@
 "end": 937,
 "regions": [
 "viking",
-"medieval"
+"medieval",
+"england"
 ],
 "prots": [
 {
@@ -2648,7 +2655,8 @@
 "start": 970,
 "end": 988,
 "regions": [
-"viking"
+"viking",
+"russia"
 ],
 "prots": [
 {
@@ -2681,7 +2689,9 @@
 "end": 1066,
 "regions": [
 "viking",
-"medieval"
+"medieval",
+"england",
+"france"
 ],
 "prots": [
 {
@@ -2730,7 +2740,10 @@
 "end": 1100,
 "regions": [
 "viking",
-"medieval"
+"medieval",
+"france",
+"england",
+"italy"
 ],
 "prots": [
 {
@@ -3038,7 +3051,8 @@
 "end": 1187,
 "regions": [
 "medieval",
-"israel"
+"israel",
+"france"
 ],
 "prots": [
 {
@@ -3073,7 +3087,8 @@
 "start": 1199,
 "end": 1199,
 "regions": [
-"medieval"
+"medieval",
+"england"
 ],
 "prots": [
 {
@@ -3100,7 +3115,8 @@
 "start": 1280,
 "end": 1314,
 "regions": [
-"medieval"
+"medieval",
+"england"
 ],
 "prots": [
 {
@@ -3127,7 +3143,8 @@
 "start": 1304,
 "end": 1307,
 "regions": [
-"medieval"
+"medieval",
+"england"
 ],
 "prots": [
 {
@@ -3154,7 +3171,8 @@
 "start": 1327,
 "end": 1327,
 "regions": [
-"medieval"
+"medieval",
+"italy"
 ],
 "prots": [
 {
@@ -3189,7 +3207,8 @@
 "start": 1370,
 "end": 1386,
 "regions": [
-"medieval"
+"medieval",
+"france"
 ],
 "prots": [
 {
@@ -3232,7 +3251,9 @@
 "start": 1403,
 "end": 1415,
 "regions": [
-"medieval"
+"medieval",
+"england",
+"france"
 ],
 "prots": [
 {
@@ -3259,7 +3280,9 @@
 "start": 1429,
 "end": 1431,
 "regions": [
-"medieval"
+"medieval",
+"france",
+"england"
 ],
 "prots": [
 {
@@ -4336,7 +4359,8 @@
 "start": 1508,
 "end": 1512,
 "regions": [
-"arts"
+"arts",
+"italy"
 ],
 "prots": [
 {
@@ -4376,7 +4400,8 @@
 "start": 1592,
 "end": 1610,
 "regions": [
-"arts"
+"arts",
+"italy"
 ],
 "prots": [
 {
@@ -4408,7 +4433,8 @@
 "start": 1600,
 "end": 1610,
 "regions": [
-"arts"
+"arts",
+"italy"
 ],
 "prots": [
 {
@@ -4520,7 +4546,8 @@
 "start": 1781,
 "end": 1791,
 "regions": [
-"arts"
+"arts",
+"germany"
 ],
 "prots": [
 {
@@ -4560,7 +4587,8 @@
 "start": 1792,
 "end": 1808,
 "regions": [
-"arts"
+"arts",
+"spain"
 ],
 "prots": [
 {
@@ -4608,7 +4636,8 @@
 "start": 1800,
 "end": 1827,
 "regions": [
-"arts"
+"arts",
+"germany"
 ],
 "prots": [
 {
@@ -4640,7 +4669,8 @@
 "start": 1824,
 "end": 1824,
 "regions": [
-"arts"
+"arts",
+"germany"
 ],
 "prots": [
 {
@@ -4680,7 +4710,8 @@
 "start": 1826,
 "end": 1851,
 "regions": [
-"arts"
+"arts",
+"england"
 ],
 "prots": [
 {
@@ -5570,7 +5601,8 @@
 "regions": [
 "rome",
 "byzantium",
-"germanic"
+"germanic",
+"italy"
 ],
 "prots": [
 {
@@ -5768,7 +5800,8 @@
 "end": 1614,
 "regions": [
 "greece",
-"arts"
+"arts",
+"spain"
 ],
 "prots": [
 {
@@ -5810,6 +5843,2001 @@
 ],
 "loose": false,
 "note": "1821년 그리스 독립전쟁.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "charlemagne-1993",
+"ko": "샤를마뉴",
+"en": "Charlemagne, le prince à cheval",
+"year": 1993,
+"kind": "시리즈",
+"start": 768,
+"end": 814,
+"regions": [
+"france",
+"germany",
+"germanic"
+],
+"prots": [
+{
+"ko": "카롤루스 대제",
+"en": "Charlemagne",
+"badge": "R",
+"note": "프랑크 왕(768–814년), 800년 황제 대관.",
+"href": "https://germanic-stories.vercel.app/people/charlemagne",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "alexander-nevsky-1938",
+"ko": "알렉산드르 넵스키",
+"en": "Alexander Nevsky",
+"year": 1938,
+"kind": "영화",
+"start": 1242,
+"end": 1242,
+"regions": [
+"russia"
+],
+"prots": [
+{
+"ko": "알렉산드르 넵스키",
+"en": "Alexander Nevsky",
+"badge": "B",
+"note": "노브고로드 공. 1242년 페이푸스 호수 전투. 1938년 소련 선전 영화로 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "el-cid-1961",
+"ko": "엘 시드",
+"en": "El Cid",
+"year": 1961,
+"kind": "영화",
+"start": 1063,
+"end": 1099,
+"regions": [
+"spain"
+],
+"prots": [
+{
+"ko": "로드리고 디아스 데 비바르",
+"en": "El Cid",
+"badge": "B",
+"note": "실존 카스티야 기사(1043년경–1099년). 죽은 뒤 말에 묶여 싸웠다는 장면은 전해지는 이야기.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "arn-the-knight-templar-2007",
+"ko": "아른: 템플 기사단",
+"en": "Arn: The Knight Templar",
+"year": 2007,
+"kind": "영화",
+"start": 1150,
+"end": 1187,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "아른 마그누손",
+"en": "Arn Magnusson",
+"badge": "F",
+"note": "얀 기유 소설의 가상 스웨덴 기사.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "살라딘",
+"en": "Saladin",
+"badge": "R",
+"note": "아이유브 술탄.",
+"href": "/events/saladin",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "ironclad-2011",
+"ko": "아이언클래드",
+"en": "Ironclad",
+"year": 2011,
+"kind": "영화",
+"start": 1215,
+"end": 1215,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "토머스 마셜",
+"en": "Thomas Marshal",
+"badge": "F",
+"note": "가상 템플 기사.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "존 왕",
+"en": "King John",
+"badge": "B",
+"note": "실존 잉글랜드 왕(1199–1216년). 1215년 로체스터 포위는 실제.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-passion-of-joan-of-arc-1928",
+"ko": "잔 다르크의 수난",
+"en": "La Passion de Jeanne d'Arc",
+"year": 1928,
+"kind": "영화",
+"start": 1431,
+"end": 1431,
+"regions": [
+"france"
+],
+"prots": [
+{
+"ko": "잔 다르크",
+"en": "Joan of Arc",
+"badge": "R",
+"note": "1431년 루앙 재판과 화형. 재판 기록을 바탕으로 했습니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "joan-of-arc-1948",
+"ko": "잔 다르크",
+"en": "Joan of Arc",
+"year": 1948,
+"kind": "영화",
+"start": 1428,
+"end": 1431,
+"regions": [
+"france",
+"england"
+],
+"prots": [
+{
+"ko": "잔 다르크",
+"en": "Joan of Arc",
+"badge": "R",
+"note": "오를레앙 해방(1429)부터 화형(1431)까지.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "henry-v-1989",
+"ko": "헨리 5세",
+"en": "Henry V",
+"year": 1989,
+"kind": "영화",
+"start": 1414,
+"end": 1420,
+"regions": [
+"england",
+"france"
+],
+"prots": [
+{
+"ko": "헨리 5세",
+"en": "Henry V",
+"badge": "B",
+"note": "실존 잉글랜드 왕. 셰익스피어 희곡 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "richard-iii-1955",
+"ko": "리처드 3세",
+"en": "Richard III",
+"year": 1955,
+"kind": "영화",
+"start": 1471,
+"end": 1485,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "리처드 3세",
+"en": "Richard III",
+"badge": "B",
+"note": "실존 왕(1483–1485년). 셰익스피어가 그린 악당 모습은 튜더 쪽 시각.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-white-queen-2013",
+"ko": "화이트 퀸",
+"en": "The White Queen",
+"year": 2013,
+"kind": "시리즈",
+"start": 1464,
+"end": 1485,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "엘리자베스 우드빌",
+"en": "Elizabeth Woodville",
+"badge": "R",
+"note": "에드워드 4세의 왕비.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "마거릿 보퍼트",
+"en": "Margaret Beaufort",
+"badge": "R",
+"note": "헨리 7세의 어머니.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "장미전쟁. 소설 각색이라 마법 등 창작이 섞입니다.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "1492-conquest-of-paradise-1992",
+"ko": "1492 콜럼버스",
+"en": "1492: Conquest of Paradise",
+"year": 1992,
+"kind": "영화",
+"start": 1491,
+"end": 1504,
+"regions": [
+"spain"
+],
+"prots": [
+{
+"ko": "크리스토퍼 콜럼버스",
+"en": "Christopher Columbus",
+"badge": "B",
+"note": "실존 항해가. 영화는 영웅적으로 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-borgias-2011",
+"ko": "보르지아",
+"en": "The Borgias",
+"year": 2011,
+"kind": "시리즈",
+"start": 1492,
+"end": 1503,
+"regions": [
+"italy"
+],
+"prots": [
+{
+"ko": "로드리고 보르자 (알렉산데르 6세)",
+"en": "Pope Alexander VI",
+"badge": "B",
+"note": "실존 교황(1492–1503년).",
+"href": null,
+"unsure": false
+},
+{
+"ko": "체사레 보르자",
+"en": "Cesare Borgia",
+"badge": "B",
+"note": "실존 인물. 드라마 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "medici-masters-of-florence-2016",
+"ko": "메디치",
+"en": "Medici: Masters of Florence",
+"year": 2016,
+"kind": "시리즈",
+"start": 1429,
+"end": 1434,
+"regions": [
+"italy"
+],
+"prots": [
+{
+"ko": "코시모 데 메디치",
+"en": "Cosimo de' Medici",
+"badge": "B",
+"note": "실존 피렌체 은행가. 아버지 독살 미스터리는 창작.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "시즌 1 기준. 뒤 시즌은 로렌초 시대.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "luther-2003",
+"ko": "루터",
+"en": "Luther",
+"year": 2003,
+"kind": "영화",
+"start": 1505,
+"end": 1530,
+"regions": [
+"germany"
+],
+"prots": [
+{
+"ko": "마르틴 루터",
+"en": "Martin Luther",
+"badge": "R",
+"note": "종교개혁가(1483–1546년).",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-tudors-2007",
+"ko": "튜더스",
+"en": "The Tudors",
+"year": 2007,
+"kind": "시리즈",
+"start": 1518,
+"end": 1547,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "헨리 8세",
+"en": "Henry VIII",
+"badge": "B",
+"note": "실존 왕(1509–1547년). 외모·연대 압축 등 각색이 많습니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "a-man-for-all-seasons-1966",
+"ko": "사계절의 사나이",
+"en": "A Man for All Seasons",
+"year": 1966,
+"kind": "영화",
+"start": 1529,
+"end": 1535,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "토머스 모어",
+"en": "Thomas More",
+"badge": "R",
+"note": "대법관. 1535년 처형.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "wolf-hall-2015",
+"ko": "울프 홀",
+"en": "Wolf Hall",
+"year": 2015,
+"kind": "시리즈",
+"start": 1527,
+"end": 1536,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "토머스 크롬웰",
+"en": "Thomas Cromwell",
+"badge": "B",
+"note": "실존 헨리 8세의 신하. 힐러리 맨틀 소설의 내면 묘사는 창작.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "ivan-the-terrible-1944",
+"ko": "이반 뇌제",
+"en": "Ivan the Terrible",
+"year": 1944,
+"kind": "영화",
+"start": 1547,
+"end": 1569,
+"regions": [
+"russia"
+],
+"prots": [
+{
+"ko": "이반 4세",
+"en": "Ivan IV",
+"badge": "B",
+"note": "실존 차르(1547년 대관). 에이젠시테인의 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "la-reine-margot-1994",
+"ko": "여왕 마고",
+"en": "La Reine Margot",
+"year": 1994,
+"kind": "영화",
+"start": 1572,
+"end": 1574,
+"regions": [
+"france"
+],
+"prots": [
+{
+"ko": "마르그리트 드 발루아",
+"en": "Marguerite de Valois",
+"badge": "B",
+"note": "실존 왕녀. 뒤마 소설 각색.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "라 몰",
+"en": "La Môle",
+"badge": "B",
+"note": "실존 귀족(1574년 처형). 연애는 소설.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "1572년 성 바르톨로메오 학살.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "elizabeth-1998",
+"ko": "엘리자베스",
+"en": "Elizabeth",
+"year": 1998,
+"kind": "영화",
+"start": 1554,
+"end": 1563,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "엘리자베스 1세",
+"en": "Elizabeth I",
+"badge": "B",
+"note": "실존 여왕. 연대와 인물 운명이 많이 바뀌었습니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "mary-queen-of-scots-2018",
+"ko": "메리, 퀸 오브 스코틀랜드",
+"en": "Mary Queen of Scots",
+"year": 2018,
+"kind": "영화",
+"start": 1561,
+"end": 1587,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "메리 스튜어트",
+"en": "Mary, Queen of Scots",
+"badge": "B",
+"note": "실존 여왕. 엘리자베스와의 대면은 창작(두 사람은 만난 적 없음).",
+"href": null,
+"unsure": false
+},
+{
+"ko": "엘리자베스 1세",
+"en": "Elizabeth I",
+"badge": "R",
+"note": "잉글랜드 여왕.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "elizabeth-the-golden-age-2007",
+"ko": "골든 에이지",
+"en": "Elizabeth: The Golden Age",
+"year": 2007,
+"kind": "영화",
+"start": 1585,
+"end": 1588,
+"regions": [
+"england",
+"spain"
+],
+"prots": [
+{
+"ko": "엘리자베스 1세",
+"en": "Elizabeth I",
+"badge": "B",
+"note": "실존 여왕. 롤리와의 관계 등은 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "1588년 스페인 무적함대.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "alatriste-2006",
+"ko": "알라트리스테",
+"en": "Alatriste",
+"year": 2006,
+"kind": "영화",
+"start": 1622,
+"end": 1643,
+"regions": [
+"spain"
+],
+"prots": [
+{
+"ko": "디에고 알라트리스테",
+"en": "Diego Alatriste",
+"badge": "F",
+"note": "아르투로 페레스레베르테 소설의 가상 병사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "30년 전쟁기 스페인. 1643년 로크루아로 끝납니다.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-last-valley-1971",
+"ko": "라스트 밸리",
+"en": "The Last Valley",
+"year": 1971,
+"kind": "영화",
+"start": 1632,
+"end": 1633,
+"regions": [
+"germany"
+],
+"prots": [
+{
+"ko": "대위",
+"en": "The Captain",
+"badge": "F",
+"note": "가상 용병대장.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "포겔",
+"en": "Vogel",
+"badge": "F",
+"note": "가상 떠돌이.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "30년 전쟁. 해는 대략.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "cromwell-1970",
+"ko": "크롬웰",
+"en": "Cromwell",
+"year": 1970,
+"kind": "영화",
+"start": 1640,
+"end": 1653,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "올리버 크롬웰",
+"en": "Oliver Cromwell",
+"badge": "B",
+"note": "실존 의회파 지도자. 사건 순서·역할 각색이 많습니다.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "찰스 1세",
+"en": "Charles I",
+"badge": "R",
+"note": "1649년 처형된 왕.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "to-kill-a-king-2003",
+"ko": "투 킬 어 킹",
+"en": "To Kill a King",
+"year": 2003,
+"kind": "영화",
+"start": 1645,
+"end": 1649,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "토머스 페어팩스",
+"en": "Thomas Fairfax",
+"badge": "R",
+"note": "의회군 총사령관.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "올리버 크롬웰",
+"en": "Oliver Cromwell",
+"badge": "R",
+"note": "의회파 지도자.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "barry-lyndon-1975",
+"ko": "배리 린든",
+"en": "Barry Lyndon",
+"year": 1975,
+"kind": "영화",
+"start": 1750,
+"end": 1789,
+"regions": [
+"england",
+"germany"
+],
+"prots": [
+{
+"ko": "레드먼드 배리",
+"en": "Redmond Barry",
+"badge": "F",
+"note": "새커리 소설의 가상 아일랜드인.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "7년 전쟁(1756–1763) 장면.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-great-2020",
+"ko": "더 그레이트",
+"en": "The Great",
+"year": 2020,
+"kind": "시리즈",
+"start": 1762,
+"end": 1764,
+"regions": [
+"russia"
+],
+"prots": [
+{
+"ko": "예카테리나 2세",
+"en": "Catherine the Great",
+"badge": "B",
+"note": "실존 여제. 제작진이 ‘가끔 사실’이라고 밝힌 풍자극.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "catherine-the-great-2019",
+"ko": "캐서린 더 그레이트",
+"en": "Catherine the Great",
+"year": 2019,
+"kind": "시리즈",
+"start": 1764,
+"end": 1796,
+"regions": [
+"russia"
+],
+"prots": [
+{
+"ko": "예카테리나 2세",
+"en": "Catherine the Great",
+"badge": "R",
+"note": "러시아 여제(1762–1796년).",
+"href": null,
+"unsure": false
+},
+{
+"ko": "그리고리 포툠킨",
+"en": "Grigory Potemkin",
+"badge": "R",
+"note": "총신·장군.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "marie-antoinette-2006",
+"ko": "마리 앙투아네트",
+"en": "Marie Antoinette",
+"year": 2006,
+"kind": "영화",
+"start": 1770,
+"end": 1789,
+"regions": [
+"france"
+],
+"prots": [
+{
+"ko": "마리 앙투아네트",
+"en": "Marie Antoinette",
+"badge": "B",
+"note": "실존 왕비. 현대 음악·연출로 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "napoleon-2023",
+"ko": "나폴레옹",
+"en": "Napoleon",
+"year": 2023,
+"kind": "영화",
+"start": 1793,
+"end": 1821,
+"regions": [
+"france",
+"russia",
+"england"
+],
+"prots": [
+{
+"ko": "나폴레옹 보나파르트",
+"en": "Napoleon Bonaparte",
+"badge": "B",
+"note": "실존 황제. 피라미드 포격 등 사실과 다른 장면이 많습니다.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "조제핀",
+"en": "Joséphine",
+"badge": "R",
+"note": "첫 황후.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "austerlitz-1960",
+"ko": "아우스터리츠",
+"en": "Austerlitz",
+"year": 1960,
+"kind": "영화",
+"start": 1805,
+"end": 1805,
+"regions": [
+"france",
+"russia",
+"germany"
+],
+"prots": [
+{
+"ko": "나폴레옹 보나파르트",
+"en": "Napoleon Bonaparte",
+"badge": "R",
+"note": "1805년 아우스터리츠의 승자.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "master-and-commander-2003",
+"ko": "마스터 앤드 커맨더",
+"en": "Master and Commander: The Far Side of the World",
+"year": 2003,
+"kind": "영화",
+"start": 1805,
+"end": 1805,
+"regions": [
+"england",
+"france"
+],
+"prots": [
+{
+"ko": "잭 오브리",
+"en": "Jack Aubrey",
+"badge": "F",
+"note": "패트릭 오브라이언 소설의 가상 함장. 실존 함장 토머스 코크런에서 일부 착안.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "war-and-peace-1966",
+"ko": "전쟁과 평화",
+"en": "War and Peace",
+"year": 1966,
+"kind": "영화",
+"start": 1805,
+"end": 1812,
+"regions": [
+"russia",
+"france"
+],
+"prots": [
+{
+"ko": "피에르 베주호프",
+"en": "Pierre Bezukhov",
+"badge": "F",
+"note": "톨스토이 소설의 가상 인물.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "나타샤 로스토바",
+"en": "Natasha Rostova",
+"badge": "F",
+"note": "가상 인물.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "쿠투조프",
+"en": "Mikhail Kutuzov",
+"badge": "R",
+"note": "러시아 총사령관.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "본다르추크 4부작.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "war-and-peace-2016",
+"ko": "전쟁과 평화",
+"en": "War & Peace",
+"year": 2016,
+"kind": "시리즈",
+"start": 1805,
+"end": 1812,
+"regions": [
+"russia",
+"france"
+],
+"prots": [
+{
+"ko": "피에르 베주호프",
+"en": "Pierre Bezukhov",
+"badge": "F",
+"note": "가상 인물.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "나타샤 로스토바",
+"en": "Natasha Rostova",
+"badge": "F",
+"note": "가상 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "BBC 6부작.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "sharpe-1993",
+"ko": "샤프",
+"en": "Sharpe",
+"year": 1993,
+"kind": "시리즈",
+"start": 1809,
+"end": 1815,
+"regions": [
+"england",
+"spain",
+"france"
+],
+"prots": [
+{
+"ko": "리처드 샤프",
+"en": "Richard Sharpe",
+"badge": "F",
+"note": "버나드 콘웰 소설의 가상 장교.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "waterloo-1970",
+"ko": "워털루",
+"en": "Waterloo",
+"year": 1970,
+"kind": "영화",
+"start": 1815,
+"end": 1815,
+"regions": [
+"france",
+"england"
+],
+"prots": [
+{
+"ko": "나폴레옹 보나파르트",
+"en": "Napoleon Bonaparte",
+"badge": "R",
+"note": "엘바 탈출부터 워털루까지.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "웰링턴 공작",
+"en": "Duke of Wellington",
+"badge": "R",
+"note": "연합군 사령관.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-charge-of-the-light-brigade-1968",
+"ko": "경기병 여단의 돌격",
+"en": "The Charge of the Light Brigade",
+"year": 1968,
+"kind": "영화",
+"start": 1854,
+"end": 1854,
+"regions": [
+"england",
+"russia"
+],
+"prots": [
+{
+"ko": "놀런 대위",
+"en": "Captain Nolan",
+"badge": "B",
+"note": "실존 장교. 돌격 명령을 전하다 전사.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "카디건 백작",
+"en": "Lord Cardigan",
+"badge": "R",
+"note": "경기병 여단장.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "크림 전쟁 발라클라바.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-leopard-1963",
+"ko": "레오파드",
+"en": "Il Gattopardo",
+"year": 1963,
+"kind": "영화",
+"start": 1860,
+"end": 1862,
+"regions": [
+"italy"
+],
+"prots": [
+{
+"ko": "살리나 공작",
+"en": "Prince of Salina",
+"badge": "B",
+"note": "소설의 인물. 작가의 증조부에서 착안.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "이탈리아 통일기 시칠리아.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "all-quiet-on-the-western-front-1930",
+"ko": "서부 전선 이상 없다",
+"en": "All Quiet on the Western Front",
+"year": 1930,
+"kind": "영화",
+"start": 1914,
+"end": 1918,
+"regions": [
+"germany",
+"france"
+],
+"prots": [
+{
+"ko": "파울 보이머",
+"en": "Paul Bäumer",
+"badge": "F",
+"note": "레마르크 소설의 가상 병사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "joyeux-noel-2005",
+"ko": "메리 크리스마스",
+"en": "Joyeux Noël",
+"year": 2005,
+"kind": "영화",
+"start": 1914,
+"end": 1914,
+"regions": [
+"france",
+"germany",
+"england"
+],
+"prots": [
+{
+"ko": "니콜라우스 슈프링크",
+"en": "Nikolaus Sprink",
+"badge": "F",
+"note": "가상 테너 병사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "1914년 크리스마스 휴전(실제 사건).",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "gallipoli-1981",
+"ko": "갈리폴리",
+"en": "Gallipoli",
+"year": 1981,
+"kind": "영화",
+"start": 1915,
+"end": 1915,
+"regions": [
+"byzantium",
+"england"
+],
+"prots": [
+{
+"ko": "아치 해밀턴",
+"en": "Archy Hamilton",
+"badge": "F",
+"note": "가상 호주 병사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "paths-of-glory-1957",
+"ko": "영광의 길",
+"en": "Paths of Glory",
+"year": 1957,
+"kind": "영화",
+"start": 1916,
+"end": 1916,
+"regions": [
+"france"
+],
+"prots": [
+{
+"ko": "닥스 대령",
+"en": "Colonel Dax",
+"badge": "F",
+"note": "가상 장교. 1915년 프랑스 군 처형 사건에서 착안.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "lawrence-of-arabia-1962",
+"ko": "아라비아의 로렌스",
+"en": "Lawrence of Arabia",
+"year": 1962,
+"kind": "영화",
+"start": 1916,
+"end": 1918,
+"regions": [
+"england",
+"byzantium"
+],
+"prots": [
+{
+"ko": "T. E. 로렌스",
+"en": "T. E. Lawrence",
+"badge": "B",
+"note": "실존 영국 장교. 성격·사건 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "war-horse-2011",
+"ko": "워 호스",
+"en": "War Horse",
+"year": 2011,
+"kind": "영화",
+"start": 1912,
+"end": 1918,
+"regions": [
+"england",
+"france"
+],
+"prots": [
+{
+"ko": "앨버트 내러콧",
+"en": "Albert Narracott",
+"badge": "F",
+"note": "소설의 가상 소년.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "1917-2019",
+"ko": "1917",
+"en": "1917",
+"year": 2019,
+"kind": "영화",
+"start": 1917,
+"end": 1917,
+"regions": [
+"england",
+"france"
+],
+"prots": [
+{
+"ko": "스코필드",
+"en": "Schofield",
+"badge": "F",
+"note": "가상 병사. 감독 할아버지의 이야기에서 착안.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "블레이크",
+"en": "Blake",
+"badge": "F",
+"note": "가상 병사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "1917년 4월 6일 하루.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "all-quiet-on-the-western-front-2022",
+"ko": "서부 전선 이상 없다",
+"en": "All Quiet on the Western Front",
+"year": 2022,
+"kind": "영화",
+"start": 1917,
+"end": 1918,
+"regions": [
+"germany",
+"france"
+],
+"prots": [
+{
+"ko": "파울 보이머",
+"en": "Paul Bäumer",
+"badge": "F",
+"note": "가상 병사.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "마티아스 에르츠베르거",
+"en": "Matthias Erzberger",
+"badge": "R",
+"note": "휴전 협상 대표. 소설에 없던 실존 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "they-shall-not-grow-old-2018",
+"ko": "그들은 늙지 않는다",
+"en": "They Shall Not Grow Old",
+"year": 2018,
+"kind": "다큐",
+"start": 1914,
+"end": 1918,
+"regions": [
+"england",
+"france"
+],
+"prots": [],
+"loose": false,
+"note": "피터 잭슨이 복원한 실제 기록 영상.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-imitation-game-2014",
+"ko": "이미테이션 게임",
+"en": "The Imitation Game",
+"year": 2014,
+"kind": "영화",
+"start": 1939,
+"end": 1945,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "앨런 튜링",
+"en": "Alan Turing",
+"badge": "B",
+"note": "실존 수학자. 블레츨리 파크 묘사는 많이 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "1951–1952년 장면도 있습니다.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "schindlers-list-1993",
+"ko": "쉰들러 리스트",
+"en": "Schindler's List",
+"year": 1993,
+"kind": "영화",
+"start": 1939,
+"end": 1945,
+"regions": [
+"germany"
+],
+"prots": [
+{
+"ko": "오스카 쉰들러",
+"en": "Oskar Schindler",
+"badge": "R",
+"note": "유대인 1,100여 명을 구한 독일 사업가.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "아몬 괴트",
+"en": "Amon Göth",
+"badge": "R",
+"note": "프와쇼프 수용소장.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-pianist-2002",
+"ko": "피아니스트",
+"en": "The Pianist",
+"year": 2002,
+"kind": "영화",
+"start": 1939,
+"end": 1945,
+"regions": [
+"germany"
+],
+"prots": [
+{
+"ko": "브와디스와프 슈필만",
+"en": "Władysław Szpilman",
+"badge": "R",
+"note": "폴란드 피아니스트. 자서전 바탕.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "das-boot-1981",
+"ko": "특전 U보트",
+"en": "Das Boot",
+"year": 1981,
+"kind": "영화",
+"start": 1941,
+"end": 1941,
+"regions": [
+"germany"
+],
+"prots": [
+{
+"ko": "함장",
+"en": "Der Alte",
+"badge": "B",
+"note": "실존 U-96 함장 하인리히 레만빌렌브로크에서 착안한 인물.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "darkest-hour-2017",
+"ko": "다키스트 아워",
+"en": "Darkest Hour",
+"year": 2017,
+"kind": "영화",
+"start": 1940,
+"end": 1940,
+"regions": [
+"england"
+],
+"prots": [
+{
+"ko": "윈스턴 처칠",
+"en": "Winston Churchill",
+"badge": "B",
+"note": "실존 총리. 지하철 장면은 창작.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "dunkirk-2017",
+"ko": "덩케르크",
+"en": "Dunkirk",
+"year": 2017,
+"kind": "영화",
+"start": 1940,
+"end": 1940,
+"regions": [
+"england",
+"france"
+],
+"prots": [
+{
+"ko": "토미",
+"en": "Tommy",
+"badge": "F",
+"note": "가상 병사.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "도슨",
+"en": "Mr. Dawson",
+"badge": "F",
+"note": "가상 민간 선주.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "enemy-at-the-gates-2001",
+"ko": "에너미 앳 더 게이트",
+"en": "Enemy at the Gates",
+"year": 2001,
+"kind": "영화",
+"start": 1942,
+"end": 1943,
+"regions": [
+"russia",
+"germany"
+],
+"prots": [
+{
+"ko": "바실리 자이체프",
+"en": "Vasily Zaitsev",
+"badge": "B",
+"note": "실존 소련 저격수. 쾨니히 소령과의 대결은 확인되지 않음.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "stalingrad-1993",
+"ko": "스탈린그라드",
+"en": "Stalingrad",
+"year": 1993,
+"kind": "영화",
+"start": 1942,
+"end": 1943,
+"regions": [
+"germany",
+"russia"
+],
+"prots": [
+{
+"ko": "한스 폰 비츨란트",
+"en": "Hans von Witzland",
+"badge": "F",
+"note": "가상 독일 장교.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "come-and-see-1985",
+"ko": "컴 앤 씨",
+"en": "Come and See",
+"year": 1985,
+"kind": "영화",
+"start": 1943,
+"end": 1943,
+"regions": [
+"russia",
+"germany"
+],
+"prots": [
+{
+"ko": "플료라",
+"en": "Flyora",
+"badge": "F",
+"note": "가상 벨라루스 소년. 실제 학살 증언 바탕.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "valkyrie-2008",
+"ko": "작전명 발키리",
+"en": "Valkyrie",
+"year": 2008,
+"kind": "영화",
+"start": 1943,
+"end": 1944,
+"regions": [
+"germany"
+],
+"prots": [
+{
+"ko": "슈타우펜베르크",
+"en": "Claus von Stauffenberg",
+"badge": "R",
+"note": "1944년 7월 20일 히틀러 암살 시도.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-longest-day-1962",
+"ko": "지상 최대의 작전",
+"en": "The Longest Day",
+"year": 1962,
+"kind": "영화",
+"start": 1944,
+"end": 1944,
+"regions": [
+"france",
+"england",
+"germany"
+],
+"prots": [
+{
+"ko": "여러 실존 지휘관",
+"en": "Ensemble",
+"badge": "R",
+"note": "노르망디 상륙 당일을 여러 실존 인물로 그립니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "saving-private-ryan-1998",
+"ko": "라이언 일병 구하기",
+"en": "Saving Private Ryan",
+"year": 1998,
+"kind": "영화",
+"start": 1944,
+"end": 1944,
+"regions": [
+"france",
+"england"
+],
+"prots": [
+{
+"ko": "존 밀러 대위",
+"en": "Captain Miller",
+"badge": "F",
+"note": "가상 장교.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "제임스 라이언",
+"en": "James Ryan",
+"badge": "F",
+"note": "가상 병사. 닐랜드 형제 이야기에서 착안.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "a-bridge-too-far-1977",
+"ko": "머나먼 다리",
+"en": "A Bridge Too Far",
+"year": 1977,
+"kind": "영화",
+"start": 1944,
+"end": 1944,
+"regions": [
+"england",
+"germany"
+],
+"prots": [
+{
+"ko": "여러 실존 지휘관",
+"en": "Ensemble",
+"badge": "R",
+"note": "마켓 가든 작전의 실존 인물들.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "band-of-brothers-2001",
+"ko": "밴드 오브 브라더스",
+"en": "Band of Brothers",
+"year": 2001,
+"kind": "시리즈",
+"start": 1942,
+"end": 1945,
+"regions": [
+"england",
+"france",
+"germany"
+],
+"prots": [
+{
+"ko": "리처드 윈터스",
+"en": "Richard Winters",
+"badge": "R",
+"note": "이지 중대 지휘관. 실존 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "fury-2014",
+"ko": "퓨리",
+"en": "Fury",
+"year": 2014,
+"kind": "영화",
+"start": 1945,
+"end": 1945,
+"regions": [
+"germany"
+],
+"prots": [
+{
+"ko": "돈 콜리어",
+"en": "Don Collier",
+"badge": "F",
+"note": "가상 전차장.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "inglourious-basterds-2009",
+"ko": "바스터즈: 거친 녀석들",
+"en": "Inglourious Basterds",
+"year": 2009,
+"kind": "영화",
+"start": 1941,
+"end": 1944,
+"regions": [
+"france",
+"germany"
+],
+"prots": [
+{
+"ko": "알도 레인",
+"en": "Aldo Raine",
+"badge": "F",
+"note": "가상 장교.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "쇼샤나",
+"en": "Shosanna",
+"badge": "F",
+"note": "가상 인물. 결말은 역사와 다른 창작.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "downfall-2004",
+"ko": "몰락: 히틀러와 제3제국의 종말",
+"en": "Der Untergang",
+"year": 2004,
+"kind": "영화",
+"start": 1945,
+"end": 1945,
+"regions": [
+"germany"
+],
+"prots": [
+{
+"ko": "트라우들 융게",
+"en": "Traudl Junge",
+"badge": "R",
+"note": "히틀러의 비서. 증언 바탕.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "아돌프 히틀러",
+"en": "Adolf Hitler",
+"badge": "R",
+"note": "1945년 4월 벙커.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "life-is-beautiful-1997",
+"ko": "인생은 아름다워",
+"en": "La vita è bella",
+"year": 1997,
+"kind": "영화",
+"start": 1939,
+"end": 1945,
+"regions": [
+"italy",
+"germany"
+],
+"prots": [
+{
+"ko": "귀도",
+"en": "Guido",
+"badge": "F",
+"note": "가상 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
 "sisters": [],
 "checklist": null,
 "inTimeline": false

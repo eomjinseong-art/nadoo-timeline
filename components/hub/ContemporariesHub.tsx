@@ -13,12 +13,19 @@ const COLS = [
   { id: "israel", ko: "이스라엘", en: "Israel" },
   { id: "germanic", ko: "게르만", en: "Germanic" },
   { id: "viking", ko: "바이킹·잉글랜드", en: "Vikings" },
-  { id: "medieval", ko: "중세 유럽", en: "Medieval" },
+  { id: "byzantium", ko: "비잔티움·오스만", en: "Byzantium/Ottoman" },
+  { id: "france", ko: "프랑스", en: "France" },
+  { id: "england", ko: "영국", en: "England/UK" },
+  { id: "germany", ko: "독일·신성로마", en: "Germany/HRE" },
+  { id: "spain", ko: "스페인", en: "Spain" },
+  { id: "italy", ko: "이탈리아", en: "Italy" },
+  { id: "russia", ko: "러시아", en: "Russia" },
+  { id: "medieval", ko: "중세 유럽·십자군", en: "Medieval" },
   { id: "china", ko: "중국", en: "China" },
   { id: "korea", ko: "한국", en: "Korea" },
   { id: "arts", ko: "예술가", en: "Artists" },
 ];
-const CORE = new Set(["rome", "greece", "egypt", "persia", "germanic", "viking", "korea"]);
+const CORE = new Set(["korea"]);
 
 const PRESETS: { ko: string; from: number; to: number }[] = [
   { ko: "람세스 2세 시대", from: -1279, to: -1213 },
@@ -37,7 +44,18 @@ const PRESETS: { ko: string; from: number; to: number }[] = [
   { ko: "알프레드와 데인", from: 865, to: 899 },
   { ko: "1066년", from: 1066, to: 1066 },
   { ko: "세종 시대", from: 1418, to: 1450 },
+  { ko: "카롤루스 대관", from: 800, to: 800 },
+  { ko: "살라딘과 십자군", from: 1187, to: 1192 },
+  { ko: "백년전쟁 아쟁쿠르", from: 1415, to: 1415 },
+  { ko: "1453 콘스탄티노폴리스", from: 1453, to: 1453 },
+  { ko: "1492 그라나다", from: 1492, to: 1492 },
   { ko: "임진왜란", from: 1592, to: 1598 },
+  { ko: "무적함대 1588", from: 1588, to: 1588 },
+  { ko: "30년 전쟁", from: 1618, to: 1648 },
+  { ko: "잉글랜드 내전", from: 1642, to: 1651 },
+  { ko: "나폴레옹 전쟁", from: 1805, to: 1815 },
+  { ko: "1차 대전", from: 1914, to: 1918 },
+  { ko: "2차 대전", from: 1939, to: 1945 },
 ];
 
 const overlap = (a: number, b: number, from: number, to: number) => a <= to && b >= from;

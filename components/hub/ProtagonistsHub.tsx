@@ -4,18 +4,21 @@ import { useState } from "react";
 import Link from "next/link";
 import { BadgeChip, Unsure } from "@/components/hub/Badge";
 import { Ext } from "@/components/hub/HubNav";
-import { BADGES, filmsChrono, REGIONS, span, type Badge } from "@/lib/hub/data";
+import { BADGES, ERAS, filmsChrono, REGIONS, span, type Badge } from "@/lib/hub/data";
 
 const films = filmsChrono().filter((f) => f.prots.length > 0);
 
 export function ProtagonistsHub() {
   const [badge, setBadge] = useState<Badge | "all" | "unsure">("all");
   const [region, setRegion] = useState("all");
+  const [era, setEra] = useState("all");
+  const er = ERAS.find((e) => e.id === era);
   const chip = (on: boolean) =>
     `rounded-full border px-3 py-1 text-xs ${on ? "border-terra bg-terra/10 text-terra" : "border-line text-muted hover:text-ink"}`;
   const keep = (b: Badge, u: boolean) => badge === "all" || (badge === "unsure" ? u : b === badge);
   const list = films
     .filter((f) => region === "all" || f.regions.includes(region))
+    .filter((f) => !er || (f.start !== null && f.start <= er.to && (f.end ?? f.start) >= er.from))
     .map((f) => ({ f, ps: f.prots.filter((p) => keep(p.badge, p.unsure)) }))
     .filter((x) => x.ps.length > 0);
 
@@ -44,7 +47,18 @@ export function ProtagonistsHub() {
           </button>
         ))}
       </div>
-      <ol className="mt-6 space-y-4">
+      <div className="mt-2 flex flex-wrap gap-2" role="group" aria-label="시대 Era">
+        <button type="button" className={chip(era === "all")} onClick={() => setEra("all")}>
+          모든 시대
+        </button>
+        {ERAS.map((e) => (
+          <button key={e.id} type="button" className={chip(era === e.id)} onClick={() => setEra(e.id)}>
+            {e.ko}
+          </button>
+        ))}
+      </div>
+      <p className="mt-3 text-xs text-muted">{list.length}편</p>
+      <ol className="mt-3 space-y-4">
         {list.map(({ f, ps }) => (
           <li key={f.id} id={f.id} className="scroll-mt-40 rounded-md border border-line bg-card p-4">
             <h2 className="font-serif text-lg text-ink">

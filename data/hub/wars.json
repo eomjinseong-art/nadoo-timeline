@@ -1096,7 +1096,7 @@
 "en": "Battle of Tours",
 "start": 732,
 "end": 732,
-"region": "germanic",
+"region": "france",
 "sideA": [
 "프랑크",
 "카롤루스 마르텔"
@@ -1274,7 +1274,7 @@
 "en": "Battle of Hastings",
 "start": 1066,
 "end": 1066,
-"region": "medieval",
+"region": "england",
 "sideA": [
 "노르만",
 "정복왕 윌리엄"
@@ -1335,7 +1335,7 @@
 "en": "Battle of Stirling Bridge",
 "start": 1297,
 "end": 1297,
-"region": "medieval",
+"region": "england",
 "sideA": [
 "스코틀랜드",
 "윌리엄 월리스·앤드루 머리"
@@ -1363,7 +1363,7 @@
 "en": "Battle of Loudoun Hill",
 "start": 1307,
 "end": 1307,
-"region": "medieval",
+"region": "england",
 "sideA": [
 "스코틀랜드",
 "로버트 브루스"
@@ -1386,7 +1386,7 @@
 "en": "Battle of Bannockburn",
 "start": 1314,
 "end": 1314,
-"region": "medieval",
+"region": "england",
 "sideA": [
 "스코틀랜드",
 "로버트 브루스"
@@ -1414,7 +1414,7 @@
 "en": "Battle of Agincourt",
 "start": 1415,
 "end": 1415,
-"region": "medieval",
+"region": "france",
 "sideA": [
 "잉글랜드",
 "헨리 5세"
@@ -1442,7 +1442,7 @@
 "en": "Siege of Orléans",
 "start": 1428,
 "end": 1429,
-"region": "medieval",
+"region": "france",
 "sideA": [
 "프랑스",
 "잔 다르크·뒤누아"
@@ -1740,7 +1740,7 @@
 "en": "Fall of Constantinople",
 "start": 1453,
 "end": 1453,
-"region": "rome",
+"region": "byzantium",
 "sideA": [
 "오스만",
 "메흐메드 2세"
@@ -1761,6 +1761,662 @@
 "/events/fall-of-constantinople"
 ]
 ],
+"note": "",
+"circa": false
+},
+{
+"id": "siege-of-jerusalem-1099",
+"ko": "예루살렘 공방전 (1차 십자군)",
+"en": "Siege of Jerusalem",
+"start": 1099,
+"end": 1099,
+"region": "medieval",
+"sideA": [
+"십자군",
+"고드프루아 드 부용·툴루즈의 레몽"
+],
+"sideB": [
+"파티마 왕조 수비대",
+"이프티하르 알다울라"
+],
+"result": "십자군 점령.",
+"films": [],
+"links": [
+[
+"나두연표 사건",
+"/events/first-crusade"
+]
+],
+"note": "",
+"circa": false
+},
+{
+"id": "siege-of-jerusalem-1187",
+"ko": "예루살렘 공방전 (1187)",
+"en": "Siege of Jerusalem",
+"start": 1187,
+"end": 1187,
+"region": "medieval",
+"sideA": [
+"아이유브",
+"살라딘"
+],
+"sideB": [
+"예루살렘 수비대",
+"이벨린의 발리앙"
+],
+"result": "협상 끝에 항복.",
+"films": [
+"kingdom-of-heaven-2005"
+],
+"links": [
+[
+"나두연표 사건",
+"/events/hattin"
+]
+],
+"note": "",
+"circa": false
+},
+{
+"id": "ice-1242",
+"ko": "얼음 위의 전투 (페이푸스 호수)",
+"en": "Battle on the Ice",
+"start": 1242,
+"end": 1242,
+"region": "russia",
+"sideA": [
+"노브고로드",
+"알렉산드르 넵스키"
+],
+"sideB": [
+"리보니아 기사단",
+"지휘관 이름은 기록마다 다름"
+],
+"result": "노브고로드 승리.",
+"films": [
+"alexander-nevsky-1938"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "las-navas",
+"ko": "라스 나바스 데 톨로사 전투",
+"en": "Battle of Las Navas de Tolosa",
+"start": 1212,
+"end": 1212,
+"region": "spain",
+"sideA": [
+"카스티야·아라곤·나바라",
+"알폰소 8세·페드로 2세·산초 7세"
+],
+"sideB": [
+"알모하드",
+"무함마드 알나시르"
+],
+"result": "기독교 연합 승리.",
+"films": [],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "granada",
+"ko": "그라나다 함락",
+"en": "Fall of Granada",
+"start": 1491,
+"end": 1492,
+"region": "spain",
+"sideA": [
+"카스티야·아라곤",
+"이사벨 1세·페르난도 2세"
+],
+"sideB": [
+"그라나다 나스르 왕국",
+"무함마드 12세"
+],
+"result": "1492년 1월 그라나다 항복. 레콩키스타 끝.",
+"films": [
+"1492-conquest-of-paradise-1992"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "crecy",
+"ko": "크레시 전투",
+"en": "Battle of Crécy",
+"start": 1346,
+"end": 1346,
+"region": "france",
+"sideA": [
+"잉글랜드",
+"에드워드 3세·흑태자"
+],
+"sideB": [
+"프랑스",
+"필리프 6세"
+],
+"result": "잉글랜드 승리.",
+"films": [],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "poitiers",
+"ko": "푸아티에 전투",
+"en": "Battle of Poitiers",
+"start": 1356,
+"end": 1356,
+"region": "france",
+"sideA": [
+"잉글랜드",
+"흑태자 에드워드"
+],
+"sideB": [
+"프랑스",
+"장 2세"
+],
+"result": "잉글랜드 승리. 장 2세 포로.",
+"films": [],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "towton",
+"ko": "타우턴 전투",
+"en": "Battle of Towton",
+"start": 1461,
+"end": 1461,
+"region": "england",
+"sideA": [
+"요크",
+"에드워드 4세"
+],
+"sideB": [
+"랭커스터",
+"서머싯 공작 헨리 보퍼트"
+],
+"result": "요크 승리.",
+"films": [
+"the-white-queen-2013"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "bosworth",
+"ko": "보즈워스 전투",
+"en": "Battle of Bosworth Field",
+"start": 1485,
+"end": 1485,
+"region": "england",
+"sideA": [
+"튜더",
+"헨리 튜더"
+],
+"sideB": [
+"요크",
+"리처드 3세"
+],
+"result": "헨리 승리. 리처드 3세 전사.",
+"films": [
+"richard-iii-1955",
+"the-white-queen-2013"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "armada",
+"ko": "스페인 무적함대",
+"en": "Spanish Armada",
+"start": 1588,
+"end": 1588,
+"region": "england",
+"sideA": [
+"잉글랜드",
+"하워드 경·프랜시스 드레이크"
+],
+"sideB": [
+"스페인",
+"메디나 시도니아 공작"
+],
+"result": "잉글랜드 쪽 승리. 함대는 폭풍으로 큰 손실.",
+"films": [
+"elizabeth-the-golden-age-2007"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "white-mountain",
+"ko": "빌라 호라(백산) 전투",
+"en": "Battle of White Mountain",
+"start": 1620,
+"end": 1620,
+"region": "germany",
+"sideA": [
+"황제·가톨릭 동맹",
+"틸리·부코이"
+],
+"sideB": [
+"보헤미아",
+"안할트의 크리스티안"
+],
+"result": "황제군 승리. 30년 전쟁 초기.",
+"films": [],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "breitenfeld",
+"ko": "브라이텐펠트 전투",
+"en": "Battle of Breitenfeld",
+"start": 1631,
+"end": 1631,
+"region": "germany",
+"sideA": [
+"스웨덴·작센",
+"구스타브 2세 아돌프"
+],
+"sideB": [
+"황제군",
+"틸리"
+],
+"result": "스웨덴 승리.",
+"films": [
+"the-last-valley-1971"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "rocroi",
+"ko": "로크루아 전투",
+"en": "Battle of Rocroi",
+"start": 1643,
+"end": 1643,
+"region": "spain",
+"sideA": [
+"프랑스",
+"앙갱 공작(콩데)"
+],
+"sideB": [
+"스페인",
+"프란시스코 데 멜로"
+],
+"result": "프랑스 승리.",
+"films": [
+"alatriste-2006"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "naseby",
+"ko": "네이즈비 전투",
+"en": "Battle of Naseby",
+"start": 1645,
+"end": 1645,
+"region": "england",
+"sideA": [
+"의회군",
+"페어팩스·크롬웰"
+],
+"sideB": [
+"왕당군",
+"찰스 1세·루퍼트 왕자"
+],
+"result": "의회군 승리.",
+"films": [
+"cromwell-1970",
+"to-kill-a-king-2003"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "austerlitz",
+"ko": "아우스터리츠 전투",
+"en": "Battle of Austerlitz",
+"start": 1805,
+"end": 1805,
+"region": "france",
+"sideA": [
+"프랑스",
+"나폴레옹"
+],
+"sideB": [
+"러시아·오스트리아",
+"알렉산드르 1세·쿠투조프·프란츠 2세"
+],
+"result": "프랑스 대승.",
+"films": [
+"austerlitz-1960",
+"war-and-peace-1966",
+"war-and-peace-2016",
+"napoleon-2023"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "trafalgar",
+"ko": "트라팔가르 해전",
+"en": "Battle of Trafalgar",
+"start": 1805,
+"end": 1805,
+"region": "england",
+"sideA": [
+"영국",
+"넬슨"
+],
+"sideB": [
+"프랑스·스페인",
+"빌뇌브·그라비나"
+],
+"result": "영국 승리. 넬슨 전사.",
+"films": [],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "borodino",
+"ko": "보로디노 전투",
+"en": "Battle of Borodino",
+"start": 1812,
+"end": 1812,
+"region": "russia",
+"sideA": [
+"프랑스",
+"나폴레옹"
+],
+"sideB": [
+"러시아",
+"쿠투조프"
+],
+"result": "프랑스가 전장을 차지했으나 결정적이지 않음. 모스크바 입성 뒤 퇴각.",
+"films": [
+"war-and-peace-1966",
+"war-and-peace-2016",
+"napoleon-2023"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "waterloo",
+"ko": "워털루 전투",
+"en": "Battle of Waterloo",
+"start": 1815,
+"end": 1815,
+"region": "france",
+"sideA": [
+"영국 연합군·프로이센",
+"웰링턴·블뤼허"
+],
+"sideB": [
+"프랑스",
+"나폴레옹·네"
+],
+"result": "연합군 승리. 나폴레옹 퇴위.",
+"films": [
+"waterloo-1970",
+"napoleon-2023",
+"sharpe-1993"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "balaclava",
+"ko": "발라클라바 전투",
+"en": "Battle of Balaclava",
+"start": 1854,
+"end": 1854,
+"region": "russia",
+"sideA": [
+"영국·프랑스·오스만",
+"래글런·카디건"
+],
+"sideB": [
+"러시아",
+"리프란디"
+],
+"result": "승부 불분명. 경기병 여단 돌격의 참사.",
+"films": [
+"the-charge-of-the-light-brigade-1968"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "gallipoli",
+"ko": "갈리폴리 전역",
+"en": "Gallipoli campaign",
+"start": 1915,
+"end": 1916,
+"region": "byzantium",
+"sideA": [
+"오스만",
+"리만 폰 잔더스·무스타파 케말"
+],
+"sideB": [
+"영국·프랑스·호주·뉴질랜드",
+"이언 해밀턴"
+],
+"result": "오스만 승리. 연합군 철수.",
+"films": [
+"gallipoli-1981"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "verdun",
+"ko": "베르됭 전투",
+"en": "Battle of Verdun",
+"start": 1916,
+"end": 1916,
+"region": "france",
+"sideA": [
+"프랑스",
+"페탱·니벨"
+],
+"sideB": [
+"독일",
+"팔켄하인"
+],
+"result": "프랑스가 지킴. 막대한 사상자.",
+"films": [
+"paths-of-glory-1957"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "somme",
+"ko": "솜 전투",
+"en": "Battle of the Somme",
+"start": 1916,
+"end": 1916,
+"region": "france",
+"sideA": [
+"영국·프랑스",
+"더글러스 헤이그·포슈"
+],
+"sideB": [
+"독일",
+"프리츠 폰 벨로"
+],
+"result": "승부 불분명. 막대한 사상자.",
+"films": [
+"they-shall-not-grow-old-2018"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "dunkirk",
+"ko": "덩케르크 철수",
+"en": "Dunkirk evacuation",
+"start": 1940,
+"end": 1940,
+"region": "france",
+"sideA": [
+"영국·프랑스",
+"고트 경·램지 제독"
+],
+"sideB": [
+"독일",
+"룬트슈테트"
+],
+"result": "영국·프랑스 군 약 33만 명 철수.",
+"films": [
+"dunkirk-2017",
+"darkest-hour-2017"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "battle-of-britain",
+"ko": "영국 본토 항공전",
+"en": "Battle of Britain",
+"start": 1940,
+"end": 1940,
+"region": "england",
+"sideA": [
+"영국",
+"휴 다우딩"
+],
+"sideB": [
+"독일",
+"헤르만 괴링"
+],
+"result": "영국 방어 성공.",
+"films": [
+"darkest-hour-2017"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "stalingrad",
+"ko": "스탈린그라드 전투",
+"en": "Battle of Stalingrad",
+"start": 1942,
+"end": 1943,
+"region": "russia",
+"sideA": [
+"소련",
+"주코프·추이코프"
+],
+"sideB": [
+"독일",
+"파울루스"
+],
+"result": "소련 승리. 독일 제6군 항복.",
+"films": [
+"enemy-at-the-gates-2001",
+"stalingrad-1993"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "d-day",
+"ko": "노르망디 상륙 작전",
+"en": "Normandy landings",
+"start": 1944,
+"end": 1944,
+"region": "france",
+"sideA": [
+"연합군",
+"아이젠하워·몽고메리"
+],
+"sideB": [
+"독일",
+"룬트슈테트·롬멜"
+],
+"result": "연합군 상륙 성공.",
+"films": [
+"saving-private-ryan-1998",
+"the-longest-day-1962",
+"band-of-brothers-2001"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "market-garden",
+"ko": "마켓 가든 작전",
+"en": "Operation Market Garden",
+"start": 1944,
+"end": 1944,
+"region": "germany",
+"sideA": [
+"연합군",
+"몽고메리"
+],
+"sideB": [
+"독일",
+"발터 모델"
+],
+"result": "독일 승리. 아른험 다리 확보 실패.",
+"films": [
+"a-bridge-too-far-1977",
+"band-of-brothers-2001"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "berlin-1945",
+"ko": "베를린 전투",
+"en": "Battle of Berlin",
+"start": 1945,
+"end": 1945,
+"region": "germany",
+"sideA": [
+"소련",
+"주코프·코네프"
+],
+"sideB": [
+"독일",
+"바이틀링 (히틀러 자살)"
+],
+"result": "소련 승리. 독일 항복.",
+"films": [
+"downfall-2004"
+],
+"links": [],
 "note": "",
 "circa": false
 }

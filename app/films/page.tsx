@@ -17,7 +17,7 @@ export default function FilmsPage() {
       <h1 className="mt-2 font-serif text-4xl text-ink">이야기 순서로 보는 역사 영화</h1>
       <p className="mt-1 text-sm text-muted">Every film from the sister sites, sorted by when the story happens.</p>
       <p className="mt-3 text-sm leading-7 text-muted">
-        자매 사이트와 영화체크리스트에 나온 {hubFilms.length}편을 모았습니다. 순서는 개봉년이 아니라 이야기가 놓인 해입니다. 해를 정할 수 있는 작품이 {dated}편이고, 신화·전설·판타지처럼 해를 정할 수 없는 작품은 맨 뒤 ‘연대 없음’에 둡니다. 전승 연대는 전해지는 이야기라고 적습니다.
+        자매 사이트와 영화체크리스트에 나온 작품에, 로마 멸망 뒤부터 2차 대전까지 유럽사를 한 줄로 이어 볼 작품을 더해 {hubFilms.length}편입니다. 순서는 개봉년이 아니라 이야기가 놓인 해입니다. 해를 정할 수 있는 작품이 {dated}편이고, 신화·전설·판타지처럼 해를 정할 수 없는 작품은 맨 뒤 ‘연대 없음’에 둡니다. 전승 연대는 전해지는 이야기라고 적습니다.
       </p>
       <HubNav current="/films" />
       <FilmsHub />

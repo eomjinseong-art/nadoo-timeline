@@ -114,6 +114,7 @@ export const koreaEvents: HistEvent[] = [
       "서북의 낙랑, 북쪽의 고구려, 남쪽의 삼한이 함께 있는 그림입니다. 백제와 신라는 이 읍락들 사이에서 커집니다.",
     source: "근거: 『삼국지』 위서 동이전. 편찬은 3세기 말이고, 사회 자체는 더 이릅니다.",
     sister: era("three-kingdoms", "삼국"),
+    more: [{ href: "https://nadoo-samguk.vercel.app/korea", label: "나두삼국지 · 삼국지와 한반도" }],
   },
   {
     slug: "founding-silla",

@@ -92,11 +92,17 @@ export const REGIONS: { id: string; ko: string; en: string }[] = [
   { id: "greece", ko: "그리스", en: "Greece" },
   { id: "persia", ko: "페르시아", en: "Persia" },
   { id: "rome", ko: "로마·비잔티움", en: "Rome/Byzantium" },
-  { id: "byzantium", ko: "동로마만", en: "Byzantium" },
+  { id: "byzantium", ko: "비잔티움·오스만", en: "Byzantium/Ottoman" },
   { id: "germanic", ko: "게르만", en: "Germanic" },
   { id: "china", ko: "중국·삼국지", en: "China" },
   { id: "viking", ko: "바이킹", en: "Vikings" },
-  { id: "medieval", ko: "중세 유럽", en: "Medieval" },
+  { id: "medieval", ko: "중세 유럽·십자군", en: "Medieval" },
+  { id: "france", ko: "프랑스", en: "France" },
+  { id: "england", ko: "영국", en: "England/UK" },
+  { id: "germany", ko: "독일·신성로마", en: "Germany/HRE" },
+  { id: "spain", ko: "스페인", en: "Spain" },
+  { id: "italy", ko: "이탈리아", en: "Italy" },
+  { id: "russia", ko: "러시아", en: "Russia" },
   { id: "korea", ko: "한국", en: "Korea" },
   { id: "arts", ko: "예술가", en: "Artists" },
   { id: "modern", ko: "근현대", en: "Modern" },
@@ -110,8 +116,15 @@ export const RULER_COUNTRIES = [
   { id: "persia", ko: "페르시아", en: "Persia" },
   { id: "germanic", ko: "게르만", en: "Germanic" },
   { id: "viking", ko: "바이킹·북유럽", en: "Vikings" },
+  { id: "byzantium", ko: "비잔티움·오스만", en: "Byzantium/Ottoman" },
+  { id: "france", ko: "프랑스", en: "France" },
+  { id: "england", ko: "영국 (잉글랜드·스코틀랜드)", en: "England/UK" },
+  { id: "germany", ko: "독일·신성로마제국", en: "Germany/HRE" },
+  { id: "spain", ko: "스페인", en: "Spain" },
+  { id: "italy", ko: "이탈리아", en: "Italy" },
+  { id: "russia", ko: "러시아", en: "Russia" },
   { id: "korea", ko: "한국", en: "Korea" },
-  { id: "china", ko: "중국 (삼국)", en: "China" },
+  { id: "china", ko: "중국", en: "China" },
 ];
 
 /** 서력에 0년은 없습니다. */
@@ -148,3 +161,17 @@ export function badgeCounts() {
   for (const f of hubFilms) for (const p of f.prots) c[p.badge] += 1;
   return c;
 }
+
+/** 시대 필터. 이야기 속 해가 겹치면 그 시대에 넣습니다. */
+export const ERAS: { id: string; ko: string; from: number; to: number }[] = [
+  { id: "ancient", ko: "고대 (~476)", from: -4000, to: 476 },
+  { id: "early-medieval", ko: "중세 초 (476–1000)", from: 476, to: 1000 },
+  { id: "high-medieval", ko: "중세 성기 (1000–1300)", from: 1000, to: 1300 },
+  { id: "late-medieval", ko: "중세 말 (1300–1500)", from: 1300, to: 1500 },
+  { id: "early-modern", ko: "근세 (1500–1789)", from: 1500, to: 1789 },
+  { id: "napoleon", ko: "혁명·나폴레옹 (1789–1815)", from: 1789, to: 1815 },
+  { id: "c19", ko: "19세기 (1815–1914)", from: 1815, to: 1914 },
+  { id: "ww1", ko: "1차 대전 (1914–1918)", from: 1914, to: 1918 },
+  { id: "ww2", ko: "양차 대전 사이·2차 대전 (1919–1945)", from: 1919, to: 1945 },
+  { id: "recent", ko: "1945 이후", from: 1946, to: 2100 },
+];

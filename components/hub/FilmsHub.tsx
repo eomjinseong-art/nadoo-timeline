@@ -5,7 +5,7 @@ import Link from "next/link";
 import { BadgeChip } from "@/components/hub/Badge";
 import { Ext } from "@/components/hub/HubNav";
 import { TimeAxis, TimeBar } from "@/components/hub/TimeBar";
-import { filmsChrono, REGIONS, regionKo, span, type HubFilm } from "@/lib/hub/data";
+import { ERAS, filmsChrono, REGIONS, regionKo, span, type HubFilm } from "@/lib/hub/data";
 import { MOVIE_CHECKLIST_URL } from "@/lib/site";
 
 const KINDS = ["영화", "시리즈", "다큐"];
@@ -20,8 +20,11 @@ export function FilmsHub() {
   const [region, setRegion] = useState<string>("all");
   const [kind, setKind] = useState<string>("all");
   const [dated, setDated] = useState(false);
+  const [era, setEra] = useState<string>("all");
+  const er = ERAS.find((e) => e.id === era);
   const list = all.filter(
-    (f) => (region === "all" || f.regions.includes(region)) && (kind === "all" || f.kind === kind) && (!dated || f.start !== null),
+    (f) => (region === "all" || f.regions.includes(region)) && (kind === "all" || f.kind === kind) && (!dated || f.start !== null) &&
+      (!er || (f.start !== null && f.start <= er.to && (f.end ?? f.start) >= er.from)),
   );
   const chip = (on: boolean) =>
     `rounded-full border px-3 py-1 text-xs ${on ? "border-terra bg-terra/10 text-terra" : "border-line text-muted hover:text-ink"}`;
@@ -35,6 +38,16 @@ export function FilmsHub() {
         {REGIONS.map((r) => (
           <button key={r.id} type="button" className={chip(region === r.id)} onClick={() => setRegion(r.id)}>
             {r.ko}
+          </button>
+        ))}
+      </div>
+      <div className="mt-2 flex flex-wrap gap-2" role="group" aria-label="시대 Era">
+        <button type="button" className={chip(era === "all")} onClick={() => setEra("all")}>
+          모든 시대
+        </button>
+        {ERAS.map((e) => (
+          <button key={e.id} type="button" className={chip(era === e.id)} onClick={() => setEra(e.id)}>
+            {e.ko}
           </button>
         ))}
       </div>

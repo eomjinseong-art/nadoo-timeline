@@ -41,6 +41,11 @@ export default function MoviesPage() {
         </a>
       </p>
       <p className="mt-2 text-sm">
+        <Link href="/films" className="text-terra underline decoration-line underline-offset-4">
+          자매 사이트 영화까지 모두 이야기 순서로 보기 → 이야기 순 영화
+        </Link>
+      </p>
+      <p className="mt-2 text-sm">
         <Link href="/" className="text-terra underline decoration-line underline-offset-4">
           연표로 돌아가기
         </Link>

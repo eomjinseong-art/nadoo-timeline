@@ -5494,5 +5494,324 @@
 ],
 "checklist": null,
 "inTimeline": false
+},
+{
+"id": "constantine-and-the-cross-1961",
+"ko": "콘스탄티누스 대제",
+"en": "Constantine and the Cross",
+"year": 1961,
+"kind": "영화",
+"start": 306,
+"end": 312,
+"regions": [
+"rome",
+"byzantium"
+],
+"prots": [
+{
+"ko": "콘스탄티누스 1세",
+"en": "Constantine I",
+"badge": "B",
+"note": "실존 황제(재위 306–337년). 312년 밀비우스 다리 승리까지. 연애 등은 각색.",
+"href": "https://rome-stories.vercel.app/rulers/constantine",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "theodora-slave-empress-1954",
+"ko": "비잔틴의 여제 테오도라",
+"en": "Theodora, Slave Empress",
+"year": 1954,
+"kind": "영화",
+"start": 527,
+"end": 532,
+"regions": [
+"rome",
+"byzantium"
+],
+"prots": [
+{
+"ko": "테오도라",
+"en": "Theodora",
+"badge": "B",
+"note": "유스티니아누스의 황후(500년경–548년). ‘노예 출신’ 설정은 각색(실제로는 배우 출신으로 전해짐).",
+"href": null,
+"unsure": false
+},
+{
+"ko": "유스티니아누스 1세",
+"en": "Justinian I",
+"badge": "R",
+"note": "동로마 황제(527–565년).",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "532년 니카 반란이 절정.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "kampf-um-rom-1968",
+"ko": "로마를 위한 전쟁",
+"en": "Kampf um Rom (The Last Roman)",
+"year": 1968,
+"kind": "영화",
+"start": 526,
+"end": 553,
+"regions": [
+"rome",
+"byzantium",
+"germanic"
+],
+"prots": [
+{
+"ko": "케테구스",
+"en": "Cethegus",
+"badge": "F",
+"note": "펠릭스 단 소설의 가상 로마 귀족.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "벨리사리우스",
+"en": "Belisarius",
+"badge": "R",
+"note": "유스티니아누스의 장군.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "토틸라",
+"en": "Totila",
+"badge": "R",
+"note": "동고트 왕(541–552년).",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "동고트 전쟁. 2부작.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "byzantium-the-lost-empire-1997",
+"ko": "비잔티움: 잃어버린 제국",
+"en": "Byzantium: The Lost Empire",
+"year": 1997,
+"kind": "다큐",
+"start": 330,
+"end": 1453,
+"regions": [
+"rome",
+"byzantium"
+],
+"prots": [],
+"loose": false,
+"note": "존 로머 진행 다큐 시리즈.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "byzantium-a-tale-of-three-cities-2013",
+"ko": "비잔티움: 세 도시 이야기",
+"en": "Byzantium: A Tale of Three Cities",
+"year": 2013,
+"kind": "다큐",
+"start": 330,
+"end": 1453,
+"regions": [
+"rome",
+"byzantium"
+],
+"prots": [],
+"loose": false,
+"note": "BBC Four 3부작. 3편은 오스만 이스탄불까지.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "fetih-1453-2012",
+"ko": "정복자 1453",
+"en": "Fetih 1453",
+"year": 2012,
+"kind": "영화",
+"start": 1451,
+"end": 1453,
+"regions": [
+"rome",
+"byzantium"
+],
+"prots": [
+{
+"ko": "메흐메드 2세",
+"en": "Mehmed II",
+"badge": "R",
+"note": "오스만 술탄. 1453년 콘스탄티노폴리스 정복.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "울루바틀르 하산",
+"en": "Ulubatlı Hasan",
+"badge": "B",
+"note": "성벽에 깃발을 꽂았다고 전해지는 병사. 전해지는 이야기.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "콘스탄티노스 11세",
+"en": "Constantine XI",
+"badge": "R",
+"note": "마지막 동로마 황제.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "터키 영화. 오스만 시점.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "rise-of-empires-ottoman-2020",
+"ko": "오스만 제국의 부상",
+"en": "Rise of Empires: Ottoman",
+"year": 2020,
+"kind": "다큐",
+"start": 1451,
+"end": 1453,
+"regions": [
+"rome",
+"byzantium"
+],
+"prots": [
+{
+"ko": "메흐메드 2세",
+"en": "Mehmed II",
+"badge": "R",
+"note": "오스만 술탄.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "콘스탄티노스 11세",
+"en": "Constantine XI",
+"badge": "R",
+"note": "마지막 동로마 황제.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "조반니 줄리아니",
+"en": "Giovanni Giustiniani",
+"badge": "R",
+"note": "제노바 출신 수비 지휘관.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "넷플릭스 재연 다큐 드라마. 시즌 1 기준(시즌 2는 1462년 블라드 3세).",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "mehmed-fetihler-sultani-2024",
+"ko": "메흐메드: 정복자 술탄",
+"en": "Mehmed: Fetihler Sultanı",
+"year": 2024,
+"kind": "시리즈",
+"start": 1451,
+"end": 1461,
+"regions": [
+"rome",
+"byzantium"
+],
+"prots": [
+{
+"ko": "메흐메드 2세",
+"en": "Mehmed II",
+"badge": "B",
+"note": "실존 술탄. 터키 TRT 드라마로 크게 각색.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "시즌 1은 1453년 정복, 다음 시즌은 1461년 트라브존까지.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "el-greco-2007",
+"ko": "엘 그레코",
+"en": "El Greco",
+"year": 2007,
+"kind": "영화",
+"start": 1566,
+"end": 1614,
+"regions": [
+"greece",
+"arts"
+],
+"prots": [
+{
+"ko": "엘 그레코",
+"en": "El Greco",
+"badge": "B",
+"note": "크레타 출신 화가(1541–1614년). 종교재판 대결 등은 각색.",
+"href": "https://nadoo-arts.vercel.app/art/el-greco",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "papaflessas-1971",
+"ko": "파파플레사스",
+"en": "Papaflessas",
+"year": 1971,
+"kind": "영화",
+"start": 1821,
+"end": 1825,
+"regions": [
+"greece",
+"modern"
+],
+"prots": [
+{
+"ko": "파파플레사스",
+"en": "Papaflessas",
+"badge": "R",
+"note": "그리스 독립전쟁의 성직자 투사. 1825년 마니아키에서 전사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "1821년 그리스 독립전쟁.",
+"sisters": [],
+"checklist": null,
+"inTimeline": false
 }
 ]

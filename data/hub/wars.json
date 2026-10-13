@@ -1682,5 +1682,86 @@
 ],
 "note": "",
 "circa": true
+},
+{
+"id": "gothic-war",
+"ko": "동고트 전쟁",
+"en": "Gothic War",
+"start": 535,
+"end": 554,
+"region": "rome",
+"sideA": [
+"동로마",
+"벨리사리우스·나르세스"
+],
+"sideB": [
+"동고트",
+"비티게스·토틸라·테이아"
+],
+"result": "동로마 승리. 이탈리아 재정복.",
+"films": [
+"kampf-um-rom-1968"
+],
+"links": [],
+"note": "",
+"circa": false
+},
+{
+"id": "nika-riots",
+"ko": "니카 반란",
+"en": "Nika riots",
+"start": 532,
+"end": 532,
+"region": "rome",
+"sideA": [
+"황제",
+"유스티니아누스 1세·벨리사리우스"
+],
+"sideB": [
+"반란 군중",
+"청색·녹색 전차당"
+],
+"result": "진압. 이어 하기아 소피아 재건.",
+"films": [
+"theodora-slave-empress-1954"
+],
+"links": [
+[
+"나두연표 사건",
+"/events/hagia-sophia"
+]
+],
+"note": "",
+"circa": false
+},
+{
+"id": "fall-of-constantinople",
+"ko": "콘스탄티노폴리스 함락",
+"en": "Fall of Constantinople",
+"start": 1453,
+"end": 1453,
+"region": "rome",
+"sideA": [
+"오스만",
+"메흐메드 2세"
+],
+"sideB": [
+"동로마",
+"콘스탄티노스 11세·조반니 줄리아니"
+],
+"result": "오스만 승리. 동로마 멸망.",
+"films": [
+"fetih-1453-2012",
+"rise-of-empires-ottoman-2020",
+"mehmed-fetihler-sultani-2024"
+],
+"links": [
+[
+"나두연표 사건",
+"/events/fall-of-constantinople"
+]
+],
+"note": "",
+"circa": false
 }
 ]

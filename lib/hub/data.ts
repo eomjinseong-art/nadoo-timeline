@@ -91,7 +91,8 @@ export const REGIONS: { id: string; ko: string; en: string }[] = [
   { id: "israel", ko: "이스라엘·성경", en: "Israel" },
   { id: "greece", ko: "그리스", en: "Greece" },
   { id: "persia", ko: "페르시아", en: "Persia" },
-  { id: "rome", ko: "로마", en: "Rome" },
+  { id: "rome", ko: "로마·비잔티움", en: "Rome/Byzantium" },
+  { id: "byzantium", ko: "동로마만", en: "Byzantium" },
   { id: "germanic", ko: "게르만", en: "Germanic" },
   { id: "china", ko: "중국·삼국지", en: "China" },
   { id: "viking", ko: "바이킹", en: "Vikings" },
@@ -103,7 +104,7 @@ export const REGIONS: { id: string; ko: string; en: string }[] = [
 export const regionKo = (id: string) => REGIONS.find((r) => r.id === id)?.ko ?? id;
 
 export const RULER_COUNTRIES = [
-  { id: "rome", ko: "로마", en: "Rome" },
+  { id: "rome", ko: "로마·동로마", en: "Rome/Byzantium" },
   { id: "greece", ko: "그리스 (아테네·스파르타·마케도니아)", en: "Greece" },
   { id: "egypt", ko: "이집트", en: "Egypt" },
   { id: "persia", ko: "페르시아", en: "Persia" },

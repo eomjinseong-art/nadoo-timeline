@@ -1705,5 +1705,65 @@
 "circa": false,
 "legend": false,
 "active": null
+},
+{
+"country": "rome",
+"ko": "벨리사리우스",
+"en": "Belisarius",
+"born": 500,
+"died": 565,
+"role": "동로마 장군",
+"href": null,
+"circa": true,
+"legend": false,
+"active": null
+},
+{
+"country": "rome",
+"ko": "테오도라",
+"en": "Theodora",
+"born": 500,
+"died": 548,
+"role": "황후",
+"href": null,
+"circa": true,
+"legend": false,
+"active": null
+},
+{
+"country": "rome",
+"ko": "유스티니아누스 1세",
+"en": "Justinian I",
+"born": 482,
+"died": 565,
+"role": "동로마 황제",
+"href": null,
+"circa": true,
+"legend": false,
+"active": null
+},
+{
+"country": "rome",
+"ko": "콘스탄티노스 11세",
+"en": "Constantine XI",
+"born": 1405,
+"died": 1453,
+"role": "마지막 동로마 황제",
+"href": null,
+"circa": true,
+"legend": false,
+"active": null
+},
+{
+"country": "medieval",
+"ko": "메흐메드 2세",
+"en": "Mehmed II",
+"born": 1432,
+"died": 1481,
+"role": "오스만 술탄",
+"href": null,
+"circa": false,
+"legend": false,
+"active": null
 }
 ]

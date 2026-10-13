@@ -1,0 +1,5498 @@
+[
+{
+"id": "secrets-of-the-saqqara-tomb-2020",
+"ko": "사카라 무덤의 비밀",
+"en": "Secrets of the Saqqara Tomb",
+"year": 2020,
+"kind": "다큐",
+"start": -2494,
+"end": -2345,
+"regions": [
+"egypt"
+],
+"prots": [
+{
+"ko": "와흐티에",
+"en": "Wahtye",
+"badge": "R",
+"note": "고왕국 제5왕조의 사제. 2018년에 열린 그의 무덤이 다큐의 중심입니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#secrets-of-the-saqqara-tomb"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-ten-commandments-1956",
+"ko": "십계",
+"en": "The Ten Commandments",
+"year": 1956,
+"kind": "영화",
+"start": -1446,
+"end": -1446,
+"regions": [
+"israel",
+"egypt"
+],
+"prots": [
+{
+"ko": "모세",
+"en": "Moses",
+"badge": "B",
+"note": "성경 출애굽기의 지도자. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "람세스 2세",
+"en": "Ramesses II",
+"badge": "B",
+"note": "실존 파라오(대략 기원전 1279–1213년). 그가 출애굽의 파라오라는 것은 영화의 선택이고, 성경은 이름을 적지 않습니다.",
+"href": "https://egypt-stories.vercel.app/rulers/ramesses-ii",
+"unsure": true
+}
+],
+"loose": false,
+"note": "기원전 1446년은 전승 계산 중 하나입니다(13세기설도 있음). 전해지는 이야기.",
+"sisters": [
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#the-ten-commandments"
+},
+{
+"label": "더 초즌",
+"href": "https://the-chosen-korean.vercel.app/together/the-ten-commandments-1956"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "prince-of-egypt-1998",
+"ko": "이집트 왕자",
+"en": "The Prince of Egypt",
+"year": 1998,
+"kind": "영화",
+"start": -1446,
+"end": -1446,
+"regions": [
+"israel",
+"egypt"
+],
+"prots": [
+{
+"ko": "모세",
+"en": "Moses",
+"badge": "B",
+"note": "성경 출애굽기의 지도자. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "람세스 2세",
+"en": "Ramesses II",
+"badge": "B",
+"note": "실존 파라오(대략 기원전 1279–1213년). 그가 출애굽의 파라오라는 것은 영화의 선택이고, 성경은 이름을 적지 않습니다.",
+"href": "https://egypt-stories.vercel.app/rulers/ramesses-ii",
+"unsure": true
+}
+],
+"loose": false,
+"note": "기원전 1446년은 전승 계산 중 하나입니다(13세기설도 있음). 전해지는 이야기.",
+"sisters": [
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#prince-of-egypt"
+},
+{
+"label": "더 초즌",
+"href": "https://the-chosen-korean.vercel.app/together/prince-of-egypt"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "exodus-gods-and-kings-2014",
+"ko": "엑소더스: 신들과 왕들",
+"en": "Exodus: Gods and Kings",
+"year": 2014,
+"kind": "영화",
+"start": -1446,
+"end": -1446,
+"regions": [
+"israel",
+"egypt"
+],
+"prots": [
+{
+"ko": "모세",
+"en": "Moses",
+"badge": "B",
+"note": "성경 출애굽기의 지도자. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "람세스 2세",
+"en": "Ramesses II",
+"badge": "B",
+"note": "실존 파라오(대략 기원전 1279–1213년). 그가 출애굽의 파라오라는 것은 영화의 선택이고, 성경은 이름을 적지 않습니다.",
+"href": "https://egypt-stories.vercel.app/rulers/ramesses-ii",
+"unsure": true
+}
+],
+"loose": false,
+"note": "기원전 1446년은 전승 계산 중 하나입니다(13세기설도 있음). 전해지는 이야기.",
+"sisters": [
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#exodus-gods-and-kings"
+},
+{
+"label": "더 초즌",
+"href": "https://the-chosen-korean.vercel.app/together/exodus-gods-and-kings"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "testament-story-of-moses-2024",
+"ko": "테스터먼트: 모세 이야기",
+"en": "Testament: The Story of Moses",
+"year": 2024,
+"kind": "다큐",
+"start": -1446,
+"end": -1446,
+"regions": [
+"israel",
+"egypt"
+],
+"prots": [
+{
+"ko": "모세",
+"en": "Moses",
+"badge": "B",
+"note": "성경 출애굽기의 지도자. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "기원전 1446년은 전승 계산 중 하나입니다(13세기설도 있음). 전해지는 이야기.",
+"sisters": [
+{
+"label": "더 초즌",
+"href": "https://the-chosen-korean.vercel.app/together/testament-story-of-moses"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-mummy-1932",
+"ko": "미이라",
+"en": "The Mummy",
+"year": 1932,
+"kind": "영화",
+"start": 1921,
+"end": 1932,
+"regions": [
+"egypt",
+"modern"
+],
+"prots": [
+{
+"ko": "임호텝(아다스 베이)",
+"en": "Imhotep",
+"badge": "B",
+"note": "실제 임호텝은 조세르 왕의 재상·건축가. 저주받은 미라는 영화의 창작입니다.",
+"href": "https://egypt-stories.vercel.app/rulers/djoser",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#the-mummy-1932"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-mummy-1999",
+"ko": "미이라",
+"en": "The Mummy",
+"year": 1999,
+"kind": "영화",
+"start": 1926,
+"end": 1926,
+"regions": [
+"egypt",
+"modern"
+],
+"prots": [
+{
+"ko": "릭 오코넬",
+"en": "Rick O'Connell",
+"badge": "F",
+"note": "영화의 모험가.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "에벌린 카너핸",
+"en": "Evelyn Carnahan",
+"badge": "F",
+"note": "영화의 이집트학자.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "임호텝",
+"en": "Imhotep",
+"badge": "B",
+"note": "이름만 실존 재상에게서 빌렸습니다. 세티 1세 시대의 사제 설정은 창작.",
+"href": "https://egypt-stories.vercel.app/rulers/djoser",
+"unsure": false
+}
+],
+"loose": false,
+"note": "프롤로그는 기원전 1290년 테베, 본편은 1926년.",
+"sisters": [
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#the-mummy-1999"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "gods-of-egypt-2016",
+"ko": "갓 오브 이집트",
+"en": "Gods of Egypt",
+"year": 2016,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"egypt"
+],
+"prots": [
+{
+"ko": "벡",
+"en": "Bek",
+"badge": "F",
+"note": "영화가 만든 도둑.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "호루스",
+"en": "Horus",
+"badge": "F",
+"note": "이집트 신화의 신. 사람이 아닙니다.",
+"href": "https://egypt-stories.vercel.app/gods",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#gods-of-egypt"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "noah-2014",
+"ko": "노아",
+"en": "Noah",
+"year": 2014,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"israel"
+],
+"prots": [
+{
+"ko": "노아",
+"en": "Noah",
+"badge": "B",
+"note": "창세기의 인물. 전해지는 이야기 — 실존 여부는 확인되지 않습니다. 영화는 큰 폭으로 각색했습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "더 초즌",
+"href": "https://the-chosen-korean.vercel.app/together/noah-2014"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "helen-of-troy-1956",
+"ko": "헬레네 오브 트로이",
+"en": "Helen of Troy",
+"year": 1956,
+"kind": "영화",
+"start": -1194,
+"end": -1184,
+"regions": [
+"greece"
+],
+"prots": [
+{
+"ko": "헬레네",
+"en": "Helen",
+"badge": "F",
+"note": "트로이 전쟁 신화의 인물. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": "https://iliad-stories.vercel.app/heroes/helen",
+"unsure": true
+},
+{
+"ko": "파리스",
+"en": "Paris",
+"badge": "F",
+"note": "트로이 왕자. 신화·서사시의 인물.",
+"href": "https://iliad-stories.vercel.app/heroes/paris",
+"unsure": true
+}
+],
+"loose": false,
+"note": "트로이 전쟁의 해는 고대의 계산(전해지는 이야기)입니다.",
+"sisters": [
+{
+"label": "일리아스이야기",
+"href": "https://iliad-stories.vercel.app/movies#helen-of-troy-1956"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "helen-of-troy-2003",
+"ko": "헬레네 오브 트로이",
+"en": "Helen of Troy",
+"year": 2003,
+"kind": "시리즈",
+"start": -1194,
+"end": -1184,
+"regions": [
+"greece"
+],
+"prots": [
+{
+"ko": "헬레네",
+"en": "Helen",
+"badge": "F",
+"note": "트로이 전쟁 신화의 인물. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": "https://iliad-stories.vercel.app/heroes/helen",
+"unsure": true
+},
+{
+"ko": "파리스",
+"en": "Paris",
+"badge": "F",
+"note": "트로이 왕자. 신화·서사시의 인물.",
+"href": "https://iliad-stories.vercel.app/heroes/paris",
+"unsure": true
+}
+],
+"loose": false,
+"note": "트로이 전쟁의 해는 고대의 계산(전해지는 이야기)입니다.",
+"sisters": [
+{
+"label": "일리아스이야기",
+"href": "https://iliad-stories.vercel.app/movies#helen-of-troy-2003"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "troy-2004",
+"ko": "트로이",
+"en": "Troy",
+"year": 2004,
+"kind": "영화",
+"start": -1194,
+"end": -1184,
+"regions": [
+"greece"
+],
+"prots": [
+{
+"ko": "아킬레우스",
+"en": "Achilles",
+"badge": "F",
+"note": "『일리아스』의 영웅. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": "https://iliad-stories.vercel.app/heroes/achilles",
+"unsure": true
+},
+{
+"ko": "헥토르",
+"en": "Hector",
+"badge": "F",
+"note": "트로이의 장수. 서사시의 인물.",
+"href": "https://iliad-stories.vercel.app/heroes/hector",
+"unsure": true
+}
+],
+"loose": false,
+"note": "영화는 10년 전쟁을 몇 주로 줄였습니다.",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#troy"
+},
+{
+"label": "일리아스이야기",
+"href": "https://iliad-stories.vercel.app/movies#troy-2004"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "troy-fall-of-a-city-2018",
+"ko": "트로이: 왕국의 몰락",
+"en": "Troy: Fall of a City",
+"year": 2018,
+"kind": "시리즈",
+"start": -1194,
+"end": -1184,
+"regions": [
+"greece"
+],
+"prots": [
+{
+"ko": "파리스",
+"en": "Paris",
+"badge": "F",
+"note": "트로이 왕자. 신화·서사시의 인물.",
+"href": "https://iliad-stories.vercel.app/heroes/paris",
+"unsure": true
+},
+{
+"ko": "헬레네",
+"en": "Helen",
+"badge": "F",
+"note": "트로이 전쟁 신화의 인물. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": "https://iliad-stories.vercel.app/heroes/helen",
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#troy-fall"
+},
+{
+"label": "일리아스이야기",
+"href": "https://iliad-stories.vercel.app/movies#troy-fall-of-a-city-2018"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "trojan-women-1971",
+"ko": "트로이의 여인들",
+"en": "The Trojan Women",
+"year": 1971,
+"kind": "영화",
+"start": -1184,
+"end": -1184,
+"regions": [
+"greece"
+],
+"prots": [
+{
+"ko": "헤카베",
+"en": "Hecuba",
+"badge": "F",
+"note": "트로이 왕비. 에우리피데스 비극의 인물.",
+"href": "https://iliad-stories.vercel.app/heroes/hecuba",
+"unsure": true
+},
+{
+"ko": "안드로마케",
+"en": "Andromache",
+"badge": "F",
+"note": "헥토르의 아내. 서사시·비극의 인물.",
+"href": "https://iliad-stories.vercel.app/heroes/andromache",
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "일리아스이야기",
+"href": "https://iliad-stories.vercel.app/movies#trojan-women-1971"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-odyssey-1997",
+"ko": "오딧세이",
+"en": "The Odyssey",
+"year": 1997,
+"kind": "시리즈",
+"start": -1184,
+"end": -1174,
+"regions": [
+"greece"
+],
+"prots": [
+{
+"ko": "오디세우스",
+"en": "Odysseus",
+"badge": "F",
+"note": "『오디세이아』의 주인공. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": "https://iliad-stories.vercel.app/heroes/odysseus",
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#odyssey-1997"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-return-2024",
+"ko": "더 리턴",
+"en": "The Return",
+"year": 2024,
+"kind": "영화",
+"start": -1174,
+"end": -1174,
+"regions": [
+"greece"
+],
+"prots": [
+{
+"ko": "오디세우스",
+"en": "Odysseus",
+"badge": "F",
+"note": "『오디세이아』의 주인공. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": "https://iliad-stories.vercel.app/heroes/odysseus",
+"unsure": true
+},
+{
+"ko": "페넬로페",
+"en": "Penelope",
+"badge": "F",
+"note": "오디세우스의 아내. 서사시의 인물.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#the-return"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-odyssey-2026",
+"ko": "오디세이",
+"en": "The Odyssey",
+"year": 2026,
+"kind": "영화",
+"start": -1184,
+"end": -1174,
+"regions": [
+"greece"
+],
+"prots": [
+{
+"ko": "오디세우스",
+"en": "Odysseus",
+"badge": "F",
+"note": "『오디세이아』의 주인공. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": "https://iliad-stories.vercel.app/heroes/odysseus",
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#odyssey-2026"
+},
+{
+"label": "일리아스이야기",
+"href": "https://iliad-stories.vercel.app/movies#odyssey-2026"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "o-brother-where-art-thou-2000",
+"ko": "오 형제여 어디에 있는가",
+"en": "O Brother, Where Art Thou?",
+"year": 2000,
+"kind": "영화",
+"start": 1937,
+"end": 1937,
+"regions": [
+"modern"
+],
+"prots": [
+{
+"ko": "율리시스 에버렛 맥길",
+"en": "Ulysses Everett McGill",
+"badge": "F",
+"note": "『오디세이아』를 1930년대 미시시피로 옮긴 가상 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "영화 속 미국 대공황기. 오디세이아의 줄거리를 빌렸습니다.",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#o-brother"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "300-2006",
+"ko": "300",
+"en": "300",
+"year": 2006,
+"kind": "영화",
+"start": -480,
+"end": -480,
+"regions": [
+"greece",
+"persia"
+],
+"prots": [
+{
+"ko": "레오니다스 1세",
+"en": "Leonidas I",
+"badge": "R",
+"note": "스파르타 왕. 기원전 480년 테르모필라이에서 죽었습니다. 영화의 모습은 만화풍 과장.",
+"href": "https://greece-stories.vercel.app/people/leonidas",
+"unsure": false
+},
+{
+"ko": "크세르크세스 1세",
+"en": "Xerxes I",
+"badge": "B",
+"note": "실존 페르시아 왕. 거인 같은 신왕 모습은 창작.",
+"href": "https://persia-stories.vercel.app/rulers/xerxes-i",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#300"
+},
+{
+"label": "페르시아이야기",
+"href": "https://persia-stories.vercel.app/movies#300"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "300-rise-of-an-empire-2014",
+"ko": "300: 제국의 부활",
+"en": "300: Rise of an Empire",
+"year": 2014,
+"kind": "영화",
+"start": -490,
+"end": -480,
+"regions": [
+"greece",
+"persia"
+],
+"prots": [
+{
+"ko": "테미스토클레스",
+"en": "Themistocles",
+"badge": "R",
+"note": "아테네 정치가·장군. 살라미스 해전을 이끌었습니다.",
+"href": "https://greece-stories.vercel.app/people/themistocles",
+"unsure": false
+},
+{
+"ko": "아르테미시아 1세",
+"en": "Artemisia I of Caria",
+"badge": "B",
+"note": "실존 카리아 여왕으로 크세르크세스 함대에 있었습니다. 페르시아 총사령관·복수극은 창작.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "마라톤(기원전 490년) 회상과 480년 해전들.",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#300-rise"
+},
+{
+"label": "페르시아이야기",
+"href": "https://persia-stories.vercel.app/movies#300-rise"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "alexander-the-great-1956",
+"ko": "알렉산더 대왕",
+"en": "Alexander the Great",
+"year": 1956,
+"kind": "영화",
+"start": -356,
+"end": -323,
+"regions": [
+"greece",
+"persia",
+"egypt"
+],
+"prots": [
+{
+"ko": "알렉산드로스 3세",
+"en": "Alexander the Great",
+"badge": "R",
+"note": "마케도니아 왕(재위 기원전 336–323년). 페르시아 제국을 무너뜨렸습니다.",
+"href": "https://greece-stories.vercel.app/people/alexander",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "페르시아이야기",
+"href": "https://persia-stories.vercel.app/movies#alexander-1956"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "alexander-2004",
+"ko": "알렉산더",
+"en": "Alexander",
+"year": 2004,
+"kind": "영화",
+"start": -356,
+"end": -323,
+"regions": [
+"greece",
+"persia",
+"egypt"
+],
+"prots": [
+{
+"ko": "알렉산드로스 3세",
+"en": "Alexander the Great",
+"badge": "R",
+"note": "마케도니아 왕(재위 기원전 336–323년). 페르시아 제국을 무너뜨렸습니다.",
+"href": "https://greece-stories.vercel.app/people/alexander",
+"unsure": false
+}
+],
+"loose": false,
+"note": "어린 시절 회상부터 기원전 323년 죽음까지. 원정은 334년부터.",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#alexander"
+},
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#alexander-2004"
+},
+{
+"label": "페르시아이야기",
+"href": "https://persia-stories.vercel.app/movies#alexander-2004"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "spartacus-1960",
+"ko": "스파르타쿠스",
+"en": "Spartacus",
+"year": 1960,
+"kind": "영화",
+"start": -73,
+"end": -71,
+"regions": [
+"rome"
+],
+"prots": [
+{
+"ko": "스파르타쿠스",
+"en": "Spartacus",
+"badge": "B",
+"note": "기원전 73–71년 노예 반란의 지도자. 실존하지만 십자가형 최후·사랑 이야기는 영화의 창작(실제로는 전투에서 죽은 것으로 전해짐).",
+"href": null,
+"unsure": false
+},
+{
+"ko": "크라수스",
+"en": "Crassus",
+"badge": "R",
+"note": "반란을 진압한 로마 장군.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#spartacus"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "rome-hbo-2005",
+"ko": "로마",
+"en": "Rome",
+"year": 2005,
+"kind": "시리즈",
+"start": -52,
+"end": -30,
+"regions": [
+"rome",
+"egypt"
+],
+"prots": [
+{
+"ko": "루키우스 보레누스",
+"en": "Lucius Vorenus",
+"badge": "B",
+"note": "카이사르 『갈리아 전기』 5권에 이름이 나오는 실존 백인대장. 드라마의 삶은 거의 창작.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "티투스 풀로",
+"en": "Titus Pullo",
+"badge": "B",
+"note": "보레누스와 함께 『갈리아 전기』에 나오는 실존 군인. 드라마의 삶은 창작.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "율리우스 카이사르",
+"en": "Julius Caesar",
+"badge": "R",
+"note": "로마의 장군·독재관(기원전 100–44년).",
+"href": "https://rome-stories.vercel.app/wars/caesar-civil-war",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#rome-hbo"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "cleopatra-1963",
+"ko": "클레오파트라",
+"en": "Cleopatra",
+"year": 1963,
+"kind": "영화",
+"start": -48,
+"end": -30,
+"regions": [
+"egypt",
+"rome"
+],
+"prots": [
+{
+"ko": "클레오파트라 7세",
+"en": "Cleopatra VII",
+"badge": "R",
+"note": "프톨레마이오스 왕조 마지막 여왕(재위 기원전 51–30년).",
+"href": "https://egypt-stories.vercel.app/rulers/cleopatra-vii",
+"unsure": false
+},
+{
+"ko": "마르쿠스 안토니우스",
+"en": "Mark Antony",
+"badge": "R",
+"note": "카이사르의 부하, 악티움에서 패배.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "율리우스 카이사르",
+"en": "Julius Caesar",
+"badge": "R",
+"note": "로마의 장군·독재관.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#cleopatra-1963"
+},
+{
+"label": "이집트이야기",
+"href": "https://egypt-stories.vercel.app/movies#cleopatra-1963"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "roman-empire-2016",
+"ko": "로마 제국",
+"en": "Roman Empire",
+"year": 2016,
+"kind": "다큐",
+"start": -49,
+"end": 192,
+"regions": [
+"rome"
+],
+"prots": [
+{
+"ko": "콤모두스",
+"en": "Commodus",
+"badge": "R",
+"note": "시즌 1. 마르쿠스 아우렐리우스의 아들, 재위 180–192년.",
+"href": "https://rome-stories.vercel.app/rulers/marcus-aurelius",
+"unsure": false
+},
+{
+"ko": "율리우스 카이사르",
+"en": "Julius Caesar",
+"badge": "R",
+"note": "시즌 2.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "칼리굴라",
+"en": "Caligula",
+"badge": "R",
+"note": "시즌 3. 재위 37–41년.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "시즌마다 다른 시대(재연 다큐).",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#roman-empire-2016"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "i-claudius-1976",
+"ko": "나, 클라우디우스",
+"en": "I, Claudius",
+"year": 1976,
+"kind": "시리즈",
+"start": -24,
+"end": 54,
+"regions": [
+"rome"
+],
+"prots": [
+{
+"ko": "클라우디우스",
+"en": "Claudius",
+"badge": "R",
+"note": "로마 황제(재위 41–54년). 로버트 그레이브스 소설의 화자.",
+"href": "https://rome-stories.vercel.app/rulers/claudius",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#i-claudius"
+},
+{
+"label": "게르만이야기",
+"href": "https://germanic-stories.vercel.app/films#i-claudius-1976"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "mary-2024",
+"ko": "마리아",
+"en": "Mary",
+"year": 2024,
+"kind": "영화",
+"start": -6,
+"end": -4,
+"regions": [
+"israel"
+],
+"prots": [
+{
+"ko": "마리아",
+"en": "Mary",
+"badge": "B",
+"note": "예수의 어머니. 실존 인물로 여겨지지만 생애 대부분은 전해지는 이야기입니다.",
+"href": "https://the-chosen-korean.vercel.app/characters/mary-mother",
+"unsure": true
+}
+],
+"loose": false,
+"note": "예수 탄생 해는 대략 기원전 6–4년으로 봅니다.",
+"sisters": [
+{
+"label": "더 초즌",
+"href": "https://the-chosen-korean.vercel.app/together/mary-2024"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-chosen-2019",
+"ko": "더 초즌",
+"en": "The Chosen",
+"year": 2019,
+"kind": "시리즈",
+"start": -4,
+"end": 30,
+"regions": [
+"israel",
+"rome"
+],
+"prots": [
+{
+"ko": "예수",
+"en": "Jesus",
+"badge": "R",
+"note": "나사렛 출신 유대인 선생. 역사학자 대다수가 실존을 인정합니다. 대사·장면은 각색.",
+"href": "https://the-chosen-korean.vercel.app/characters/jesus",
+"unsure": false
+},
+{
+"ko": "시몬 베드로",
+"en": "Simon Peter",
+"badge": "R",
+"note": "예수의 제자. 드라마는 빚 같은 사연을 새로 만들었습니다.",
+"href": "https://the-chosen-korean.vercel.app/characters/peter",
+"unsure": false
+},
+{
+"ko": "막달라 마리아",
+"en": "Mary Magdalene",
+"badge": "R",
+"note": "예수를 따른 여인.",
+"href": "https://the-chosen-korean.vercel.app/characters/mary-magdalene",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "ben-hur-1959",
+"ko": "벤허",
+"en": "Ben-Hur",
+"year": 1959,
+"kind": "영화",
+"start": 26,
+"end": 33,
+"regions": [
+"israel",
+"rome"
+],
+"prots": [
+{
+"ko": "유다 벤허",
+"en": "Judah Ben-Hur",
+"badge": "F",
+"note": "루 월리스 소설(1880)의 가상 유대 귀족.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "멧살라",
+"en": "Messala",
+"badge": "F",
+"note": "소설의 가상 로마 장교.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#ben-hur"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-passion-of-the-christ-2004",
+"ko": "패션 오브 크라이스트",
+"en": "The Passion of the Christ",
+"year": 2004,
+"kind": "영화",
+"start": 30,
+"end": 30,
+"regions": [
+"israel",
+"rome"
+],
+"prots": [
+{
+"ko": "예수",
+"en": "Jesus",
+"badge": "R",
+"note": "마지막 12시간. 해는 대략 서기 30년 또는 33년.",
+"href": "https://the-chosen-korean.vercel.app/characters/jesus",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "quo-vadis-1951",
+"ko": "쿼 바디스",
+"en": "Quo Vadis",
+"year": 1951,
+"kind": "영화",
+"start": 64,
+"end": 68,
+"regions": [
+"rome",
+"israel"
+],
+"prots": [
+{
+"ko": "마르쿠스 비니키우스",
+"en": "Marcus Vinicius",
+"badge": "F",
+"note": "시엔키에비치 소설의 가상 로마 장군.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "리기아",
+"en": "Lygia",
+"badge": "F",
+"note": "소설의 가상 기독교인.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "네로",
+"en": "Nero",
+"badge": "B",
+"note": "실존 황제(재위 54–68년). 로마 대화재를 직접 냈다는 묘사는 전해지는 이야기.",
+"href": "https://rome-stories.vercel.app/rulers/nero",
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#quo-vadis"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "pompeii-2014",
+"ko": "폼페이: 최후의 날",
+"en": "Pompeii",
+"year": 2014,
+"kind": "영화",
+"start": 79,
+"end": 79,
+"regions": [
+"rome"
+],
+"prots": [
+{
+"ko": "마일로",
+"en": "Milo",
+"badge": "F",
+"note": "영화의 가상 검투사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "베수비오 분화는 서기 79년.",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#pompeii-2014"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "gladiator-2000",
+"ko": "글래디에이터",
+"en": "Gladiator",
+"year": 2000,
+"kind": "영화",
+"start": 180,
+"end": 180,
+"regions": [
+"rome",
+"germanic"
+],
+"prots": [
+{
+"ko": "막시무스",
+"en": "Maximus Decimus Meridius",
+"badge": "F",
+"note": "가상 인물. 마르쿠스 노니우스 마크리누스(장군), 나르키소스(콤모두스를 죽인 레슬러) 등에서 일부 착안했다고 알려져 있습니다.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "콤모두스",
+"en": "Commodus",
+"badge": "B",
+"note": "실존 황제(재위 180–192년). 실제로는 192년 목욕 중 레슬러 나르키소스에게 목 졸려 죽었고, 경기장 결투사는 창작.",
+"href": "https://rome-stories.vercel.app/rulers/marcus-aurelius",
+"unsure": false
+}
+],
+"loose": false,
+"note": "영화는 180년 즉위 직후 몇 달로 압축. 실제 콤모두스는 12년 통치했습니다.",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#gladiator"
+},
+{
+"label": "게르만이야기",
+"href": "https://germanic-stories.vercel.app/films#gladiator-2000"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "fall-of-the-roman-empire-1964",
+"ko": "로마제국의 멸망",
+"en": "The Fall of the Roman Empire",
+"year": 1964,
+"kind": "영화",
+"start": 180,
+"end": 192,
+"regions": [
+"rome",
+"germanic"
+],
+"prots": [
+{
+"ko": "리비우스",
+"en": "Livius",
+"badge": "F",
+"note": "영화의 가상 장군.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "콤모두스",
+"en": "Commodus",
+"badge": "B",
+"note": "실존 황제. 결투로 죽는 결말은 창작.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "마르쿠스 아우렐리우스",
+"en": "Marcus Aurelius",
+"badge": "R",
+"note": "철학자 황제(재위 161–180년).",
+"href": "https://rome-stories.vercel.app/rulers/marcus-aurelius",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#fall-of-the-roman-empire"
+},
+{
+"label": "게르만이야기",
+"href": "https://germanic-stories.vercel.app/films#fall-of-the-roman-empire-1964"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "gladiator-ii-2024",
+"ko": "글래디에이터 Ⅱ",
+"en": "Gladiator II",
+"year": 2024,
+"kind": "영화",
+"start": 211,
+"end": 211,
+"regions": [
+"rome"
+],
+"prots": [
+{
+"ko": "루키우스 베루스 아우렐리우스",
+"en": "Lucius",
+"badge": "F",
+"note": "루킬라의 아들로 설정된 사실상 가상 인물. 막시무스의 아들이라는 설정도 창작.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "게타·카라칼라",
+"en": "Geta & Caracalla",
+"badge": "B",
+"note": "실존 공동 황제 형제(211년). 영화의 모습은 크게 바뀌었습니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "영화는 211년 무렵. 실제로 카라칼라는 211년 말 게타를 죽였습니다.",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#gladiator-ii"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "agora-2009",
+"ko": "아고라",
+"en": "Agora",
+"year": 2009,
+"kind": "영화",
+"start": 391,
+"end": 415,
+"regions": [
+"egypt",
+"greece",
+"rome"
+],
+"prots": [
+{
+"ko": "히파티아",
+"en": "Hypatia",
+"badge": "R",
+"note": "알렉산드리아의 수학자·철학자. 415년 폭도에게 살해되었습니다.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "다보스",
+"en": "Davus",
+"badge": "F",
+"note": "영화가 만든 노예.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "그리스이야기",
+"href": "https://greece-stories.vercel.app/movies#agora"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "attila-2001",
+"ko": "아틸라",
+"en": "Attila",
+"year": 2001,
+"kind": "시리즈",
+"start": 434,
+"end": 453,
+"regions": [
+"germanic",
+"rome"
+],
+"prots": [
+{
+"ko": "아틸라",
+"en": "Attila",
+"badge": "R",
+"note": "훈족의 왕(434/435–453년).",
+"href": "https://germanic-stories.vercel.app/people/attila",
+"unsure": false
+},
+{
+"ko": "아이티우스",
+"en": "Flavius Aetius",
+"badge": "R",
+"note": "서로마 장군. 451년 카탈라우눔에서 아틸라를 막았습니다.",
+"href": "https://germanic-stories.vercel.app/people/aetius",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "게르만이야기",
+"href": "https://germanic-stories.vercel.app/films#attila-2001"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-last-legion-2007",
+"ko": "라스트 리전",
+"en": "The Last Legion",
+"year": 2007,
+"kind": "영화",
+"start": 476,
+"end": 500,
+"regions": [
+"rome",
+"medieval"
+],
+"prots": [
+{
+"ko": "아우렐리우스",
+"en": "Aurelius",
+"badge": "F",
+"note": "영화의 가상 로마 장교.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "로물루스 아우구스툴루스",
+"en": "Romulus Augustulus",
+"badge": "B",
+"note": "서로마 마지막 황제(475–476년). 브리타니아로 탈출해 아서 전설로 이어지는 이야기는 창작.",
+"href": "https://germanic-stories.vercel.app/people/odoacer",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "로마이야기",
+"href": "https://rome-stories.vercel.app/movies#last-legion"
+},
+{
+"label": "게르만이야기",
+"href": "https://germanic-stories.vercel.app/films#the-last-legion-2007"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "king-arthur-2004",
+"ko": "킹 아더",
+"en": "King Arthur",
+"year": 2004,
+"kind": "영화",
+"start": 467,
+"end": 476,
+"regions": [
+"medieval",
+"rome"
+],
+"prots": [
+{
+"ko": "아서",
+"en": "Arthur",
+"badge": "B",
+"note": "아서는 실존이 확인되지 않은 전설 인물. 영화는 로마 장교 루키우스 아르토리우스 카스투스 설을 빌렸습니다. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "게르만이야기",
+"href": "https://germanic-stories.vercel.app/films#king-arthur-2004"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "excalibur-1981",
+"ko": "엑스칼리버",
+"en": "Excalibur",
+"year": 1981,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "아서 왕",
+"en": "King Arthur",
+"badge": "F",
+"note": "중세 로맨스의 전설 왕. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "해를 정할 수 없는 전설. 흔히 5–6세기로 놓습니다.",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "king-arthur-legend-of-the-sword-2017",
+"ko": "킹 아서: 제왕의 검",
+"en": "King Arthur: Legend of the Sword",
+"year": 2017,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "아서",
+"en": "Arthur",
+"badge": "F",
+"note": "전설 왕을 판타지로 옮긴 인물. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "해를 정할 수 없는 전설.",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "barbarians-2020",
+"ko": "바바리안",
+"en": "Barbarians",
+"year": 2020,
+"kind": "시리즈",
+"start": 9,
+"end": 16,
+"regions": [
+"germanic",
+"rome"
+],
+"prots": [
+{
+"ko": "아르미니우스",
+"en": "Arminius",
+"badge": "R",
+"note": "케루스키족 지도자. 서기 9년 토이토부르크에서 바루스의 세 군단을 무너뜨렸습니다.",
+"href": "https://germanic-stories.vercel.app/people/arminius",
+"unsure": false
+},
+{
+"ko": "투스넬다",
+"en": "Thusnelda",
+"badge": "B",
+"note": "아르미니우스의 아내로 실존. 전사 같은 활약은 창작.",
+"href": "https://germanic-stories.vercel.app/people/thusnelda",
+"unsure": false
+},
+{
+"ko": "폴크",
+"en": "Folc",
+"badge": "F",
+"note": "드라마가 만든 가상 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "게르만이야기",
+"href": "https://germanic-stories.vercel.app/films#barbarians-2020"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "beowulf-2007",
+"ko": "베오울프",
+"en": "Beowulf",
+"year": 2007,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "베오울프",
+"en": "Beowulf",
+"badge": "F",
+"note": "고대 영어 서사시의 영웅. 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "서사시의 배경은 6세기 스칸디나비아로 보지만 해는 정할 수 없습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#beowulf-2007"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "beowulf-1999",
+"ko": "베오울프",
+"en": "Beowulf",
+"year": 1999,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "베오울프",
+"en": "Beowulf",
+"badge": "F",
+"note": "서사시 영웅을 판타지 액션으로 옮겼습니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#beowulf-1999"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "beowulf-grendel-2005",
+"ko": "베오울프 앤 그렌델",
+"en": "Beowulf & Grendel",
+"year": 2005,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "베오울프",
+"en": "Beowulf",
+"badge": "F",
+"note": "서사시의 영웅.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "그렌델",
+"en": "Grendel",
+"badge": "F",
+"note": "서사시의 괴물을 사람에 가깝게 그렸습니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "서사시의 배경은 6세기로 보지만 해는 정할 수 없습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#beowulf-grendel-2005"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "outlander-2008",
+"ko": "아웃랜더",
+"en": "Outlander",
+"year": 2008,
+"kind": "영화",
+"start": 709,
+"end": 709,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "카이난",
+"en": "Kainan",
+"badge": "F",
+"note": "우주에서 떨어진 가상 군인.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "영화 자막의 해(709년). 판타지.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#outlander-2008"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "norsemen-2016",
+"ko": "바이킹 따라잡기",
+"en": "Norsemen",
+"year": 2016,
+"kind": "시리즈",
+"start": 790,
+"end": 800,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "오름",
+"en": "Orm",
+"badge": "F",
+"note": "코미디의 가상 바이킹.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "아르비드",
+"en": "Arvid",
+"badge": "F",
+"note": "코미디의 가상 바이킹.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#norsemen-2016"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "vikings-2013",
+"ko": "바이킹스",
+"en": "Vikings",
+"year": 2013,
+"kind": "시리즈",
+"start": 793,
+"end": 900,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "라그나르 로드브로크",
+"en": "Ragnar Lothbrok",
+"badge": "B",
+"note": "사가와 연대기의 반쯤 전설 같은 인물. 실존 여부는 확인되지 않습니다(전해지는 이야기).",
+"href": "https://viking-stories.vercel.app/people/ragnar",
+"unsure": true
+},
+{
+"ko": "라거타",
+"en": "Lagertha",
+"badge": "B",
+"note": "삭소 그라마티쿠스가 적은 전설 속 방패처녀. 실존 미확인.",
+"href": "https://viking-stories.vercel.app/people/lagertha",
+"unsure": true
+}
+],
+"loose": false,
+"note": "드라마는 여러 세대의 사건을 한 세대로 압축했습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#vikings-2013"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "the-vikings-1958",
+"ko": "바이킹",
+"en": "The Vikings",
+"year": 1958,
+"kind": "영화",
+"start": 793,
+"end": 866,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "에이나르",
+"en": "Einar",
+"badge": "F",
+"note": "영화의 가상 바이킹.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "에릭",
+"en": "Eric",
+"badge": "F",
+"note": "영화의 가상 노예.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-vikings-1958"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "the-last-kingdom-2015",
+"ko": "라스트 킹덤",
+"en": "The Last Kingdom",
+"year": 2015,
+"kind": "시리즈",
+"start": 866,
+"end": 899,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "베번버그의 우트레드",
+"en": "Uhtred of Bebbanburg",
+"badge": "F",
+"note": "버나드 콘웰 소설의 주인공. 11세기 실존 인물 우트레드에서 이름을 빌린 가상 인물.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "알프레드 대왕",
+"en": "Alfred the Great",
+"badge": "R",
+"note": "웨식스 왕(재위 871–899년).",
+"href": "https://viking-stories.vercel.app/people/alfred",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "게르만이야기",
+"href": "https://germanic-stories.vercel.app/films#the-last-kingdom-2015"
+},
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-last-kingdom-2015"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "alfred-the-great-1969",
+"ko": "알프레드 더 그레이트",
+"en": "Alfred the Great",
+"year": 1969,
+"kind": "영화",
+"start": 871,
+"end": 878,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "알프레드 대왕",
+"en": "Alfred the Great",
+"badge": "R",
+"note": "웨식스 왕. 878년 에딩턴에서 데인 군을 이겼습니다.",
+"href": "https://viking-stories.vercel.app/people/alfred",
+"unsure": false
+},
+{
+"ko": "구스럼",
+"en": "Guthrum",
+"badge": "R",
+"note": "데인 군 지도자.",
+"href": "https://viking-stories.vercel.app/people/guthrum",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#alfred-the-great-1969"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "hammer-of-the-gods-2013",
+"ko": "해머 오브 더 갓스",
+"en": "Hammer of the Gods",
+"year": 2013,
+"kind": "영화",
+"start": 870,
+"end": 871,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "스타이나르",
+"en": "Steinar",
+"badge": "F",
+"note": "영화의 가상 왕자. 아버지 바그세크 왕은 871년 애시다운에서 죽은 실존 바이킹 이름을 빌렸습니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "영화 소개는 870년과 871년으로 엇갈립니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#hammer-of-the-gods-2013"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "northmen-a-viking-saga-2014",
+"ko": "노스멘: 어 바이킹 사가",
+"en": "Northmen: A Viking Saga",
+"year": 2014,
+"kind": "영화",
+"start": 870,
+"end": 870,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "아스뵤른",
+"en": "Asbjörn",
+"badge": "F",
+"note": "영화의 가상 바이킹.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "영화가 내세우는 해(870년). 확인 필요.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#northmen-a-viking-saga-2014"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "the-northman-2022",
+"ko": "노스맨",
+"en": "The Northman",
+"year": 2022,
+"kind": "영화",
+"start": 895,
+"end": 914,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "암레스",
+"en": "Amleth",
+"badge": "F",
+"note": "삭소 그라마티쿠스가 적은 전설 속 왕자(햄릿의 원형). 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-northman-2022"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "prince-of-jutland-1994",
+"ko": "프린스 오브 주틀란드",
+"en": "Prince of Jutland",
+"year": 1994,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "암레드",
+"en": "Amled",
+"badge": "F",
+"note": "삭소의 덴마크 왕자 전설(햄릿의 원형). 전해지는 이야기 — 실존 여부는 확인되지 않습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "전설이라 해를 정할 수 없습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#prince-of-jutland-1994"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "the-13th-warrior-1999",
+"ko": "13번째 전사",
+"en": "The 13th Warrior",
+"year": 1999,
+"kind": "영화",
+"start": 921,
+"end": 922,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "아흐마드 이븐 파들란",
+"en": "Ahmad ibn Fadlan",
+"badge": "B",
+"note": "921–922년 볼가강을 여행한 실존 아랍 사절. 바이킹과 괴물 싸움은 베오울프를 섞은 창작.",
+"href": "/events/ibn-fadlan-volga",
+"unsure": false
+},
+{
+"ko": "불리위프",
+"en": "Buliwyf",
+"badge": "F",
+"note": "베오울프를 바꾼 가상 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-13th-warrior-1999"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "the-last-kingdom-seven-kings-must-die-2023",
+"ko": "세븐 킹스 머스트 다이",
+"en": "The Last Kingdom: Seven Kings Must Die",
+"year": 2023,
+"kind": "영화",
+"start": 924,
+"end": 937,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "우트레드",
+"en": "Uhtred",
+"badge": "F",
+"note": "소설·드라마의 가상 주인공.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "애설스탠",
+"en": "Athelstan",
+"badge": "R",
+"note": "잉글랜드 왕(924–939년). 937년 브루넌버 승리.",
+"href": "https://viking-stories.vercel.app/people/athelstan",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-last-kingdom-seven-kings-must-die-2023"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "when-the-raven-flies-1984",
+"ko": "웬 더 레이븐 플라이즈",
+"en": "When the Raven Flies",
+"year": 1984,
+"kind": "영화",
+"start": 900,
+"end": 1000,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "게스트",
+"en": "Gest",
+"badge": "F",
+"note": "복수하러 온 가상 아일랜드 남자.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "바이킹 시대 아이슬란드. 정확한 해는 영화가 밝히지 않습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#when-the-raven-flies-1984"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "in-the-shadow-of-the-raven-1988",
+"ko": "인 더 섀도 오브 더 레이븐",
+"en": "In the Shadow of the Raven",
+"year": 1988,
+"kind": "영화",
+"start": 1000,
+"end": 1100,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "트라우스티",
+"en": "Trausti",
+"badge": "F",
+"note": "영화의 가상 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "기독교화 이후 아이슬란드. 해는 대략.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#in-the-shadow-of-the-raven-1988"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "the-white-viking-1991",
+"ko": "더 화이트 바이킹",
+"en": "The White Viking",
+"year": 1991,
+"kind": "영화",
+"start": 995,
+"end": 1000,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "아스쿠르",
+"en": "Askur",
+"badge": "F",
+"note": "영화의 가상 청년.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "올라프 트리그바손",
+"en": "Olaf Tryggvason",
+"badge": "R",
+"note": "노르웨이 왕(995–1000년 무렵). 기독교를 밀어붙였습니다.",
+"href": "https://viking-stories.vercel.app/people/olaf-tryggvason",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-white-viking-1991"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "erik-the-viking-1989",
+"ko": "에릭 더 바이킹",
+"en": "Erik the Viking",
+"year": 1989,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "에릭",
+"en": "Erik",
+"badge": "F",
+"note": "코미디 판타지의 가상 바이킹.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#erik-the-viking-1989"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "the-long-ships-1964",
+"ko": "더 롱 쉽스",
+"en": "The Long Ships",
+"year": 1964,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "롤프",
+"en": "Rolfe",
+"badge": "F",
+"note": "영화의 가상 바이킹 모험가.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "알리 만수",
+"en": "Aly Mansuh",
+"badge": "F",
+"note": "영화의 가상 무어 왕자.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "바이킹 시대의 모험극. 해는 밝히지 않습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-long-ships-1964"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "the-viking-1928",
+"ko": "더 바이킹",
+"en": "The Viking",
+"year": 1928,
+"kind": "영화",
+"start": 1000,
+"end": 1000,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "레이프 에이릭손",
+"en": "Leif Erikson",
+"badge": "B",
+"note": "실존 탐험가(10–11세기). 영화의 모험·사랑은 소설 각색.",
+"href": "https://viking-stories.vercel.app/people/leif",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-viking-1928"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "pathfinder-2007",
+"ko": "패스파인더",
+"en": "Pathfinder",
+"year": 2007,
+"kind": "영화",
+"start": 1000,
+"end": 1010,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "고스트",
+"en": "Ghost",
+"badge": "F",
+"note": "원주민에게 자란 가상 바이킹 소년.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#pathfinder-2007"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "valhalla-rising-2009",
+"ko": "발할라 라이징",
+"en": "Valhalla Rising",
+"year": 2009,
+"kind": "영화",
+"start": 1000,
+"end": 1100,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "원아이",
+"en": "One-Eye",
+"badge": "F",
+"note": "말 없는 가상 전사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#valhalla-rising-2009"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "vinland-saga-2019",
+"ko": "빈란드 사가",
+"en": "Vinland Saga",
+"year": 2019,
+"kind": "시리즈",
+"start": 1002,
+"end": 1020,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "토르핀",
+"en": "Thorfinn",
+"badge": "B",
+"note": "빈란드에 가려 한 실존 인물 토르핀 카를세프니에서 착안. 복수극은 창작.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "크누트",
+"en": "Cnut",
+"badge": "B",
+"note": "실존 왕(잉글랜드 1016–1035년). 성격 변화는 창작.",
+"href": "https://viking-stories.vercel.app/people/cnut",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#vinland-saga-2019"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "vikings-valhalla-2022",
+"ko": "바이킹스: 발할라",
+"en": "Vikings: Valhalla",
+"year": 2022,
+"kind": "시리즈",
+"start": 1002,
+"end": 1066,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "레이프 에이릭손",
+"en": "Leif Erikson",
+"badge": "B",
+"note": "실존 탐험가. 드라마는 1066년까지 활약시키지만 실제와 맞지 않습니다.",
+"href": "https://viking-stories.vercel.app/people/leif",
+"unsure": false
+},
+{
+"ko": "프레이디스",
+"en": "Freydís Eiríksdóttir",
+"badge": "B",
+"note": "사가에 나오는 에이릭의 딸. 드라마의 신앙 전쟁 이야기는 창작.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "하랄드 하드라다",
+"en": "Harald Hardrada",
+"badge": "B",
+"note": "노르웨이 왕(1046–1066년).",
+"href": "https://viking-stories.vercel.app/people/harald-hardrada",
+"unsure": false
+}
+],
+"loose": false,
+"note": "약 60년의 사건을 한 세대로 압축했습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#vikings-valhalla-2022"
+}
+],
+"checklist": "viking",
+"inTimeline": true
+},
+{
+"id": "viking-2016",
+"ko": "바이킹",
+"en": "Viking",
+"year": 2016,
+"kind": "영화",
+"start": 970,
+"end": 988,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "블라디미르",
+"en": "Vladimir the Great",
+"badge": "R",
+"note": "키예프 대공(980–1015년). 988년 무렵 세례.",
+"href": "https://viking-stories.vercel.app/people/vladimir",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#viking-2016"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "a-year-to-conquer-england-2017",
+"ko": "1066: 어 이어 투 컨커 잉글랜드",
+"en": "1066: A Year to Conquer England",
+"year": 2017,
+"kind": "다큐",
+"start": 1066,
+"end": 1066,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "해럴드 고드윈슨",
+"en": "Harold Godwinson",
+"badge": "R",
+"note": "잉글랜드 왕 해럴드 2세.",
+"href": "https://viking-stories.vercel.app/people/harold-godwinson",
+"unsure": false
+},
+{
+"ko": "하랄드 하드라다",
+"en": "Harald Hardrada",
+"badge": "R",
+"note": "노르웨이 왕.",
+"href": "https://viking-stories.vercel.app/people/harald-hardrada",
+"unsure": false
+},
+{
+"ko": "정복왕 윌리엄",
+"en": "William the Conqueror",
+"badge": "R",
+"note": "노르망디 공.",
+"href": "https://viking-stories.vercel.app/people/william",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#a-year-to-conquer-england-2017"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "the-normans-2010",
+"ko": "더 노먼스",
+"en": "The Normans",
+"year": 2010,
+"kind": "다큐",
+"start": 911,
+"end": 1100,
+"regions": [
+"viking",
+"medieval"
+],
+"prots": [
+{
+"ko": "롤로",
+"en": "Rollo",
+"badge": "R",
+"note": "노르망디의 첫 지배자(911년 무렵).",
+"href": "https://viking-stories.vercel.app/people/rollo",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-normans-2010"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "blood-of-the-vikings-2001",
+"ko": "블러드 오브 더 바이킹스",
+"en": "Blood of the Vikings",
+"year": 2001,
+"kind": "다큐",
+"start": 793,
+"end": 1066,
+"regions": [
+"viking"
+],
+"prots": [],
+"loose": true,
+"note": "해설 다큐. 한 사람의 주인공이 없습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#blood-of-the-vikings-2001"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "vikings-bbc-2012",
+"ko": "바이킹스",
+"en": "Vikings",
+"year": 2012,
+"kind": "다큐",
+"start": 793,
+"end": 1035,
+"regions": [
+"viking"
+],
+"prots": [],
+"loose": true,
+"note": "해설 다큐. 한 사람의 주인공이 없습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#vikings-bbc-2012"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "secrets-of-the-viking-sword-2012",
+"ko": "시크릿 오브 더 바이킹 소드",
+"en": "Secrets of the Viking Sword",
+"year": 2012,
+"kind": "다큐",
+"start": 800,
+"end": 1000,
+"regions": [
+"viking"
+],
+"prots": [],
+"loose": true,
+"note": "해설 다큐. 한 사람의 주인공이 없습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#secrets-of-the-viking-sword-2012"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "the-vikings-uncovered-2016",
+"ko": "더 바이킹스 언커버드",
+"en": "The Vikings Uncovered",
+"year": 2016,
+"kind": "다큐",
+"start": 793,
+"end": 1000,
+"regions": [
+"viking"
+],
+"prots": [],
+"loose": true,
+"note": "해설 다큐. 한 사람의 주인공이 없습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#the-vikings-uncovered-2016"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "viking-warrior-women-2019",
+"ko": "바이킹 워리어 우먼",
+"en": "Viking Warrior Women",
+"year": 2019,
+"kind": "다큐",
+"start": 900,
+"end": 1000,
+"regions": [
+"viking"
+],
+"prots": [],
+"loose": true,
+"note": "해설 다큐. 한 사람의 주인공이 없습니다.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#viking-warrior-women-2019"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "valhalla-1986",
+"ko": "발할라",
+"en": "Valhalla",
+"year": 1986,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "토르",
+"en": "Thor",
+"badge": "F",
+"note": "북유럽 신화의 신.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#valhalla-1986"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "valhalla-2019",
+"ko": "발할라",
+"en": "Valhalla",
+"year": 2019,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "뢰스크바",
+"en": "Røskva",
+"badge": "F",
+"note": "신화 속 토르의 하인.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#valhalla-2019"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "how-to-train-your-dragon-2010",
+"ko": "드래곤 길들이기",
+"en": "How to Train Your Dragon",
+"year": 2010,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"viking"
+],
+"prots": [
+{
+"ko": "히컵",
+"en": "Hiccup",
+"badge": "F",
+"note": "바이킹 풍 판타지의 가상 소년.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#how-to-train-your-dragon-2010"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "thor-2011",
+"ko": "토르",
+"en": "Thor",
+"year": 2011,
+"kind": "영화",
+"start": 2011,
+"end": 2011,
+"regions": [
+"modern"
+],
+"prots": [
+{
+"ko": "토르",
+"en": "Thor",
+"badge": "F",
+"note": "북유럽 신화의 신을 마블 영웅으로 바꾼 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "현대 배경 판타지.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#thor-2011"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "ragnarok-2020",
+"ko": "라그나로크",
+"en": "Ragnarok",
+"year": 2020,
+"kind": "시리즈",
+"start": 2020,
+"end": 2023,
+"regions": [
+"modern"
+],
+"prots": [
+{
+"ko": "망네",
+"en": "Magne",
+"badge": "F",
+"note": "현대 노르웨이의 가상 고등학생.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "현대 배경.",
+"sisters": [
+{
+"label": "바이킹이야기",
+"href": "https://viking-stories.vercel.app/films#ragnarok-2020"
+}
+],
+"checklist": "viking",
+"inTimeline": false
+},
+{
+"id": "kingdom-of-heaven-2005",
+"ko": "킹덤 오브 헤븐",
+"en": "Kingdom of Heaven",
+"year": 2005,
+"kind": "영화",
+"start": 1184,
+"end": 1187,
+"regions": [
+"medieval",
+"israel"
+],
+"prots": [
+{
+"ko": "이벨린의 발리앙",
+"en": "Balian of Ibelin",
+"badge": "B",
+"note": "1187년 예루살렘을 지킨 실존 귀족. 대장장이 출신 사생아 설정은 창작.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "살라딘",
+"en": "Saladin",
+"badge": "R",
+"note": "아이유브 왕조의 술탄.",
+"href": "/events/saladin",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "robin-hood-2010",
+"ko": "로빈 후드",
+"en": "Robin Hood",
+"year": 2010,
+"kind": "영화",
+"start": 1199,
+"end": 1199,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "로빈 롱스트라이드",
+"en": "Robin Longstride",
+"badge": "F",
+"note": "전설 속 의적. 실존 여부 미확인(전해지는 이야기).",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "리처드 1세의 죽음(1199년) 직후.",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "braveheart-1995",
+"ko": "브레이브하트",
+"en": "Braveheart",
+"year": 1995,
+"kind": "영화",
+"start": 1280,
+"end": 1314,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "윌리엄 월리스",
+"en": "William Wallace",
+"badge": "B",
+"note": "실존 스코틀랜드 지도자(1305년 처형). 이사벨라 왕비와의 사랑 등 많은 부분이 창작.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "outlaw-king-2018",
+"ko": "아웃로 킹",
+"en": "Outlaw King",
+"year": 2018,
+"kind": "영화",
+"start": 1304,
+"end": 1307,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "로버트 브루스",
+"en": "Robert the Bruce",
+"badge": "R",
+"note": "스코틀랜드 왕 로버트 1세(1306–1329년).",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-name-of-the-rose-1986",
+"ko": "장미의 이름",
+"en": "The Name of the Rose",
+"year": 1986,
+"kind": "영화",
+"start": 1327,
+"end": 1327,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "바스커빌의 윌리엄",
+"en": "William of Baskerville",
+"badge": "F",
+"note": "움베르토 에코 소설의 가상 수도사.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "아드소",
+"en": "Adso",
+"badge": "F",
+"note": "소설의 가상 견습 수도사.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-last-duel-2021",
+"ko": "라스트 듀얼: 최후의 결투",
+"en": "The Last Duel",
+"year": 2021,
+"kind": "영화",
+"start": 1370,
+"end": 1386,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "장 드 카루주",
+"en": "Jean de Carrouges",
+"badge": "R",
+"note": "1386년 결투를 벌인 실존 기사.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "마르그리트 드 카루주",
+"en": "Marguerite de Carrouges",
+"badge": "R",
+"note": "고발한 실존 귀부인.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "자크 르 그리",
+"en": "Jacques Le Gris",
+"badge": "R",
+"note": "결투에서 죽은 실존 종자.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-king-2019",
+"ko": "더 킹: 헨리 5세",
+"en": "The King",
+"year": 2019,
+"kind": "영화",
+"start": 1403,
+"end": 1415,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "헨리 5세",
+"en": "Henry V",
+"badge": "B",
+"note": "잉글랜드 왕(1413–1422년). 셰익스피어와 영화의 각색이 많습니다. 폴스타프는 가상.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-messenger-1999",
+"ko": "잔 다르크",
+"en": "The Messenger: The Story of Joan of Arc",
+"year": 1999,
+"kind": "영화",
+"start": 1429,
+"end": 1431,
+"regions": [
+"medieval"
+],
+"prots": [
+{
+"ko": "잔 다르크",
+"en": "Joan of Arc",
+"badge": "R",
+"note": "1429년 오를레앙을 구하고 1431년 화형당한 실존 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "romance-of-the-three-kingdoms-1994",
+"ko": "삼국연의",
+"en": "Romance of the Three Kingdoms",
+"year": 1994,
+"kind": "시리즈",
+"start": 184,
+"end": 280,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "유비",
+"en": "Liu Bei",
+"badge": "B",
+"note": "촉한의 실존 황제. 소설 『삼국지연의』를 따르는 모습.",
+"href": "https://nadoo-samguk.vercel.app/characters/liu-bei",
+"unsure": false
+},
+{
+"ko": "조조",
+"en": "Cao Cao",
+"badge": "B",
+"note": "실존 위의 기초를 놓은 인물. 소설은 악역으로 그립니다.",
+"href": "https://nadoo-samguk.vercel.app/characters/cao-cao",
+"unsure": false
+},
+{
+"ko": "제갈량",
+"en": "Zhuge Liang",
+"badge": "B",
+"note": "실존 촉한 승상. 소설의 신기한 계책 상당수는 창작.",
+"href": "https://nadoo-samguk.vercel.app/characters/zhuge-liang",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#romance-1994"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "three-kingdoms-2010",
+"ko": "삼국",
+"en": "Three Kingdoms",
+"year": 2010,
+"kind": "시리즈",
+"start": 189,
+"end": 265,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "조조",
+"en": "Cao Cao",
+"badge": "B",
+"note": "실존 인물, 소설 바탕.",
+"href": "https://nadoo-samguk.vercel.app/characters/cao-cao",
+"unsure": false
+},
+{
+"ko": "유비",
+"en": "Liu Bei",
+"badge": "B",
+"note": "실존 인물, 소설 바탕.",
+"href": "https://nadoo-samguk.vercel.app/characters/liu-bei",
+"unsure": false
+},
+{
+"ko": "제갈량",
+"en": "Zhuge Liang",
+"badge": "B",
+"note": "실존 인물, 소설 바탕.",
+"href": "https://nadoo-samguk.vercel.app/characters/zhuge-liang",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#three-kingdoms-2010"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "dynasty-warriors-2021",
+"ko": "진·삼국무쌍",
+"en": "Dynasty Warriors",
+"year": 2021,
+"kind": "영화",
+"start": 190,
+"end": 192,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "여포",
+"en": "Lü Bu",
+"badge": "B",
+"note": "실존 무장. 게임 원작이라 판타지에 가깝습니다.",
+"href": "https://nadoo-samguk.vercel.app/characters/lu-bu",
+"unsure": false
+},
+{
+"ko": "유비",
+"en": "Liu Bei",
+"badge": "B",
+"note": "실존 인물.",
+"href": "https://nadoo-samguk.vercel.app/characters/liu-bei",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#dynasty-warriors-2021"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "lost-bladesman-2011",
+"ko": "삼국지: 명장 관우",
+"en": "The Lost Bladesman",
+"year": 2011,
+"kind": "영화",
+"start": 200,
+"end": 200,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "관우",
+"en": "Guan Yu",
+"badge": "B",
+"note": "실존 무장. 오관참육장은 소설의 이야기(정사에 없음).",
+"href": "https://nadoo-samguk.vercel.app/characters/guan-yu",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#lost-bladesman-2011"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "red-cliff-2008",
+"ko": "적벽대전: 거대한 전쟁의 시작",
+"en": "Red Cliff",
+"year": 2008,
+"kind": "영화",
+"start": 208,
+"end": 208,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "주유",
+"en": "Zhou Yu",
+"badge": "B",
+"note": "실존 오의 도독.",
+"href": "https://nadoo-samguk.vercel.app/characters/zhou-yu",
+"unsure": false
+},
+{
+"ko": "제갈량",
+"en": "Zhuge Liang",
+"badge": "B",
+"note": "실존 인물. 영화 속 역할은 소설 바탕.",
+"href": "https://nadoo-samguk.vercel.app/characters/zhuge-liang",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#red-cliff-1-2008"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "red-cliff-ii-2009",
+"ko": "적벽대전 2: 최후의 결전",
+"en": "Red Cliff II",
+"year": 2009,
+"kind": "영화",
+"start": 208,
+"end": 208,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "주유",
+"en": "Zhou Yu",
+"badge": "B",
+"note": "실존 오의 도독.",
+"href": "https://nadoo-samguk.vercel.app/characters/zhou-yu",
+"unsure": false
+},
+{
+"ko": "제갈량",
+"en": "Zhuge Liang",
+"badge": "B",
+"note": "초선차전은 소설의 이야기.",
+"href": "https://nadoo-samguk.vercel.app/characters/zhuge-liang",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#red-cliff-2-2009"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "three-kingdoms-resurrection-of-the-dragon-2008",
+"ko": "삼국지: 용의 부활",
+"en": "Three Kingdoms: Resurrection of the Dragon",
+"year": 2008,
+"kind": "영화",
+"start": 208,
+"end": 228,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "조운",
+"en": "Zhao Yun",
+"badge": "B",
+"note": "실존 촉의 장수. 노년의 마지막 싸움 등은 창작.",
+"href": "https://nadoo-samguk.vercel.app/characters/zhao-yun",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#resurrection-dragon-2008"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-assassins-2012",
+"ko": "조조: 황제의 반란",
+"en": "The Assassins",
+"year": 2012,
+"kind": "영화",
+"start": 216,
+"end": 220,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "조조",
+"en": "Cao Cao",
+"badge": "B",
+"note": "실존 인물. 만년의 암살 음모는 창작.",
+"href": "https://nadoo-samguk.vercel.app/characters/cao-cao",
+"unsure": false
+},
+{
+"ko": "영저",
+"en": "Lingju",
+"badge": "F",
+"note": "영화의 가상 자객.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#assassins-2012"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "secrets-of-the-three-kingdoms-2018",
+"ko": "삼국기밀",
+"en": "Secrets of the Three Kingdoms",
+"year": 2018,
+"kind": "시리즈",
+"start": 196,
+"end": 220,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "유평",
+"en": "Liu Ping",
+"badge": "F",
+"note": "헌제의 쌍둥이 형이라는 가상 인물.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "헌제",
+"en": "Emperor Xian",
+"badge": "B",
+"note": "후한 마지막 황제(189–220년).",
+"href": "https://nadoo-samguk.vercel.app/characters/emperor-xian",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#secrets-2018"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-advisors-alliance-2017",
+"ko": "대군사 사마의",
+"en": "The Advisors Alliance",
+"year": 2017,
+"kind": "시리즈",
+"start": 200,
+"end": 251,
+"regions": [
+"china"
+],
+"prots": [
+{
+"ko": "사마의",
+"en": "Sima Yi",
+"badge": "B",
+"note": "실존 위의 정치가(179–251년). 드라마 각색.",
+"href": "https://nadoo-samguk.vercel.app/characters/sima-yi",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두삼국지",
+"href": "https://nadoo-samguk.vercel.app/films#advisors-alliance-2017"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-great-battle-2018",
+"ko": "안시성",
+"en": "The Great Battle",
+"year": 2018,
+"kind": "영화",
+"start": 645,
+"end": 645,
+"regions": [
+"korea",
+"china"
+],
+"prots": [
+{
+"ko": "양만춘",
+"en": "Yang Man-chun",
+"badge": "B",
+"note": "안시성 성주는 실존하지만 『삼국사기』에 이름이 없습니다. ‘양만춘’은 후대에 전해지는 이야기의 이름.",
+"href": "https://korea-stories.vercel.app/defenders/ansi-commander",
+"unsure": true
+},
+{
+"ko": "당 태종",
+"en": "Emperor Taizong of Tang",
+"badge": "R",
+"note": "645년 고구려 원정을 이끈 황제.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#ansi-fortress"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "hwangsanbeol-2003",
+"ko": "황산벌",
+"en": "Once Upon a Time in a Battlefield",
+"year": 2003,
+"kind": "영화",
+"start": 660,
+"end": 660,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "계백",
+"en": "Gyebaek",
+"badge": "B",
+"note": "백제 장군. 660년 황산벌에서 전사. 코미디로 크게 각색.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "김유신",
+"en": "Kim Yu-sin",
+"badge": "B",
+"note": "신라 장군(595–673년). 코미디 각색.",
+"href": "https://korea-stories.vercel.app/defenders/kim-yu-sin",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#hwangsanbeol"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "forbidden-dream-2019",
+"ko": "천문: 하늘에 묻는다",
+"en": "Forbidden Dream",
+"year": 2019,
+"kind": "영화",
+"start": 1434,
+"end": 1442,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "장영실",
+"en": "Jang Yeong-sil",
+"badge": "B",
+"note": "실존 과학자. 1442년 가마 사건 뒤 기록에서 사라집니다. 세종과의 관계 묘사는 각색.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "세종",
+"en": "King Sejong",
+"badge": "R",
+"note": "조선 4대 왕(1418–1450년).",
+"href": "https://korea-stories.vercel.app/rulers/sejong",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#forbidden-dream"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "the-kings-letters-2019",
+"ko": "나랏말싸미",
+"en": "The King's Letters",
+"year": 2019,
+"kind": "영화",
+"start": 1443,
+"end": 1446,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "세종",
+"en": "King Sejong",
+"badge": "R",
+"note": "훈민정음을 만든 왕.",
+"href": "https://korea-stories.vercel.app/rulers/sejong",
+"unsure": false
+},
+{
+"ko": "신미",
+"en": "Sinmi",
+"badge": "B",
+"note": "실존 승려. 훈민정음 창제에 깊이 관여했다는 설정은 학계에서 논란이 있습니다.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#the-kings-letters"
+}
+],
+"checklist": "history",
+"inTimeline": true
+},
+{
+"id": "king-and-the-clown-2005",
+"ko": "왕의 남자",
+"en": "King and the Clown",
+"year": 2005,
+"kind": "영화",
+"start": 1504,
+"end": 1506,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "장생",
+"en": "Jang-saeng",
+"badge": "F",
+"note": "영화의 가상 광대.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "공길",
+"en": "Gong-gil",
+"badge": "B",
+"note": "『연산군일기』에 배우 공길이라는 이름이 한 줄 나옵니다. 영화 속 삶은 창작.",
+"href": null,
+"unsure": true
+},
+{
+"ko": "연산군",
+"en": "Yeonsangun",
+"badge": "R",
+"note": "조선 10대 왕(1494–1506년).",
+"href": "https://korea-stories.vercel.app/rulers/yeonsangun",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#king-and-the-clown"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "dae-jang-geum-2003",
+"ko": "대장금",
+"en": "Jewel in the Palace",
+"year": 2003,
+"kind": "시리즈",
+"start": 1506,
+"end": 1544,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "서장금",
+"en": "Jang-geum",
+"badge": "B",
+"note": "『중종실록』에 의녀 ‘장금’이 몇 번 나옵니다. 성(서씨)과 수라간 이야기는 창작.",
+"href": null,
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#dae-jang-geum"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "hansan-rising-dragon-2022",
+"ko": "한산: 용의 출현",
+"en": "Hansan: Rising Dragon",
+"year": 2022,
+"kind": "영화",
+"start": 1592,
+"end": 1592,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "이순신",
+"en": "Yi Sun-sin",
+"badge": "R",
+"note": "조선 수군 장수(1545–1598년).",
+"href": "https://korea-stories.vercel.app/defenders/yi-sun-sin",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#hansan"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-admiral-roaring-currents-2014",
+"ko": "명량",
+"en": "The Admiral: Roaring Currents",
+"year": 2014,
+"kind": "영화",
+"start": 1597,
+"end": 1597,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "이순신",
+"en": "Yi Sun-sin",
+"badge": "R",
+"note": "1597년 명량에서 13척(또는 12척)으로 싸웠습니다.",
+"href": "https://korea-stories.vercel.app/defenders/yi-sun-sin",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#roaring-currents"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "noryang-deadly-sea-2023",
+"ko": "노량: 죽음의 바다",
+"en": "Noryang: Deadly Sea",
+"year": 2023,
+"kind": "영화",
+"start": 1598,
+"end": 1598,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "이순신",
+"en": "Yi Sun-sin",
+"badge": "R",
+"note": "1598년 노량에서 전사했습니다.",
+"href": "https://korea-stories.vercel.app/defenders/yi-sun-sin",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#noryang"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "masquerade-2012",
+"ko": "광해, 왕이 된 남자",
+"en": "Masquerade",
+"year": 2012,
+"kind": "영화",
+"start": 1616,
+"end": 1616,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "하선",
+"en": "Ha-seon",
+"badge": "F",
+"note": "왕을 대신한 가상 광대.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "광해군",
+"en": "Gwanghaegun",
+"badge": "R",
+"note": "조선 15대 왕(1608–1623년).",
+"href": "https://korea-stories.vercel.app/rulers/gwanghae",
+"unsure": false
+}
+],
+"loose": false,
+"note": "『승정원일기』에서 빠진 15일이라는 설정은 영화의 상상입니다.",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#masquerade"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-fortress-2017",
+"ko": "남한산성",
+"en": "The Fortress",
+"year": 2017,
+"kind": "영화",
+"start": 1636,
+"end": 1637,
+"regions": [
+"korea",
+"china"
+],
+"prots": [
+{
+"ko": "최명길",
+"en": "Choe Myeong-gil",
+"badge": "R",
+"note": "화친을 주장한 이조판서.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "김상헌",
+"en": "Kim Sang-heon",
+"badge": "R",
+"note": "척화를 주장한 예조판서.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "날쇠",
+"en": "Nal-soe",
+"badge": "F",
+"note": "소설·영화의 가상 대장장이.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#the-fortress"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-throne-2015",
+"ko": "사도",
+"en": "The Throne",
+"year": 2015,
+"kind": "영화",
+"start": 1735,
+"end": 1762,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "영조",
+"en": "King Yeongjo",
+"badge": "R",
+"note": "조선 21대 왕(1724–1776년).",
+"href": "https://korea-stories.vercel.app/rulers/yeongjo",
+"unsure": false
+},
+{
+"ko": "사도세자",
+"en": "Crown Prince Sado",
+"badge": "R",
+"note": "1762년 뒤주에서 죽었습니다.",
+"href": "https://korea-stories.vercel.app/rulers/sado",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#the-throne"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "harbin-2024",
+"ko": "하얼빈",
+"en": "Harbin",
+"year": 2024,
+"kind": "영화",
+"start": 1908,
+"end": 1909,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "안중근",
+"en": "An Jung-geun",
+"badge": "R",
+"note": "1909년 하얼빈역 의거.",
+"href": "https://korea-stories.vercel.app/defenders/an-jung-geun",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#harbin"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "hero-2022",
+"ko": "영웅",
+"en": "Hero",
+"year": 2022,
+"kind": "영화",
+"start": 1909,
+"end": 1910,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "안중근",
+"en": "An Jung-geun",
+"badge": "R",
+"note": "의거와 재판, 1910년 순국.",
+"href": "https://korea-stories.vercel.app/defenders/an-jung-geun",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#hero"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-battle-roar-to-victory-2019",
+"ko": "봉오동 전투",
+"en": "The Battle: Roar to Victory",
+"year": 2019,
+"kind": "영화",
+"start": 1920,
+"end": 1920,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "황해철",
+"en": "Hwang Hae-cheol",
+"badge": "F",
+"note": "영화의 가상 독립군.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "이장하",
+"en": "Lee Jang-ha",
+"badge": "F",
+"note": "영화의 가상 분대장.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "홍범도",
+"en": "Hong Beom-do",
+"badge": "R",
+"note": "봉오동 전투를 이끈 실존 장군. 조연.",
+"href": "https://korea-stories.vercel.app/defenders/hong-beom-do",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#bongo-dong"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-last-princess-2016",
+"ko": "덕혜옹주",
+"en": "The Last Princess",
+"year": 2016,
+"kind": "영화",
+"start": 1925,
+"end": 1962,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "덕혜옹주",
+"en": "Princess Deokhye",
+"badge": "B",
+"note": "고종의 딸(1912–1989년). 망명 계획 등은 창작.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#the-last-princess"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "assassination-2015",
+"ko": "암살",
+"en": "Assassination",
+"year": 2015,
+"kind": "영화",
+"start": 1933,
+"end": 1933,
+"regions": [
+"korea"
+],
+"prots": [
+{
+"ko": "안옥윤",
+"en": "Ahn Ok-yun",
+"badge": "F",
+"note": "영화의 가상 저격수.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "염석진",
+"en": "Yeom Seok-jin",
+"badge": "F",
+"note": "가상 밀정.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "김원봉",
+"en": "Kim Won-bong",
+"badge": "R",
+"note": "의열단장. 조연.",
+"href": "https://korea-stories.vercel.app/defenders/kim-won-bong",
+"unsure": false
+}
+],
+"loose": false,
+"note": "프롤로그 1911년, 에필로그 1949년.",
+"sisters": [
+{
+"label": "대한민국이야기",
+"href": "https://korea-stories.vercel.app/films#assassination"
+}
+],
+"checklist": null,
+"inTimeline": false
+},
+{
+"id": "the-agony-and-the-ecstasy-1965",
+"ko": "고뇌와 환희",
+"en": "The Agony and the Ecstasy",
+"year": 1965,
+"kind": "영화",
+"start": 1508,
+"end": 1512,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "미켈란젤로",
+"en": "Michelangelo",
+"badge": "R",
+"note": "시스티나 천장화를 그린 조각가·화가.",
+"href": "https://nadoo-arts.vercel.app/art/michelangelo",
+"unsure": false
+},
+{
+"ko": "율리우스 2세",
+"en": "Pope Julius II",
+"badge": "R",
+"note": "천장화를 맡긴 교황.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "caravaggio-1986",
+"ko": "카라바조",
+"en": "Caravaggio",
+"year": 1986,
+"kind": "영화",
+"start": 1592,
+"end": 1610,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "카라바조",
+"en": "Caravaggio",
+"badge": "B",
+"note": "실존 화가(1571–1610년). 데릭 저먼의 실험적 각색.",
+"href": "https://nadoo-arts.vercel.app/art/caravaggio",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "l-ombra-di-caravaggio-2022",
+"ko": "카라바조의 그림자",
+"en": "L'ombra di Caravaggio",
+"year": 2022,
+"kind": "영화",
+"start": 1600,
+"end": 1610,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "카라바조",
+"en": "Caravaggio",
+"badge": "R",
+"note": "실존 화가.",
+"href": "https://nadoo-arts.vercel.app/art/caravaggio",
+"unsure": false
+},
+{
+"ko": "그림자",
+"en": "L'Ombra",
+"badge": "F",
+"note": "교황청의 가상 조사관.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "nightwatching-2007",
+"ko": "야경: 렘브란트의 음모",
+"en": "Nightwatching",
+"year": 2007,
+"kind": "영화",
+"start": 1642,
+"end": 1642,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "렘브란트",
+"en": "Rembrandt",
+"badge": "B",
+"note": "실존 화가. 그림 속 살인 음모는 창작.",
+"href": "https://nadoo-arts.vercel.app/art/rembrandt",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "girl-with-a-pearl-earring-2003",
+"ko": "진주 귀걸이를 한 소녀",
+"en": "Girl with a Pearl Earring",
+"year": 2003,
+"kind": "영화",
+"start": 1665,
+"end": 1665,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "그리트",
+"en": "Griet",
+"badge": "F",
+"note": "소설이 만든 가상 하녀. 그림 모델은 알려지지 않았습니다.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "요하네스 페르메이르",
+"en": "Johannes Vermeer",
+"badge": "R",
+"note": "델프트 화가.",
+"href": "https://nadoo-arts.vercel.app/art/vermeer",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "amadeus-1984",
+"ko": "아마데우스",
+"en": "Amadeus",
+"year": 1984,
+"kind": "영화",
+"start": 1781,
+"end": 1791,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "안토니오 살리에리",
+"en": "Antonio Salieri",
+"badge": "B",
+"note": "실존 궁정 작곡가. 모차르트 독살은 근거 없는 소문입니다.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "모차르트",
+"en": "Wolfgang Amadeus Mozart",
+"badge": "R",
+"note": "실존 작곡가(1756–1791년).",
+"href": "https://nadoo-arts.vercel.app/music/mozart",
+"unsure": false
+}
+],
+"loose": false,
+"note": "노년의 살리에리 회상(1823년)으로 엮습니다.",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "goya-s-ghosts-2006",
+"ko": "고야의 유령",
+"en": "Goya's Ghosts",
+"year": 2006,
+"kind": "영화",
+"start": 1792,
+"end": 1808,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "로렌소 신부",
+"en": "Lorenzo",
+"badge": "F",
+"note": "가상 종교재판관.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "이네스",
+"en": "Inés",
+"badge": "F",
+"note": "가상 모델.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "고야",
+"en": "Francisco Goya",
+"badge": "R",
+"note": "스페인 궁정 화가.",
+"href": "https://nadoo-arts.vercel.app/art/goya",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "immortal-beloved-1994",
+"ko": "불멸의 연인",
+"en": "Immortal Beloved",
+"year": 1994,
+"kind": "영화",
+"start": 1800,
+"end": 1827,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "베토벤",
+"en": "Ludwig van Beethoven",
+"badge": "B",
+"note": "실존 작곡가. ‘불멸의 연인’의 정체에 대한 영화의 답은 창작입니다.",
+"href": "https://nadoo-arts.vercel.app/music/beethoven",
+"unsure": true
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "copying-beethoven-2006",
+"ko": "카핑 베토벤",
+"en": "Copying Beethoven",
+"year": 2006,
+"kind": "영화",
+"start": 1824,
+"end": 1824,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "안나 홀츠",
+"en": "Anna Holtz",
+"badge": "F",
+"note": "가상 악보 필사가.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "베토벤",
+"en": "Ludwig van Beethoven",
+"badge": "R",
+"note": "교향곡 9번 초연(1824년) 무렵.",
+"href": "https://nadoo-arts.vercel.app/music/beethoven",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "mr-turner-2014",
+"ko": "미스터 터너",
+"en": "Mr. Turner",
+"year": 2014,
+"kind": "영화",
+"start": 1826,
+"end": 1851,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "J. M. W. 터너",
+"en": "J. M. W. Turner",
+"badge": "R",
+"note": "영국 풍경화가.",
+"href": "https://nadoo-arts.vercel.app/art/turner",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "the-devil-s-violinist-2013",
+"ko": "파가니니: 악마의 바이올리니스트",
+"en": "The Devil's Violinist",
+"year": 2013,
+"kind": "영화",
+"start": 1830,
+"end": 1830,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "파가니니",
+"en": "Niccolò Paganini",
+"badge": "B",
+"note": "실존 바이올리니스트. 런던 연애담은 각색.",
+"href": "https://nadoo-arts.vercel.app/music/paganini",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "chopin-chopin-2025",
+"ko": "쇼팽, 파리 소나타",
+"en": "Chopin, Chopin!",
+"year": 2025,
+"kind": "영화",
+"start": 1831,
+"end": 1849,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "쇼팽",
+"en": "Frédéric Chopin",
+"badge": "R",
+"note": "폴란드 출신 작곡가.",
+"href": "https://nadoo-arts.vercel.app/music/chopin",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "la-note-bleue-1991",
+"ko": "쇼팽의 푸른 노트",
+"en": "La note bleue",
+"year": 1991,
+"kind": "영화",
+"start": 1846,
+"end": 1846,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "쇼팽",
+"en": "Frédéric Chopin",
+"badge": "R",
+"note": "작곡가.",
+"href": "https://nadoo-arts.vercel.app/music/chopin",
+"unsure": false
+},
+{
+"ko": "조르주 상드",
+"en": "George Sand",
+"badge": "R",
+"note": "소설가, 쇼팽의 연인.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "effie-gray-2014",
+"ko": "에피 그레이",
+"en": "Effie Gray",
+"year": 2014,
+"kind": "영화",
+"start": 1848,
+"end": 1854,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "에피 그레이",
+"en": "Effie Gray",
+"badge": "R",
+"note": "존 러스킨의 아내, 뒤에 밀레이와 결혼.",
+"href": "https://nadoo-arts.vercel.app/art/millais",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "cezanne-et-moi-2016",
+"ko": "세잔과 졸라",
+"en": "Cézanne et moi",
+"year": 2016,
+"kind": "영화",
+"start": 1852,
+"end": 1906,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "폴 세잔",
+"en": "Paul Cézanne",
+"badge": "R",
+"note": "화가.",
+"href": "https://nadoo-arts.vercel.app/art/cezanne",
+"unsure": false
+},
+{
+"ko": "에밀 졸라",
+"en": "Émile Zola",
+"badge": "R",
+"note": "소설가.",
+"href": null,
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "lust-for-life-1956",
+"ko": "열정의 랩소디",
+"en": "Lust for Life",
+"year": 1956,
+"kind": "영화",
+"start": 1873,
+"end": 1890,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "빈센트 반 고흐",
+"en": "Vincent van Gogh",
+"badge": "R",
+"note": "네덜란드 화가.",
+"href": "https://nadoo-arts.vercel.app/art/van-gogh",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "tchaikovskys-wife-2022",
+"ko": "차이콥스키의 아내",
+"en": "Tchaikovsky's Wife",
+"year": 2022,
+"kind": "영화",
+"start": 1872,
+"end": 1893,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "안토니나 밀류코바",
+"en": "Antonina Miliukova",
+"badge": "R",
+"note": "차이콥스키의 아내.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "차이콥스키",
+"en": "Pyotr Tchaikovsky",
+"badge": "R",
+"note": "작곡가.",
+"href": "https://nadoo-arts.vercel.app/music/tchaikovsky",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "edvard-munch-1974",
+"ko": "에드바르 뭉크",
+"en": "Edvard Munch",
+"year": 1974,
+"kind": "영화",
+"start": 1884,
+"end": 1895,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "에드바르 뭉크",
+"en": "Edvard Munch",
+"badge": "R",
+"note": "노르웨이 화가.",
+"href": "https://nadoo-arts.vercel.app/art/munch",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "at-eternity-s-gate-2018",
+"ko": "반 고흐: 영원의 문에서",
+"en": "At Eternity's Gate",
+"year": 2018,
+"kind": "영화",
+"start": 1888,
+"end": 1890,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "빈센트 반 고흐",
+"en": "Vincent van Gogh",
+"badge": "R",
+"note": "아를과 오베르 시절. 타살설을 택한 결말은 논쟁 중인 해석입니다.",
+"href": "https://nadoo-arts.vercel.app/art/van-gogh",
+"unsure": true
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "loving-vincent-2017",
+"ko": "러빙 빈센트",
+"en": "Loving Vincent",
+"year": 2017,
+"kind": "영화",
+"start": 1891,
+"end": 1891,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "아르망 룰랭",
+"en": "Armand Roulin",
+"badge": "B",
+"note": "고흐가 그린 실존 우체부의 아들. 편지를 전하는 탐정 같은 여정은 창작.",
+"href": null,
+"unsure": false
+},
+{
+"ko": "빈센트 반 고흐",
+"en": "Vincent van Gogh",
+"badge": "R",
+"note": "화가(1853–1890년).",
+"href": "https://nadoo-arts.vercel.app/art/van-gogh",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "klimt-2006",
+"ko": "클림트",
+"en": "Klimt",
+"year": 2006,
+"kind": "영화",
+"start": 1900,
+"end": 1918,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "구스타프 클림트",
+"en": "Gustav Klimt",
+"badge": "B",
+"note": "실존 화가. 몽환적으로 각색.",
+"href": "https://nadoo-arts.vercel.app/art/klimt",
+"unsure": false
+}
+],
+"loose": true,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "mahler-auf-der-couch-2010",
+"ko": "말러, 카우치에 눕다",
+"en": "Mahler auf der Couch",
+"year": 2010,
+"kind": "영화",
+"start": 1910,
+"end": 1910,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "구스타프 말러",
+"en": "Gustav Mahler",
+"badge": "R",
+"note": "작곡가. 1910년 프로이트를 만났습니다.",
+"href": "https://nadoo-arts.vercel.app/music/mahler",
+"unsure": false
+},
+{
+"ko": "알마 말러",
+"en": "Alma Mahler",
+"badge": "R",
+"note": "말러의 아내.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "egon-schiele-tod-und-madchen-2016",
+"ko": "에곤 쉴레: 욕망이 그린 그림",
+"en": "Egon Schiele: Tod und Mädchen",
+"year": 2016,
+"kind": "영화",
+"start": 1910,
+"end": 1918,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "에곤 실레",
+"en": "Egon Schiele",
+"badge": "R",
+"note": "오스트리아 화가.",
+"href": "https://nadoo-arts.vercel.app/art/schiele",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "renoir-2012",
+"ko": "르누아르",
+"en": "Renoir",
+"year": 2012,
+"kind": "영화",
+"start": 1915,
+"end": 1915,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "피에르오귀스트 르누아르",
+"en": "Pierre-Auguste Renoir",
+"badge": "R",
+"note": "노년의 화가.",
+"href": "https://nadoo-arts.vercel.app/art/renoir",
+"unsure": false
+},
+{
+"ko": "장 르누아르",
+"en": "Jean Renoir",
+"badge": "R",
+"note": "아들, 뒤에 영화감독.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "modigliani-2004",
+"ko": "모딜리아니",
+"en": "Modigliani",
+"year": 2004,
+"kind": "영화",
+"start": 1919,
+"end": 1920,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "아메데오 모딜리아니",
+"en": "Amedeo Modigliani",
+"badge": "B",
+"note": "실존 화가. 피카소와의 대회 대결은 창작.",
+"href": "https://nadoo-arts.vercel.app/art/modigliani",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "bolero-2024",
+"ko": "볼레로",
+"en": "Boléro",
+"year": 2024,
+"kind": "영화",
+"start": 1928,
+"end": 1928,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "모리스 라벨",
+"en": "Maurice Ravel",
+"badge": "R",
+"note": "작곡가. 1928년 『볼레로』.",
+"href": "https://nadoo-arts.vercel.app/music/ravel",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "la-mome-2007",
+"ko": "라 비 앙 로즈",
+"en": "La Môme",
+"year": 2007,
+"kind": "영화",
+"start": 1915,
+"end": 1963,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "에디트 피아프",
+"en": "Édith Piaf",
+"badge": "R",
+"note": "프랑스 가수(1915–1963년).",
+"href": "https://nadoo-arts.vercel.app/music/piaf",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "ennio-2021",
+"ko": "엔니오: 더 마에스트로",
+"en": "Ennio",
+"year": 2021,
+"kind": "다큐",
+"start": 1928,
+"end": 2020,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "엔니오 모리코네",
+"en": "Ennio Morricone",
+"badge": "R",
+"note": "영화음악 작곡가(1928–2020년).",
+"href": "https://nadoo-arts.vercel.app/music/morricone",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "woman-in-gold-2015",
+"ko": "우먼 인 골드",
+"en": "Woman in Gold",
+"year": 2015,
+"kind": "영화",
+"start": 1938,
+"end": 2006,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "마리아 알트만",
+"en": "Maria Altmann",
+"badge": "R",
+"note": "클림트 초상화 반환 소송을 낸 실존 인물.",
+"href": "https://nadoo-arts.vercel.app/art/klimt",
+"unsure": false
+}
+],
+"loose": false,
+"note": "1938년 빈 회상, 1998–2006년 소송.",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "nowhere-boy-2009",
+"ko": "노웨어 보이",
+"en": "Nowhere Boy",
+"year": 2009,
+"kind": "영화",
+"start": 1955,
+"end": 1960,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "존 레넌",
+"en": "John Lennon",
+"badge": "R",
+"note": "비틀스 결성 전의 10대.",
+"href": "https://nadoo-arts.vercel.app/music/beatles",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "bohemian-rhapsody-2018",
+"ko": "보헤미안 랩소디",
+"en": "Bohemian Rhapsody",
+"year": 2018,
+"kind": "영화",
+"start": 1970,
+"end": 1985,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "프레디 머큐리",
+"en": "Freddie Mercury",
+"badge": "R",
+"note": "퀸의 보컬. 투병 고백 시점 등 순서는 각색.",
+"href": "https://nadoo-arts.vercel.app/music/queen",
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "mamma-mia-2008",
+"ko": "맘마 미아!",
+"en": "Mamma Mia!",
+"year": 2008,
+"kind": "영화",
+"start": null,
+"end": null,
+"regions": [
+"arts"
+],
+"prots": [
+{
+"ko": "도나",
+"en": "Donna",
+"badge": "F",
+"note": "뮤지컬의 가상 인물.",
+"href": "https://nadoo-arts.vercel.app/music/abba",
+"unsure": false
+},
+{
+"ko": "소피",
+"en": "Sophie",
+"badge": "F",
+"note": "가상 인물.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "현대 그리스 섬. 해는 밝히지 않습니다.",
+"sisters": [
+{
+"label": "나두아츠",
+"href": "https://nadoo-arts.vercel.app/films"
+}
+],
+"checklist": "arts",
+"inTimeline": false
+},
+{
+"id": "the-case-for-christ-2017",
+"ko": "예수는 역사다",
+"en": "The Case for Christ",
+"year": 2017,
+"kind": "영화",
+"start": 1980,
+"end": 1981,
+"regions": [
+"modern"
+],
+"prots": [
+{
+"ko": "리 스트로벨",
+"en": "Lee Strobel",
+"badge": "R",
+"note": "실존 기자·작가. 자기 책을 바탕으로 했습니다.",
+"href": null,
+"unsure": false
+}
+],
+"loose": false,
+"note": "",
+"sisters": [
+{
+"label": "더 초즌",
+"href": "https://the-chosen-korean.vercel.app/together/the-case-for-christ"
+}
+],
+"checklist": null,
+"inTimeline": false
+}
+]

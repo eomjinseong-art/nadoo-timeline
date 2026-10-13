@@ -70,6 +70,11 @@ export const COUPANG_LINE = "기원전부터 오던 택배는 없습니다. 로�
 export const NAV = [
   { href: "/", label: "연표" },
   { href: "/movies", label: "영화" },
+  { href: "/films", label: "이야기 순 영화" },
+  { href: "/protagonists", label: "주인공" },
+  { href: "/rulers", label: "통치자" },
+  { href: "/wars", label: "전쟁" },
+  { href: "/contemporaries", label: "동시대 인물" },
   { href: "/events", label: "사건" },
   { href: "/sources", label: "읽는 법" },
 ] as const;

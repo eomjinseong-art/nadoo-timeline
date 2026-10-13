@@ -1858,5 +1858,53 @@
 "circa": false,
 "legend": false,
 "note": ""
+},
+{
+"country": "rome",
+"group": "동로마",
+"ko": "헤라클레이오스",
+"en": "Heraclius",
+"start": 610,
+"end": 641,
+"href": null,
+"circa": false,
+"legend": false,
+"note": ""
+},
+{
+"country": "rome",
+"group": "동로마",
+"ko": "바실레이오스 2세",
+"en": "Basil II",
+"start": 976,
+"end": 1025,
+"href": null,
+"circa": false,
+"legend": false,
+"note": ""
+},
+{
+"country": "rome",
+"group": "동로마",
+"ko": "알렉시오스 1세",
+"en": "Alexios I Komnenos",
+"start": 1081,
+"end": 1118,
+"href": null,
+"circa": false,
+"legend": false,
+"note": ""
+},
+{
+"country": "rome",
+"group": "동로마",
+"ko": "콘스탄티노스 11세",
+"en": "Constantine XI",
+"start": 1449,
+"end": 1453,
+"href": null,
+"circa": false,
+"legend": false,
+"note": ""
 }
 ]

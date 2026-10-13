@@ -5,6 +5,7 @@ import { TimelineExplorer } from "@/components/TimelineExplorer";
 import { countByLane } from "@/data/events";
 import { jsonLd, pageMetadata, websiteLd } from "@/lib/seo";
 import { BRAND_LINE, SITE_SUB, SITE_TAGLINE } from "@/lib/site";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export const metadata = pageMetadata({
   title: "홈",
@@ -28,6 +29,7 @@ export default function Home() {
           한반도 {counts.korea} · 그리스 {counts.greece} · 로마 {counts.rome} · 이집트 {counts.egypt} · 이스라엘·성경 {counts.israel} · 페르시아 {counts.persia} · 중세 유럽 {counts.medieval}
         </p>
       </section>
+      <CoupangCard />
       <TimelineExplorer />
       <section className="mt-12 grid gap-8 lg:grid-cols-2">
         <div>

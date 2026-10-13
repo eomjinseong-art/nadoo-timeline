@@ -10,6 +10,7 @@ import { chronological, eventBySlug, neighbors, sameEra } from "@/data/events";
 import { filmsForEvent } from "@/data/films";
 import { articleLd, breadcrumbLd, jsonLd, pageMetadata } from "@/lib/seo";
 import { formatYear } from "@/lib/years";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export function generateStaticParams() {
   return chronological.map((event) => ({ slug: event.slug }));
@@ -117,6 +118,7 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
           </Link>
         ) : null}
       </nav>
+      <CoupangCard />
     </article>
   );
 }

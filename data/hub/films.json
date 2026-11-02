@@ -4345,6 +4345,10 @@
 {
 "label": "대한민국이야기",
 "href": "https://korea-stories.vercel.app/films#assassination"
+},
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#assassination-2015"
 }
 ],
 "checklist": null,
@@ -7069,7 +7073,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#all-quiet-1930"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7126,7 +7135,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#gallipoli-1981"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7153,7 +7167,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#paths-of-glory-1957"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7181,7 +7200,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#lawrence-of-arabia-1962"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7209,7 +7233,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#war-horse-2011"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7245,7 +7274,12 @@
 ],
 "loose": false,
 "note": "1917년 4월 6일 하루.",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#1917-2019"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7281,7 +7315,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#all-quiet-2022"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7300,7 +7339,12 @@
 "prots": [],
 "loose": false,
 "note": "피터 잭슨이 복원한 실제 기록 영상.",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#they-shall-not-grow-old-2018"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7327,7 +7371,12 @@
 ],
 "loose": false,
 "note": "1951–1952년 장면도 있습니다.",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#imitation-game-2014"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7362,7 +7411,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#schindlers-list-1993"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7389,7 +7443,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#pianist-2002"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7416,7 +7475,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#das-boot-1981"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7443,7 +7507,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#darkest-hour-2017"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7479,7 +7548,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#dunkirk-2017"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7507,7 +7581,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#enemy-at-the-gates-2001"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7535,7 +7614,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#stalingrad-1993"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7563,7 +7647,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#come-and-see-1985"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7590,7 +7679,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#valkyrie-2008"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7619,7 +7713,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#longest-day-1962"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7655,7 +7754,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#saving-private-ryan-1998"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7712,7 +7816,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#band-of-brothers-2001"
+}
+],
 "checklist": null,
 "inTimeline": false
 },
@@ -7739,7 +7848,12 @@
 ],
 "loose": false,
 "note": "",
-"sisters": [],
+"sisters": [
+{
+"label": "세계대전이야기",
+"href": "https://nadoo-worldwars.vercel.app/films#fury-2014"
+}
+],
 "checklist": null,
 "inTimeline": false
 },

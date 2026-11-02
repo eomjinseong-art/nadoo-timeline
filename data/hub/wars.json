@@ -2227,7 +2227,12 @@
 "films": [
 "gallipoli-1981"
 ],
-"links": [],
+"links": [
+[
+"세계대전이야기",
+"https://nadoo-worldwars.vercel.app/battles/gallipoli"
+]
+],
 "note": "",
 "circa": false
 },
@@ -2250,7 +2255,12 @@
 "films": [
 "paths-of-glory-1957"
 ],
-"links": [],
+"links": [
+[
+"세계대전이야기",
+"https://nadoo-worldwars.vercel.app/battles/verdun"
+]
+],
 "note": "",
 "circa": false
 },
@@ -2273,7 +2283,12 @@
 "films": [
 "they-shall-not-grow-old-2018"
 ],
-"links": [],
+"links": [
+[
+"세계대전이야기",
+"https://nadoo-worldwars.vercel.app/battles/somme"
+]
+],
 "note": "",
 "circa": false
 },
@@ -2297,7 +2312,12 @@
 "dunkirk-2017",
 "darkest-hour-2017"
 ],
-"links": [],
+"links": [
+[
+"세계대전이야기",
+"https://nadoo-worldwars.vercel.app/battles/dunkirk"
+]
+],
 "note": "",
 "circa": false
 },
@@ -2320,7 +2340,12 @@
 "films": [
 "darkest-hour-2017"
 ],
-"links": [],
+"links": [
+[
+"세계대전이야기",
+"https://nadoo-worldwars.vercel.app/battles/britain"
+]
+],
 "note": "",
 "circa": false
 },
@@ -2344,7 +2369,12 @@
 "enemy-at-the-gates-2001",
 "stalingrad-1993"
 ],
-"links": [],
+"links": [
+[
+"세계대전이야기",
+"https://nadoo-worldwars.vercel.app/battles/stalingrad"
+]
+],
 "note": "",
 "circa": false
 },
@@ -2369,7 +2399,12 @@
 "the-longest-day-1962",
 "band-of-brothers-2001"
 ],
-"links": [],
+"links": [
+[
+"세계대전이야기",
+"https://nadoo-worldwars.vercel.app/battles/normandy"
+]
+],
 "note": "",
 "circa": false
 },
@@ -2416,7 +2451,12 @@
 "films": [
 "downfall-2004"
 ],
-"links": [],
+"links": [
+[
+"세계대전이야기",
+"https://nadoo-worldwars.vercel.app/battles/berlin"
+]
+],
 "note": "",
 "circa": false
 }

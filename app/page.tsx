@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { SisterSites } from "@/components/SisterSites";
@@ -31,6 +32,7 @@ export default function Home() {
       </section>
       <CoupangCard />
       <TimelineExplorer />
+      <NadooAd inline />
       <section className="mt-12 grid gap-8 lg:grid-cols-2">
         <div>
           <h2 className="font-serif text-2xl text-ink">이렇게 읽습니다</h2>

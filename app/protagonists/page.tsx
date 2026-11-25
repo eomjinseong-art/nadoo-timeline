@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import { BadgeChip } from "@/components/hub/Badge";
 import { HubNav } from "@/components/hub/HubNav";
 import { ProtagonistsHub } from "@/components/hub/ProtagonistsHub";
@@ -24,6 +25,7 @@ export default function ProtagonistsPage() {
         <span className="flex items-center gap-1"><BadgeChip badge="F" /> {c.F}명</span>
         <span>확인 필요 {unsure}명</span>
       </div>
+      <NadooAd inline />
       <p className="mt-3 text-sm leading-7 text-muted">
         <b>실존 인물</b>은 기록으로 확인되는 사람을 큰 줄기대로 그린 경우, <b>실존 인물 각색</b>은 실제 사람이지만 영화가 삶이나 성격을 크게 바꾼 경우, <b>가상 인물</b>은 소설·영화·신화가 만든 인물입니다. 신화·전설 속 인물과 학계에서 의견이 갈리는 경우에는 ‘확인 필요’를 붙이고 전해지는 이야기라고 적었습니다. 한 사람에 한 줄 메모만 붙입니다.
       </p>

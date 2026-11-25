@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EventArticle } from "@/components/EventArticle";
@@ -82,6 +83,7 @@ export default async function EventPage({ params }: { params: Promise<{ slug: st
       <div className="mt-6">
         <EventArticle event={event} />
       </div>
+      <NadooAd inline />
       <p className="mt-6 text-xs leading-5 text-muted">{event.source}</p>
       <FilmStack films={filmsForEvent(event.slug)} />
       <EventLinks event={event} />

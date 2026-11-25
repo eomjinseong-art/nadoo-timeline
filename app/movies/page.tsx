@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { MoviesExplorer } from "@/components/MoviesExplorer";
 import { JsonLd } from "@/components/JsonLd";
@@ -35,6 +36,7 @@ export default function MoviesPage() {
       <p className="mt-2 text-sm leading-7 text-muted">
         빨간 배지는 넷플릭스 한국 제목 페이지에서 그 작품을 볼 수 있다고 확인한 경우만 붙입니다. 확인일은 2026-10-08이고, 서비스 여부는 바뀔 수 있어요. 지금 {netflixCount}편입니다.
       </p>
+      <NadooAd inline />
       <p className="mt-4 text-sm">
         <a href={MOVIE_CHECKLIST_URL} target="_blank" rel="noopener noreferrer" className="text-laurel underline decoration-line underline-offset-4 hover:text-terra">
           본 영화 체크하기 → {MOVIE_CHECKLIST_LABEL}

@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { IsraelLegend, TrackBadge } from "@/components/IsraelLegend";
 import { JsonLd } from "@/components/JsonLd";
@@ -30,6 +31,7 @@ export default function EventsPage() {
       <p className="mt-3 max-w-2xl text-sm leading-7 text-muted">
         모두 {chronological.length}개입니다. 전승 연대에는 배지를 붙였고, 🎬은 그 해를 다룬 영화가 있다는 뜻입니다. 각 글은 그 해의 한반도를 따로 적습니다.
       </p>
+      <NadooAd inline />
       <div className="mt-8 space-y-10">
         {lanes.map((lane) => (
           <section key={lane.id} aria-labelledby={`lane-${lane.id}`}>

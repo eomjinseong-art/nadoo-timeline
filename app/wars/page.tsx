@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Ext, HubNav } from "@/components/hub/HubNav";
 import { filmById, regionKo, span, wars } from "@/lib/hub/data";
@@ -15,6 +16,7 @@ export default function WarsPage() {
       <p className="text-xs tracking-[0.2em] text-terra">WARS &amp; BATTLES</p>
       <h1 className="mt-2 font-serif text-4xl text-ink">주요 전쟁과 전투</h1>
       <p className="mt-1 text-sm text-muted">Both sides&apos; commanders, the result, the year and the films.</p>
+      <NadooAd inline />
       <p className="mt-3 text-sm leading-7 text-muted">
         {wars.length}개를 해 순서로 놓았습니다. 지휘관은 기록에 남은 이름만 적고, 이름이 없으면 ‘미상’이라고 씁니다.
       </p>

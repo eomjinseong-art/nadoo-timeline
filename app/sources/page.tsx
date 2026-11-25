@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import { JsonLd } from "@/components/JsonLd";
 import { jsonLd, pageMetadata, websiteLd } from "@/lib/seo";
 import { SITE_SUB, SITE_TAGLINE } from "@/lib/site";
@@ -13,6 +14,7 @@ export default function SourcesPage() {
     <div className="mx-auto max-w-3xl px-4 py-10">
       <JsonLd data={jsonLd([websiteLd(`${SITE_TAGLINE}. ${SITE_SUB}`)])} />
       <p className="text-xs tracking-[0.2em] text-terra">HOW TO READ</p>
+      <NadooAd inline />
       <h1 className="mt-2 font-serif text-4xl text-ink">읽는 법</h1>
       <div className="mt-6 space-y-4 text-sm leading-7 text-ink">
         <p>

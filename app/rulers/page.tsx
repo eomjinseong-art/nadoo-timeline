@@ -1,3 +1,4 @@
+import { NadooAd } from "@/components/NadooAd";
 import Link from "next/link";
 import { Ext, HubNav } from "@/components/hub/HubNav";
 import { RULER_COUNTRIES, rulers, span } from "@/lib/hub/data";
@@ -15,6 +16,7 @@ export default function RulersPage() {
       <p className="text-xs tracking-[0.2em] text-terra">RULERS</p>
       <h1 className="mt-2 font-serif text-4xl text-ink">나라별 통치자</h1>
       <p className="mt-1 text-sm text-muted">Key rulers and reign years, country by country.</p>
+      <NadooAd inline />
       <p className="mt-3 text-sm leading-7 text-muted">
         전부가 아니라 영화와 자매 사이트에 자주 나오는 사람 중심으로 {rulers.length}명입니다. 옛 이집트·페르시아의 연도는 학자마다 몇 해씩 다르므로 ‘경’을 붙였고, 로마 왕정처럼 전승 연대는 전해지는 이야기라고 표시합니다.
       </p>

@@ -534,6 +534,7 @@ export const films: Film[] = [
     synopsis: "쌍둥이 황제 시대의 로마와 콜로세움을 전편 세계에 이어서 크게 보여 주는 영화.",
     historyNote: "카라칼라와 게타가 211년에 함께 황제였던 일은 짧았지만, 인물과 복수의 사건은 대부분 창작입니다.",
     sisters: [{ href: `${romeMovies}#gladiator-ii`, label: "로마이야기의 글래디에이터 Ⅱ" }],
+    seen: true,
   },
   {
     id: "agora-2009",
@@ -637,6 +638,7 @@ export const films: Film[] = [
     synopsis: "660년 황산벌에서 백제의 계백과 신라의 김유신이 맞서는 싸움을 말놀이로 그린 영화.",
     historyNote: "그해 황산벌과 백제의 항복은 역사이나, 사투리 대결과 개인 일화는 창작입니다.",
     sisters: [{ href: `${koreaFilms}#hwangsanbeol`, label: "대한민국이야기의 황산벌" }],
+    seen: true,
   },
   {
     id: "vikings-2013",
@@ -897,6 +899,7 @@ export const films: Film[] = [
     eventIds: ["third-crusade"],
     synopsis: "제3차 십자군에서 돌아온 리처드 1세와 존 왕 시대의 잉글랜드를 로빈 후드의 기원처럼 그린 영화.",
     historyNote: "리처드의 십자군과 귀환은 역사이나, 로빈이라는 의적의 전기와 대헌장으로 이어지는 결말은 전설에 가깝습니다.",
+    seen: true,
   },
   {
     id: "braveheart-1995",

@@ -353,7 +353,8 @@
 }
 ],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "helen-of-troy-1956",
@@ -1466,7 +1467,8 @@
 }
 ],
 "checklist": "history",
-"inTimeline": true
+"inTimeline": true,
+"seen": true
 },
 {
 "id": "agora-2009",
@@ -2987,7 +2989,8 @@
 }
 ],
 "checklist": "viking",
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "thor-2011",
@@ -3019,7 +3022,8 @@
 }
 ],
 "checklist": "viking",
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "ragnarok-2020",
@@ -3116,7 +3120,8 @@
 "note": "리처드 1세의 죽음(1199년) 직후.",
 "sisters": [],
 "checklist": "history",
-"inTimeline": true
+"inTimeline": true,
+"seen": true
 },
 {
 "id": "braveheart-1995",
@@ -3518,7 +3523,8 @@
 }
 ],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "red-cliff-ii-2009",
@@ -3783,7 +3789,8 @@
 }
 ],
 "checklist": "history",
-"inTimeline": true
+"inTimeline": true,
+"seen": true
 },
 {
 "id": "forbidden-dream-2019",
@@ -4007,7 +4014,8 @@
 }
 ],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "noryang-deadly-sea-2023",
@@ -4200,7 +4208,8 @@
 }
 ],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "hero-2022",
@@ -5100,7 +5109,8 @@
 }
 ],
 "checklist": "arts",
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "klimt-2006",
@@ -5540,7 +5550,8 @@
 }
 ],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "constantine-and-the-cross-1961",
@@ -7462,7 +7473,8 @@
 }
 ],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "das-boot-1981",
@@ -7600,7 +7612,8 @@
 }
 ],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "stalingrad-1993",
@@ -7773,7 +7786,8 @@
 }
 ],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 },
 {
 "id": "a-bridge-too-far-1977",
@@ -7966,6 +7980,7 @@
 "note": "",
 "sisters": [],
 "checklist": null,
-"inTimeline": false
+"inTimeline": false,
+"seen": true
 }
 ]

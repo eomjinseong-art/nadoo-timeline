@@ -62,7 +62,7 @@ export function FilmsHub() {
         </label>
       </div>
       <p className="mt-4 text-xs text-muted">
-        {list.length}편 · 막대는 이야기 속 시대입니다(옛날일수록 압축). 옅은 막대는 영화가 해를 밝히지 않아 대략으로 놓은 것입니다.
+        {list.length}편 · 막대는 이야기 속 시대입니다(옛날일수록 압축). 옅은 막대는 영화가 해를 밝히지 않아 대략으로 놓은 것입니다. 금색 테두리는 본 영화입니다.
       </p>
       <div className="sticky top-[118px] z-10 mt-2 bg-bg/95 py-1">
         <TimeAxis />
@@ -71,10 +71,11 @@ export function FilmsHub() {
         {list.map((f) => {
           const m = mid(f);
           return (
-            <li key={f.id} id={f.id} className="scroll-mt-40 rounded-md border border-line bg-card p-4">
+            <li key={f.id} id={f.id} className={f.seen ? "scroll-mt-40 rounded-md border-2 border-seen bg-card p-4" : "scroll-mt-40 rounded-md border border-line bg-card p-4"}>
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <h2 className="font-serif text-lg text-ink">
                   {f.ko} <span className="text-sm text-muted">{f.en} · {f.year} · {f.kind}</span>
+                  {f.seen ? <span className="ml-2 align-middle rounded bg-seen px-1.5 py-0.5 text-[11px] font-bold tracking-wide text-white">본 영화</span> : null}
                 </h2>
                 <p className="text-sm font-semibold text-terra">{span(f.start, f.end, f.loose)}</p>
               </div>

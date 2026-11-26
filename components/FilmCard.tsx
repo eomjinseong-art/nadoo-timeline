@@ -23,10 +23,11 @@ function periodLabel(film: Film) {
 export function FilmCard({ film, heading = "h3", showListLink = true }: { film: Film; heading?: "h2" | "h3"; showListLink?: boolean }) {
   const Title = heading;
   return (
-    <article className="rounded-lg border border-line bg-card p-4">
+    <article className={film.seen ? "rounded-lg border-2 border-seen bg-card p-4" : "rounded-lg border border-line bg-card p-4"}>
       <p className="text-[11px] font-semibold tracking-wide text-terra">
         {film.type}
         <span className="ml-2 font-normal text-muted">{film.year}</span>
+        {film.seen ? <span className="ml-2 rounded bg-seen px-1.5 py-0.5 text-[11px] font-bold tracking-wide text-white">본 영화</span> : null}
       </p>
       <Title className="mt-1 font-serif text-xl text-ink">{film.koTitle}</Title>
       <p className="text-xs text-muted">{film.originalTitle}</p>

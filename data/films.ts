@@ -30,6 +30,8 @@ export type Film = {
   netflixKr?: true;
   checkedAt?: (typeof NETFLIX_CHECK_DATES)[number];
   sisters?: SisterLink[];
+  /** 이야기 순 영화 목록에서 본 작품으로 표시. */
+  seen?: true;
 };
 
 const greeceMovies = "https://greece-stories.vercel.app/movies";
@@ -58,6 +60,7 @@ export const films: Film[] = [
     synopsis: "사카라에서 고왕국 제5왕조 사제의 무덤이 열리는 과정을 따라가는 발굴 다큐멘터리.",
     historyNote: "화면의 무덤은 조세르의 계단식 피라미드보다 뒤이고, 기자나 왕가의 계곡과도 다른 자리입니다.",
     sisters: [{ href: `${egyptMovies}#secrets-of-the-saqqara-tomb`, label: "이집트이야기의 사카라 무덤의 비밀" }],
+    seen: true,
   },
   {
     id: "the-ten-commandments-1956",
@@ -123,6 +126,7 @@ export const films: Film[] = [
     synopsis: "모세의 일생을 재연하고, 사이에 유대교·기독교·이슬람 해설을 넣은 3부작.",
     historyNote: "출애굽기 본문에 미드라시와 쿠란 전승이 섞이며, 파라오의 이름과 1446년은 여전히 전승입니다.",
     sisters: [{ href: `${chosen}/together/testament-story-of-moses`, label: "더 초즌에서 본 테스터먼트" }],
+    seen: true,
   },
   {
     id: "helen-of-troy-1956",
@@ -187,6 +191,7 @@ export const films: Film[] = [
       { href: `${greeceMovies}#troy-fall`, label: "그리스이야기의 트로이: 왕국의 몰락" },
       { href: `${iliadMovies}#troy-fall-of-a-city-2018`, label: "일리아스이야기의 트로이: 폴 오브 어 시티" },
     ],
+    seen: true,
   },
   {
     id: "trojan-women-1971",
@@ -247,6 +252,7 @@ export const films: Film[] = [
       { href: `${iliadMovies}#odyssey-2026`, label: "일리아스이야기의 오디세이" },
       { href: `${mythMedia}#the-odyssey-2026`, label: "나두신화의 영화 오디세이" },
     ],
+    seen: true,
   },
   {
     id: "300-2006",
@@ -264,6 +270,7 @@ export const films: Film[] = [
       { href: `${greeceMovies}#300`, label: "그리스이야기의 300" },
       { href: `${persiaMovies}#300`, label: "페르시아이야기의 300" },
     ],
+    seen: true,
   },
   {
     id: "300-rise-of-an-empire-2014",
@@ -281,6 +288,7 @@ export const films: Film[] = [
       { href: `${greeceMovies}#300-rise`, label: "그리스이야기의 300: 제국의 부활" },
       { href: `${persiaMovies}#300-rise`, label: "페르시아이야기의 300: 제국의 부활" },
     ],
+    seen: true,
   },
   {
     id: "alexander-the-great-1956",
@@ -314,6 +322,7 @@ export const films: Film[] = [
       { href: `${egyptMovies}#alexander-2004`, label: "이집트이야기의 알렉산더" },
       { href: `${philosophyFilms}#films-aristotle`, label: "철학이야기의 아리스토텔레스와 영화" },
     ],
+    seen: true,
   },
   {
     id: "spartacus-1960",
@@ -372,6 +381,7 @@ export const films: Film[] = [
     eventIds: ["assassination-of-caesar", "caligula", "death-of-marcus-aurelius"],
     synopsis: "코모두스, 카이사르, 칼리굴라를 재연과 해설로 나눠 보는 다큐멘터리 시리즈.",
     historyNote: "세 사람의 재위는 사실이지만 한 편의 통치사로 이어지지 않고, 궁정 스캔들은 적대적인 전기에 기대어 있습니다.",
+    seen: true,
   },
   {
     id: "i-claudius-1976",
@@ -403,6 +413,7 @@ export const films: Film[] = [
     synopsis: "예수의 어머니 마리아의 어린 시절부터 탄생까지를 그린 영화.",
     historyNote: "탄생의 큰 줄기는 복음서에 있으나 어린 시절의 세부는 외경과 창작이 섞여 있고, 해는 기원전 6–4년 안팎의 추정입니다.",
     sisters: [{ href: `${chosen}/together/mary-2024`, label: "더 초즌에서 본 마리아" }],
+    seen: true,
   },
   {
     id: "the-chosen-2019",
@@ -417,6 +428,7 @@ export const films: Film[] = [
     synopsis: "1세기 갈릴리와 유대에서 예수와 그를 만난 사람들을 따라가는 드라마.",
     historyNote: "복음서에 없는 인물의 일상과 대사가 많고, 십자가의 해는 30년과 33년 설이 있어 이 연표의 점은 30년경입니다.",
     sisters: [{ href: `${chosen}/intro`, label: "더 초즌 입문" }],
+    seen: true,
   },
   {
     id: "ben-hur-1959",
@@ -490,6 +502,7 @@ export const films: Film[] = [
       { href: `${philosophyFilms}#films-marcus-aurelius`, label: "철학이야기의 마르쿠스 아우렐리우스 영화" },
       { href: `${germanicFilms}#gladiator-2000`, label: "게르만이야기의 글래디에이터 (마르코만니 전선)" },
     ],
+    seen: true,
   },
   {
     id: "fall-of-the-roman-empire-1964",
@@ -675,6 +688,7 @@ export const films: Film[] = [
     sisters: [
       { href: `${germanicFilms}#barbarians-2020`, label: "게르만이야기의 바바리안" },
     ],
+    seen: true,
   },
   {
     id: "attila-2001",

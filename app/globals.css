@@ -12,6 +12,7 @@
   --color-laurel: #2f4a3c;
   --color-korea: #1d4f3a;
   --color-dusk: #6b3a5d;
+  --color-seen: #b8923a;
   --font-sans: var(--font-noto-sans), "Noto Sans CJK KR", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-noto-serif), "Noto Serif CJK KR", "Noto Serif KR", ui-serif, Georgia, serif;
 }

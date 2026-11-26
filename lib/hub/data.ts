@@ -31,6 +31,8 @@ export type HubFilm = {
   sisters: { label: string; href: string }[];
   checklist: string | null;
   inTimeline: boolean;
+  /** 이야기 순 영화 목록에서 본 작품으로 표시. */
+  seen?: true;
 };
 
 export type Ruler = {
